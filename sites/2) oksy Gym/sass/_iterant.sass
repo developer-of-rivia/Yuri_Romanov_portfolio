@@ -1,0 +1,196 @@
+body
+	font-family: 'Manrope', sans-serif
+body,html
+	overflow-x: hidden
+/* повторяющиеся элементы */
+/* input */
+input, textarea
+	background: rgba(255,255,255,0.5)
+	width: 100%
+	height: 82px
+	border-radius: 10px
+	padding-left: 38px
+	font-size: 16px
+	border: none
+	&::-webkit-input-placeholder
+		color: #000
+	&::-moz-placeholder
+		color: #000
+	&:-moz-placeholder
+		color: #000
+	&:-ms-input-placeholder
+		color: #000
+textarea
+	min-height: 164px
+	background: #fff
+/* checkbox */
+input
+  &[type=checkbox]
+    + label
+      display: flex
+      align-items: flex-start
+      cursor: pointer
+      &:before
+        content: ""
+        border: 2px solid #fff
+        display: inline-block
+        min-width: 33px
+        min-height: 33px
+        padding-left: 0.2em
+        padding-bottom: 0.3em
+        margin-right: 0.2em
+        vertical-align: bottom
+        color: transparent
+        transition: .2s
+        margin-right: 15px
+    display: none
+    &:checked + label:before
+      background: url(../img/checkbox-checkmark.png) no-repeat center center
+      color: #fff
+.checkbox-wrapper
+	label
+		color: #fff
+		font-size: 20px
+/* owl-nav */
+.owl-nav
+	display: flex
+	justify-content: space-between
+	width: 100%
+	position: absolute
+	left: 0
+	bottom: 150px
+	button
+		span
+			width: 40px
+			height: 40px
+			border-radius: 50px
+			display: block
+			line-height: 35px
+			text-align: center
+			border-radius: 50px
+	.owl-next
+		margin-left: 20px
+		span
+			background: url(../img/arrow-right.png) no-repeat center center
+			&:hover
+				background: url(../img/arrow-right-active.png) no-repeat center center, #F754E7
+	.owl-prev
+		span
+			background: url(../img/arrow-left.png) no-repeat center center
+			&:hover
+				background: url(../img/arrow-left-active.png) no-repeat center center, #F754E7
+.owl-dots
+	display: flex
+	justify-content: center
+	margin-left: auto
+	margin-right: auto
+	margin-top: 32px
+	button
+		span
+			width: 10px
+			height: 10px
+			background: #D6D6D6
+			border-radius: 50px
+			margin: 0 10px
+			display: block
+	button.active
+		span
+			background: #F754E7
+/* Кнопки */
+.btn
+	a, button
+		padding: 0
+		border-radius: 60px
+		background: #000
+		color: #fff
+		font-weight: 700
+		font-size: 15px
+		width: 205px
+		height: 54px
+		text-align: center
+		line-height: 54px
+		text-transform: uppercase
+/* Тайтлы */
+.title
+	text-align: center
+	margin-bottom: 30px
+	h2
+		font-size: 45px
+		font-weight: 500
+	h3
+		font-size: 35px
+		font-weight: 400
+.subtitle
+	h4
+		font-size: 20px
+		text-align: center
+		font-weight: 400
+.titleline
+	display: block
+	background: #6D6BD8
+	height: 2px 
+	width: 132px
+	margin: 0 auto
+.text
+	p
+		font-size: 18px
+		line-height: 150%
+/* medias */
+@media screen and (max-width: 1210px)
+	.title
+		h2
+			font-size: 38px
+		h3
+			font-size: 30px
+	.btn a, .btn button
+		width: 180px
+		height: 48px
+		line-height: 48px
+	input, textarea
+		height: 60px
+		line-height: 60px
+@media screen and (max-width: 991px)
+	.title
+		h2
+			font-size: 30px
+		h3
+			font-size: 24px
+	.text p
+		font-size: 16px
+@media screen and (max-width: 780px)
+	.title
+		h2
+			font-size: 27px
+		h3
+			font-size: 20px
+	input, textarea
+		height: 60px
+		line-height: 60px
+	.checkbox-wrapper label
+		font-size: 16px
+	input[type=checkbox] + label:before
+		min-width: 22px
+		min-height: 22px
+@media screen and (max-width: 574px)
+	.text
+		p
+			font-size: 14px
+			line-height: 140%
+	.format-title
+		margin-bottom: 20px
+	.btn a, .btn button
+		width: 140px
+		height: 40px
+		line-height: 40px
+		text-transform: none
+		font-size: 12px
+	input, textarea
+		height: 42px
+		line-height: 42px
+		padding-left: 25px
+		font-size: 12px
+	.checkbox-wrapper label
+		font-size: 13px
+	input[type=checkbox] + label:before
+		min-width: 15px
+		min-height: 15px
