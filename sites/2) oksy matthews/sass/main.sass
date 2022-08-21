@@ -1,0 +1,554 @@
+@import "reset.sass"
+@import "containers.sass"
+@import "vars.sass"
+@import "iterant.sass"
+@import "colors.sass"
+/* structure */
+/* header */
+header
+	padding-top: 15px
+	background: url(../img/header-bg.png) no-repeat center center/cover
+	height: 177px
+	position: relative
+	z-index: 999
+.header-wrapper
+	display: flex
+	justify-content: space-between
+	align-items: center
+.header-info
+	text-align: right
+	margin-left: 100px
+.header-info_tel
+	margin-bottom: 13px
+	a
+		font-size: 16px
+		font-weight: 700
+		color: #000
+.header-info_socials
+	display: flex
+	justify-content: flex-end
+	li
+		margin: 0 12px
+.menu
+	display: flex
+	align-items: center
+	li
+		margin: 0 28px
+		a
+			color: #000
+.header-content
+	display: flex
+	justify-content: space-between
+.header-burger
+	display: none
+.hi2
+	display: none
+.bb2
+	display: none
+/* main-section */
+.main-section
+	height: 1400px
+	background: url(../img/main-bg.jpg) no-repeat center center
+	padding-top: 200px
+	margin-top: -47px
+	position: relative
+.main-title
+	text-align: left
+	h1
+		font-size: 65px
+		color: #fff
+		line-height: 120%
+		font-weight: 400
+		span
+			font-weight: 600
+.main-text
+	margin: 35px 0
+	max-width: 450px
+	p
+		font-weight: 700
+		line-height: 25px
+		font-size: 16px
+		color: #fff
+.club-wrapper
+	display: flex
+	justify-content: space-between
+.club-right
+	text-align: left
+	max-width: 650px
+	padding-top: 30px
+.club-title
+	margin-bottom: 25px
+	text-align: left
+.main-wrapper
+	margin-bottom: 300px
+.main-ring_medium
+	display: none
+.main-ring_small
+	display: none
+.main-ring_big
+	display: none
+.main-girl
+	display: none
+/* begin-section */
+.begin-section
+	padding-bottom: 36px
+.begin-text
+	position: relative
+	z-index: 99
+/* format-section */
+.format-section
+	position: relative
+.format-item
+	border-radius: 16px
+	background: linear-gradient(to bottom right, #9F8BE6, #DBADE3)
+	text-align: center
+	padding-top: 54px
+	padding-bottom: 38px
+	width: 23%
+	display: flex
+	flex-direction: column
+	&:hover
+		background: linear-gradient(to bottom right, #8C6DFA, #D06CE1)
+.format-box
+	display: flex
+	justify-content: space-between
+	position: relative
+	z-index: 99
+.format-item_img
+	margin-bottom: 10px
+.format-item_name
+	color: #fff
+	font-weight: 600
+	font-size: 18px
+	margin-top: auto
+.format-bg-left
+	position: absolute
+	left: 0
+	top: -80px
+.format-bg-right
+	position: absolute
+	right: 0
+	top: 160px
+/* table-section */
+.table-section
+	padding-top: 73px
+	padding-bottom: 25px
+	position: relative
+	background: url(../img/table-bg.png) no-repeat center center
+.time-wrapper
+	max-width: 730px
+	margin: 0 auto
+	border-radius: 16px
+	margin-bottom: 60px
+.time-title
+	margin-bottom: 15px
+.time-head
+	text-align: center
+	padding: 19px 0
+	background: #966EF7
+	color: #fff
+	border-top-left-radius: 16px
+	border-top-right-radius: 16px
+.time-box
+	padding: 20px 0
+	text-align: center
+	box-shadow: 0 4px 30px 0 #F3DDF7
+	position: relative
+	z-index: 9
+	background: #fff
+.table-ring
+	position: absolute
+	left: 250px
+	bottom: -20px
+.table-ring2
+	position: absolute
+	left: 100px
+	top: 250px
+.table-blur
+	position: absolute
+	left: 0
+	top: 100px
+/**/
+.price-box
+	display: flex
+	justify-content: center
+	position: relative
+	z-index: 999
+.price-item
+	border-radius: 55px
+	background: linear-gradient(to right bottom, #FF86F4, #FFC7FC)
+	padding: 32px
+	text-align: center
+	margin: 0 15px
+	&:hover
+		background: linear-gradient(to right bottom, #FF3DEC, #FFBCFD)
+.price-item_icon
+	margin-bottom: 20px
+	color: #fff
+.price-item_name
+	color: #fff
+	font-size: 18px
+	font-weight: 600
+.price-item_cost
+	color: #fff
+	font-size: 30px
+	font-weight: 600
+	margin-bottom: 28px
+.price-item_btn
+	a
+		background: transparent
+		border: 1px solid #fff
+		color: #fff
+.price-item
+	&:hover
+		.price-item_btn
+			a
+				background: #000
+				border-color: #000
+/* advantages-section */
+.advantages-section
+	padding-top: 53px
+	padding-bottom: 30px
+.advantages-subtitle
+	margin-bottom: 27px
+.advantags-titleline
+	margin-bottom: 15px
+.advantages-title
+	margin-bottom: 35px
+.advantages-box
+	display: flex
+	justify-content: space-around
+	margin-bottom: 116px
+	flex-wrap: wrap
+.advantages-item
+	text-align: center
+.advantages-item_img
+	margin-bottom: 10px
+.advantages-item_name
+	font-weight: 500
+	font-size: 24px
+.advantages-title2
+	margin-bottom: 35px
+.advantages-box2
+	.advantages-item
+		width: 20%
+		margin-bottom: 12px
+/* comments-section */
+.comments-section
+	padding-top: 60px
+	padding-bottom: 100px
+	position: relative
+	height: 660px
+	padding-top: 160px
+.comments-bg1
+	position: absolute
+	left: 0
+	bottom: -80px
+.comments-bg2
+	position: absolute
+	right: 0
+	bottom: -80px
+	.cb2
+		position: absolute
+		right: 160px
+		top: 290px
+		z-index: 99
+	.cb3
+		position: absolute
+		right: 0
+		top: 280px
+.comments-text
+	position: relative
+	z-index: 999
+	max-width: 925px
+	margin-bottom: 60px
+	p
+		margin-bottom: 20px
+		&:last-child
+			margin-bottom: 0
+.comments-btn
+	margin-top: 30px
+	position: relative
+	z-index: 999
+/* about-section */
+.about-section
+	padding-top: 100px
+	background: url(../img/about-bg1.png) no-repeat left top/cover
+	height: 880px
+	position: relative
+.about-title
+	text-align: left
+	margin-bottom: 50px
+.about-wrapper
+	display: flex
+	justify-content: space-between
+.about-ul
+	margin-bottom: 70px
+	li
+		font-size: 18px
+		line-height: 200%
+		margin-bottom: 15px
+		&:before
+			content: ''
+			display: inline-block
+			background: #F754E7
+			width: 7px
+			height: 7px
+			margin-right: 30px
+			border-radius: 50px
+.about-img
+	position: relative
+	z-index: 999
+.about-img_blur
+	position: absolute
+	bottom: 0
+	right: 0
+.about-img_ring1
+	position: absolute
+	right: 0px
+	bottom: 20px
+.about-img_ring2
+	position: absolute
+	right: 0
+	top: 80px
+/* says-section */
+.says-section
+	height: 850px
+	background: url(../img/says-bg.png) no-repeat center top/cover
+	margin-top: -180px
+	z-index: 999
+	position: relative
+	padding-top: 325px
+.says-img
+	position: absolute
+	left: 0
+	bottom: -40px
+	z-index: 99
+.says-right
+	text-align: left
+	color: #fff
+	max-width: 565px
+	position: relative
+.says-title
+	margin-bottom: 50px
+	text-align: left
+.says-text
+	margin-bottom: 30px
+.says-name
+	font-weight: 700
+	font-size: 18px
+.says-who
+	font-size: 18px
+.says-wrapper
+	display: flex
+	justify-content: flex-end
+.says-quote
+	position: absolute
+	top: -30px
+	left: -160px
+.says-circle
+	position: absolute
+	right: -100px
+	bottom: 30px
+.si2
+	display: none
+.gallery-wrapper
+	.owl-dots
+		margin-top: 30px
+/* groups-section */
+.groups-section
+	padding: 118px 0
+.groups-title
+	margin-bottom: 58px
+.groups-box
+	display: flex
+	justify-content: space-between
+.groups-item
+	width: 92%
+	border-radius: 16px
+	border: 1px solid rgba(47%, 46%, 91%, .35)
+	text-align: center
+	padding: 39px 35px
+	margin-left: auto
+	margin-right: auto
+	&:hover
+		background: linear-gradient(to bottom right, #9F8BE6, #DBADE3)
+.groups-item_img
+	margin-bottom: 71px
+.groups-item_name
+	color: #1F1818
+	font-size: 18px
+	margin-bottom: 8px
+.groups-item_text
+	color: #1F1818
+	font-size: 18px
+	line-height: 150%
+	margin-bottom: 32px
+/* gallery-section */
+.gallery-section
+	padding-bottom: 130px
+.gallery-wrapper
+	padding: 0 90px
+	margin: 0 auto
+.gallery-img
+	max-width: 470px
+	margin: 0 auto
+	img
+		max-width: 100%
+.gallery-btn
+	text-align: center
+	margin-top: 70px
+/* contacts-section */
+.contacts-section
+	position: relative
+	.container
+		max-width: 100%
+.contacts-map
+	iframe
+		width: 100%
+		filter: grayscale(100%)
+.contacts-content
+	position: absolute
+	background: url(../img/last-bg.png) no-repeat right center
+	width: 930px
+	height: 602px
+	right: 0
+	bottom: 0
+	padding-left: 250px
+	padding-top: 150px
+.contacts-title
+	text-align: left
+	h2
+		color: #fff
+.contacts-phone
+	margin-bottom: 15px
+	a
+		font-size: 24px
+		color: #fff
+.contacts-mail
+	a
+		font-size: 24px
+		color: #fff
+.contacts-text
+	font-size: 24px
+	color: #fff
+	margin-top: 15px
+	max-width: 600px
+	span
+		font-weight: 700
+	p
+		font-size: 24px
+/* footer */
+footer
+	padding: 36px 0
+	background: #000
+.footer-wrapper
+	display: flex
+	justify-content: space-between
+	align-items: center
+.footer-socials
+	display: flex
+	align-items: center
+	li
+		margin: 0 12px
+.footer-gasfort
+	text-align: center
+	span
+		font-weight: 700
+		margin-bottom: 11px
+		color: #fff
+		display: block
+/* TRAINER PAGE */
+.trainer-section
+	padding-top: 60px
+	padding-bottom: 90px
+.trainer-wrapper
+	display: flex
+	justify-content: space-between
+.trainer-title
+	margin-bottom: 48px
+	text-align: left
+.trainer-right
+	max-width: 705px
+.about-section--trainer
+	background: url(../img/trainer-about-bg.png) no-repeat 200px top
+	padding-top: 45px
+	.about-ul li
+		max-width: 490px
+.photos-img
+	padding: 0 10px
+.photos-section
+	padding-bottom: 160px
+.says-section--trainer
+	margin-top: 0
+	.says-img
+		bottom: -20px
+.trainer-text-section
+	padding-top: 50px
+	padding-bottom: 80px
+.photos-titleline
+	margin-top: 15px
+/* reach-section */
+.reach-title
+	text-align: left
+.reach-wrapper
+	display: flex
+	justify-content: space-between
+/* popup */
+.mfp-auto-cursor .mfp-content
+	width: 800px
+.mfp-close-btn-in .mfp-close
+	position: absolute
+	right: 10px
+	top: 10px
+	width: 100px
+	height: 100px
+	font-size: 0
+.popup-wrapper
+	width: 800px
+	border-radius: 20px
+	background: linear-gradient(to right top, #7775E7, #E8B4E2)
+	padding: 167px 131px 136px 131px
+.popup-title
+	text-align: center
+	color: #fff
+	font-size: 28px
+	font-weight: 600
+	margin-bottom: 63px
+.popup-field
+	margin-bottom: 35px
+.popup-btn
+	margin-top: 35px
+	text-align: center
+.popup-close
+	position: absolute
+	right: 40px
+	top: 40px
+.popup-comment
+	textarea
+		padding: 30px
+		line-height: 16px
+/* exer-section */
+.exer-section
+	padding-top: 49px
+.exer-title
+	margin-bottom: 48px
+	text-align: left
+.exer-wrapper
+	display: flex
+	justify-content: space-between
+	margin-bottom: 73px
+.exer-content
+	max-width: 620px
+.exer-img
+	max-width: 470px
+	position: relative
+	img
+		max-width: 100%
+.photos-section--exer
+	padding-top: 120px
+.exer-btn
+	margin-top: 40px
+	text-align: center
+.es-eb
+	display: none
