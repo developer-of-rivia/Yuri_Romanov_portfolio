@@ -93,10 +93,10 @@
 						и бухгалтерского сопровождения мы возьмем на себя
 					</div>
 					<div class="main__btns">
-						<a href="legal.html" class="main__btn main__btn--yellow">
+						<a href="#" class="main__btn main__btn--yellow">
 							Юридическое <br>сопровождение
 						</a>
-						<a href="ones.html" class="main__btn main__btn--purple">
+						<a href="#" class="main__btn main__btn--purple">
 							Бухгалтерское <br>сопровождение
 						</a>
 					</div>
@@ -1240,25 +1240,25 @@
 
 
 	<div class="hidden">
-		<div class="popup" id="popup">
+		<form class="popup" id="popup">
 			<div class="popup__title">
 				Оставьте заявку и мы свяжемся с вами
 			</div>
 			<div class="popup__cell">
-				<input type="text" class="field--default popup__input" placeholder="Ваше имя">
+				<input type="text" class="field--default popup__input" placeholder="Ваше имя" required>
 			</div>
 			<div class="popup__cell">
-				<input type="text" class="field--default popup__input" placeholder="Номер телефона">
+				<input type="text" class="field--default popup__input" placeholder="Номер телефона" required>
 			</div>
 			<div class="popup__cell">
 				<label class="checkbox __checkbox">
-					<input type="checkbox"> Даю согласие на обработку персональных данных
+					<input type="checkbox" required> Даю согласие на обработку персональных данных
 				</label>
 			</div>
 			<div class="popup__btn-area">
-				<button class="popup__btn btn--purple">Отправить заявку</button>
+				<button class="popup__btn btn--purple" type="submit">Отправить заявку</button>
 			</div>
-		</div>
+		</form>
 	</div>
 
 
