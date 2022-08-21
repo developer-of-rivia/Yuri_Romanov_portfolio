@@ -1711,6 +1711,7 @@ img.mfp-img {
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .spoiler-head {
