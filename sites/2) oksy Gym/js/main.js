@@ -1,13 +1,4 @@
 $(document).ready(function () {
-
-
-	$('.spoiler-body').hide(300);
-	$(document).on('click', '.spoiler-head', function (e) {
-		$(this).parents('.spoiler-body').toggleClass("active").find('.spoiler-body').slideToggle();
-	});
-
-
-
 	/* бургер меню */
 	if (document.documentElement.clientWidth < 991) {
 		$('.header-burger').on('click', function () {
@@ -15,14 +6,18 @@ $(document).ready(function () {
 			$('.header-burger').toggleClass(' header-burger--open');
 			$('html').toggleClass(' body-stop');
 		});
-
 		$('.menu li a').on('click', function () {
-			$('.header-content').toggleClass(' header-content--open');
-			$('.header-burger').toggleClass(' header-burger--open');
-			$('html').toggleClass(' body-stop');
+			$('.header-content').removeClass('header-content--open');
+			$('.header-burger').removeClass('header-burger--open');
+			$('html').removeClass('body-stop');
 		});
 	}
-	//
+	/* spoiler */
+	$('.spoiler-body').hide(300);
+	$(document).on('click', '.spoiler-head', function (e) {
+		$(this).parents('.spoiler-body').toggleClass("active").find('.spoiler-body').slideToggle();
+	});
+	// gallery 1
 	$('.gallery-wrapper1').slick({
 		sliderToShow: 1,
 		prevArrow: '<button type="button" class="slick-prev"></button>',
@@ -32,7 +27,7 @@ $(document).ready(function () {
 		fade: true,
 		cssEase: 'linear',
 	});
-	//
+	// gallery 2
 	$('.gallery-wrapper2').slick({
 		sliderToShow: 1,
 		prevArrow: '<button type="button" class="slick-prev"></button>',
@@ -45,18 +40,8 @@ $(document).ready(function () {
 	//
 	$(".popup-link").magnificPopup({
 	});
-
-
-
-
 	/* textarea тянется вместе с содержимым */
 	autosize(document.querySelectorAll('textarea'));
-
-
-
-
-
-
 	/* spoiler */
 	/*
 	$('.spoiler-body').hide(300);
@@ -79,7 +64,4 @@ $(document).ready(function () {
 	$('.team-spoiler').on('click', function () {
 		$(this).children('.spoiler_body').toggleClass(' hidden');
 	});*/
-
-
-
 });
