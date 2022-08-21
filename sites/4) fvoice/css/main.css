@@ -488,7 +488,6 @@ header {
   position: absolute;
   top: -60px;
   right: 260px;
-  animation: pi4-whatsup 9s infinite;
 }
 
 .poss-item4 .pi4-skype {
@@ -496,7 +495,6 @@ header {
   top: 40px;
   left: -20px;
   transform: rotate(0deg);
-  animation: pi3-spiral 15s infinite;
 }
 
 .poss-item4 .pi4-twitter {
@@ -576,21 +574,21 @@ header {
   position: absolute;
   left: 100px;
   bottom: 150px;
-  animation: pi6-round 6s infinite;
+  //animation: pi6-gift 3s infinite;
 }
 
 .poss-item6 .pi6_spiral {
   position: absolute;
   left: 80px;
   top: 150px;
-  animation: pi3-spiral 6s infinite;
+  //animation: pi3-spiral 6s infinite;
 }
 
 .poss-item6 .pi6-gift {
   position: absolute;
   left: 100px;
   top: 320px;
-  animation: pi6-gift 6s infinite;
+  //animation: pi6-gift 3s infinite;
 }
 
 /* steps-section */
@@ -887,7 +885,7 @@ header {
   position: absolute;
   left: 130px;
   bottom: -30px;
-  animation: PiPhone 3s infinite;
+  animation: piEllips2 1s infinite;
 }
 
 .advantages-item3 .advantages-item_imgwrapper {
