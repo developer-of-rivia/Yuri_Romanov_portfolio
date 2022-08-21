@@ -1,0 +1,154 @@
+
+.article-section .title h1{
+    text-align:left;
+}
+.article-title_referens{
+    display:flex;
+}
+
+.article-item img{
+    margin-top: 31px;
+    margin-bottom: 30px;
+}
+.article-item h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    margin:1.2em 0;
+}
+.article-item h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    margin:1.2em 0;
+}
+.article-item p{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 140%;
+    margin:1.2em 0;
+}
+.article-item  ul{
+    margin-top: 25px;
+}
+
+.article-item  li{
+    margin-top: 3px;
+    font-size:18px;
+}
+.article-item li:before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: #7030A0;
+    border-radius: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 18px;
+}
+
+.main-btns_1{
+    border: 2px solid #7030A0;
+}
+.purpl-btn-link{
+    border: 1px solid #7030A0;
+}
+.main-btns_1,.main-btns_2,.purpl-btn-link{
+    transition: 0.2s ease;
+}
+.main-btns_1:hover,.purpl-btn-link:hover{
+    background: #fff;
+    color: #7030A0;
+}
+.main-btns_2:hover{
+    background: #7030A0;
+    color:#fff;
+}
+
+.lead-bottom_left{
+    position:relative;
+    z-index:2;
+}
+
+.vac-item ul{
+    max-width: 470px;
+    padding:0;
+    margin:0;
+}
+.vac-item ul li{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.vac-item ul li:before {
+    content: '';
+    min-width: 8px;
+    min-height: 8px;
+    border-radius: 25px;
+    background: #28DABC;
+    margin-right: 18px;
+}
+
+footer{
+    height: auto;
+}
+.footer-copyright{
+    padding-bottom:30px;
+}
+@media (max-width: 768px) {
+    footer{
+        height: 830px
+    }
+}
+
+.footer-copyright{
+    font-size:14px;
+}
+
+.footer-menu {
+    margin-bottom: 55px;
+}
+
+.footer-img{
+    display:block;
+}
+
+.footer-logo{
+    width:169px;
+    height:59px;
+}
+.footer-logo-m{
+    width:119px;
+    height:41px;
+}
+
+
+.blog-box:after {
+  content:'';
+  display:block;
+  width: 32%;
+}
+
+.logo img{
+    width:169px;
+    height:59px;
+}
+@media (max-width: 1630px) {
+    .footer-phone a{
+        white-space:nowrap;
+    }
+}
+
+
+/*.blog-box {
+  justify-content: flex-start;
+}*/
+/*
+.blog-item{
+    margin-left:16px;
+}
+.blog-item:first-child{
+    margin-left:0;
+}*/
