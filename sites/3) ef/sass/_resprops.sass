@@ -1,0 +1,66 @@
+/* Адаптивные свойства */
+// Шрифты
+@mixin font-size($fz, $minFz)
+	$raznica: $fz - $minFz
+	font-size: calc(#{$minFz}px + #{$raznica} * ((100vw - 320px) / 1600))
+
+@mixin line-height($lh, $mlh)
+	$raznica: $lh - $mlh
+	line-height: calc(#{$mlh}px + #{$raznica} * ((100vw - 320px) / 1600))
+
+// Max-width
+@mixin max-width($mw, $mmw)
+	$raznica: $mw - $mmw
+	max-width: calc(#{$mmw}px + #{$raznica} * ((100vw - 320px) / 1600))
+
+// Width
+@mixin width($m, $mm)
+	$raznica: $m - $mm
+	width: calc(#{$mm}px + #{$raznica} * ((100vw - 320px) / 1600))
+
+// Height
+@mixin height($m, $mm)
+	$raznica: $m - $mm
+	height: calc(#{$mm}px + #{$raznica} * ((100vw - 320px) / 1600))
+
+// Padding
+@mixin padding($p, $mp)
+	$raznica: $p - $mp
+	padding: calc(#{$mp}px + #{$raznica} * ((100vw - 320px) / 1600))
+
+@mixin padding-top($p, $mp)
+	$raznica: $p - $mp
+	padding-top: calc(#{$mp}px + #{$raznica} * ((100vw - 320px) / 1600))
+
+@mixin padding-bottom($p, $mp)
+	$raznica: $p - $mp
+	padding-bottom: calc(#{$mp}px + #{$raznica} * ((100vw - 320px) / 1600))
+
+@mixin padding-left($p, $mp)
+	$raznica: $p - $mp
+	padding-left: calc(#{$mp}px + #{$raznica} * ((100vw - 320px) / 1600))
+
+@mixin padding-right($p, $mp)
+	$raznica: $p - $mp
+	padding-right: calc(#{$mp}px + #{$raznica} * ((100vw - 320px) / 1600))
+
+// Margin
+@mixin margin($m, $mm)
+	$raznica: $m - $mm
+	margin: calc(#{$mm}px + #{$raznica} * ((100vw - 320px) / 1600))
+
+@mixin margin-top($m, $mm)
+	$raznica: $m - $mm
+	margin-top: calc(#{$mm}px + #{$raznica} * ((100vw - 320px) / 1600))
+
+@mixin margin-bottom($m, $mm)
+	$raznica: $m - $mm
+	margin-bottom: calc(#{$mm}px + #{$raznica} * ((100vw - 320px) / 1600))
+
+@mixin margin-right($m, $mm)
+	$raznica: $m - $mm
+	margin-right: calc(#{$mm}px + #{$raznica} * ((100vw - 320px) / 1600))
+
+@mixin margin-left($m, $mm)
+	$raznica: $m - $mm
+	margin-left: calc(#{$mm}px + #{$raznica} * ((100vw - 320px) / 1600))

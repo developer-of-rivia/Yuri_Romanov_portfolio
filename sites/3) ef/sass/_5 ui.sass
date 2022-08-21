@@ -1,0 +1,88 @@
+@import "1 vars.sass"
+@import "2 media-mix.sass"
+/* --- UI KIT --- */
+/* buttons */
+// button 1
+.btnArrow
+    display: inline-flex
+    justify-content: space-between
+    align-items: center
+    color: #fff
+    text-transform: uppercase
+    font-weight: 600
+    padding: 20px 25px
+    border: 2px solid #fff
+    border-radius: 10px
+    transition: 0.2s ease
+    font-size: 14px
+    cursor: pointer
+    +sm
+        padding: 15px 25px
+.btnArrow:hover
+    color: $prim
+    border-color: $prim
+    .btnArrow__arrow
+        color: $prim
+.btnArrow:active
+    transform: scale(1.01)
+// button2
+.btnYellow
+    @extend .btnArrow
+    border-color: $prim
+    &:hover
+        background: $prim
+        color: $dark
+// button3
+.btnEmpty
+    @extend .btnArrow
+    padding: 10px 32px
+    border-color: $prim
+// button4
+.btnDark
+    @extend .btnArrow
+    color: $dark
+    border-color: $dark
+    &:hover
+        border-color: $dark
+        background: $dark
+        color: #fff
+// btnIcon
+.btnIcon
+    margin-left: 15px
+// button5
+.btnFill
+    @extend .btnArrow
+    background: $prim
+    color: $dark
+    border: none
+    justify-content: center
+    &:hover
+        color: $dark
+/* inputs */
+// input1
+.input
+    display: inline-block
+    outline: none
+    height: 50px
+    background: #fff
+    border-radius: 6px
+    padding-left: 20px
+    padding-right: 20px
+    width: 100%
+    border: none
+    +sm
+        height: 40px
+.input:hover
+.input:focus
+    border: 1px solid green
+.input:active
+    transform: scale(1.01)
+// цвет placeholder у input, textarea
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder
+    color: #A5A5A5
+input::-moz-placeholder, textarea::-moz-placeholder
+    color: #A5A5A5
+input:-moz-placeholder, textarea:-moz-placeholder
+    color: #A5A5A5
+input:-ms-input-placeholder, textarea:-ms-input-placeholder
+    color: #A5A5A5
