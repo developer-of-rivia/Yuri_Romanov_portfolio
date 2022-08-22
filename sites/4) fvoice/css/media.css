@@ -492,7 +492,7 @@
 
   .steps-section {
     padding-top: 70px;
-    height: 715px;
+    height: 1045px;
   }
 
   .steps-title {
@@ -595,7 +595,7 @@
   }
 
   .poss-section2 {
-    margin-bottom: -270px;
+    margin-bottom: -480px;
   }
 
   .poss-item1 .pi-robot {
@@ -639,6 +639,7 @@
   .poss-item6 .pi6_robot {
     left: 286px;
     bottom: 220px;
+    width: 90px;
   }
 
   .poss-item6 .pi6-gift {
@@ -795,6 +796,21 @@
   .poss-item6 .poss-item_img {
     bottom: 610px;
     max-width: 530px;
+  }
+
+  .better-btn {
+    margin-top: -55px;
+    margin-left: 75px;
+  }
+
+  .advantages-item2 .advantages-item_img {
+    position: relative;
+    right: -40px;
+  }
+
+  .advantages-item3 .advantages-item_img {
+    position: relative;
+    left: -60px;
   }
 }
 
@@ -1048,7 +1064,7 @@
 
   .poss-item1 {
     padding-left: 30px;
-    margin-top: 210px;
+    margin-top: 130px;
   }
 
   .poss-item2 .poss-item_img {
@@ -1090,6 +1106,7 @@
   .poss-item5 .poss-item_img {
     max-width: 530px;
     bottom: 970px;
+    right: -170px;
   }
 
   .poss-item5 .poss-item_content {
@@ -1317,8 +1334,27 @@
   .serv-item--third {
     padding: 20px 18px;
   }
+
+  .main-section {
+    height: 840px;
+  }
+
+  .poss-section {
+    padding-top: 190px;
+  }
+
+  .poss-item2 .poss-item_content {
+    margin-top: 510px;
+  }
+
+  .poss-item4 .poss-item_content {
+    max-width: 300px !important;
+    margin-left: 30px;
+    margin-right: 0;
+  }
 }
 
+/* 991 end */
 @media screen and (max-width: 780px) {
   .popup-title {
     font-size: 19px;
@@ -1662,7 +1698,7 @@
   }
 
   .poss-item2 .poss-item_img {
-    bottom: 90px;
+    bottom: 110px;
   }
 
   .poss-item2 .poss-item_content {
@@ -2104,8 +2140,18 @@
   .serv-title {
     margin-bottom: 30px;
   }
+
+  .poss-section {
+    padding-top: 70px;
+  }
+
+  .poss-item3 .pi3-phone {
+    left: -10px;
+    bottom: -11px;
+  }
 }
 
+/* 780 end */
 @media screen and (max-width: 574px) {
   .popup-accept_text {
     font-size: 12px;
@@ -3859,6 +3905,7 @@
 
   .steps-box {
     flex-wrap: wrap;
+    row-gap:
   }
 
   .steps-item {
@@ -4028,6 +4075,10 @@
 }
 
 @media screen and (max-width: 991px) {
+  h2 {
+    font-size: 29px;
+  }
+
   .contacts-box_item {
     font-size: 20px;
     margin-bottom: 30px;
