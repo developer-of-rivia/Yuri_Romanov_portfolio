@@ -432,6 +432,7 @@
 
   .poss-item1 .poss-item_img {
     max-width: 500px;
+    right: -100px;
   }
 
   .main-left {
@@ -508,11 +509,12 @@
   }
 
   .poss-item3 .poss-item_img {
-    max-width: 440px;
+    max-width: 370px;
   }
 
   .poss-item3 {
     align-items: flex-end;
+    margin-bottom: 150px;
   }
 
   .poss-item3 .poss-item_content {
@@ -579,7 +581,8 @@
 
   .poss-item2 .poss-item_img {
     left: -290px;
-    bottom: 20px;
+    bottom: 90px;
+    max-width: 810px;
   }
 
   .poss-item2 .poss-item_content {
@@ -624,8 +627,8 @@
   }
 
   .poss-item5 .poss-item_img {
-    bottom: 940px;
-    max-width: 630px;
+    bottom: 1090px;
+    max-width: 470px;
   }
 
   .poss-item6 .poss-item_img {
@@ -651,8 +654,8 @@
   }
 
   .poss-item5 .poss-item5_arrow {
-    left: -200;
-    bottom: 300px;
+    left: -280px;
+    bottom: 210px;
   }
 
   .footer-btns .main-btns_1,
@@ -761,8 +764,41 @@
   .for-title {
     margin-bottom: 70px;
   }
+
+  .poss-item2 .poss-item_content {
+    margin-right: 0;
+  }
+
+  .pi2-android {
+    width: 120px;
+    left: 490px;
+    bottom: 240px;
+  }
+
+  .poss-item3 .poss-item_content {
+    margin-left: 0;
+  }
+
+  .poss-item3 .pi3-phone {
+    left: -30px;
+    bottom: -51px;
+  }
+
+  .poss-item4 .poss-item_img {
+    max-width: 400px;
+  }
+
+  .poss-item6 {
+    margin-top: 230px;
+  }
+
+  .poss-item6 .poss-item_img {
+    bottom: 610px;
+    max-width: 530px;
+  }
 }
 
+/* 1210 end */
 @media screen and (max-width: 991px) {
   .popup-wrapper {
     width: 660px;
