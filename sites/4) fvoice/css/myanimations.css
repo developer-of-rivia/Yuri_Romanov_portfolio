@@ -15,6 +15,25 @@
 	}
 }
 
+@media screen and (max-width: 1630px) {
+	@keyframes PiPhone {
+		from {
+			left: 160px;
+			top: -90px;
+		}
+
+		50% {
+			left: 260px;
+			top: -130px;
+		}
+
+		to {
+			left: 160px;
+			top: -90px;
+		}
+	}
+}
+
 @keyframes piEllips1 {
 	from {
 		transform: scale(.70);
@@ -146,7 +165,8 @@
 	}
 
 	to {
-		top: -60px right: 260px;
+		top: -60px;
+		right: 260px;
 	}
 }
 
