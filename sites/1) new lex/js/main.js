@@ -44,12 +44,4 @@ $(document).ready(function () {
 	});
 	// magnific popup
 	$('.popup-link').magnificPopup();
-
-	/* */
-	$('.yuchoise').on('click', function () {
-		$('.yudevices').toggleClass(' yudevices--active');
-	});
-	$('.yudevices').on('click', function () {
-		$('.yudevices').toggleClass(' yudevices--active');
-	});
 });
