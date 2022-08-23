@@ -1412,7 +1412,7 @@ textarea:-ms-input-placeholder {
   align-items: center;
   position: fixed;
   z-index: 99999999999;
-  background: #111;
+  background: #888;
   left: -100vw;
   transition: 0.2s ease
 }
@@ -1424,7 +1424,7 @@ textarea:-ms-input-placeholder {
 .yudevices__phone {
   width: 450px;
   height: 950px;
-  background: url(../iphone2.svg) no-repeat center center;
+  background: url(../iphone3.svg) no-repeat center center;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 145px;
