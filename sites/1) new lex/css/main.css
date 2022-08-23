@@ -1375,6 +1375,35 @@ textarea:-ms-input-placeholder {
   padding-right: 20px;
 }
 
+.yuchoise {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  z-index: 999999;
+}
+
+.yuchoise__item {
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  background: #111;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.yuchoise__item img {
+  max-width: 35px;
+}
+
 .yudevices {
   width: 100vw;
   height: 100vh;
@@ -1382,14 +1411,20 @@ textarea:-ms-input-placeholder {
   justify-content: center;
   align-items: center;
   position: fixed;
-  z-index: 999999;
-  background: #555;
+  z-index: 99999999999;
+  background: #111;
+  left: -100vw;
+  transition: 0.2s ease
+}
+
+.yudevices--active.yudevices {
+  left: 0;
 }
 
 .yudevices__phone {
   width: 450px;
   height: 950px;
-  background: url(../iphone.svg) no-repeat center center;
+  background: url(../iphone2.svg) no-repeat center center;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 145px;
