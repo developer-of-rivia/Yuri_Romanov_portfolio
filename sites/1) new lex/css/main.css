@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 /* reset */
+body {
+  background: #fff;
+}
+
 body,
 html {
   scroll-behavior: smooth;
@@ -1359,4 +1363,51 @@ textarea:-ms-input-placeholder {
 
 .popup__btn-area {
   text-align: center;
+}
+
+
+
+
+
+/* yudevices */
+.index--mobile .container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.yudevices {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 999999;
+  background: #555;
+}
+
+.yudevices__phone {
+  width: 450px;
+  height: 950px;
+  background: url(../iphone.svg) no-repeat center center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 145px;
+  padding-bottom: 145px;
+  overflow: hidden;
+}
+
+.yudevices__phone iframe {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 9999;
+  border: none;
+}
+
+.yudevices__phone img {
+  position: relative;
+  top: -726px;
+  width: 450px;
+  height: auto;
 }

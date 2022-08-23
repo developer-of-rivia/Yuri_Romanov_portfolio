@@ -6392,3 +6392,8 @@
     margin-top: -30px;
   }
 }
+
+.myiframe {
+  width: 380px;
+  height: 100%;
+}
