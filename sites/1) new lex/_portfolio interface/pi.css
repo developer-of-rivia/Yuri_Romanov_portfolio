@@ -6,19 +6,27 @@
 
 .yuchoise {
     position: fixed;
-    right: 15px;
-    bottom: 15px;
+    right: 0;
+    bottom: 20vh;
     display: flex;
     flex-direction: column;
     z-index: 999999;
+    box-shadow: 0 0 18px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 15px 0 0 15px;
+    z-index: 99999999999999999;
+}
+
+.yuchoise__menu {
+    position: fixed;
+    right: 0;
+    bottom: 15vh;
+    padding: 9px;
 }
 
 .yuchoise__item {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     color: #fff;
-    background: #111;
-    border-radius: 100px;
     text-align: center;
     font-size: 12px;
     display: flex;
@@ -27,10 +35,42 @@
     align-items: center;
     gap: 10px;
     cursor: pointer;
+    transition: 0.2s ease;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: #00CD5E;
+    opacity: 0.5;
+}
+
+.yuchoise__item:hover {
+    opacity: 0.7;
+}
+
+.yuchoise .yuchoise__item:first-child {
+    border-radius: 15px 0 0 0;
+}
+
+.yuchoise .yuchoise__item:last-child {
+    border-radius: 0 0 0 15px;
+}
+
+.yuchoise__item--active {
+    opacity: 1;
+    cursor: default;
+}
+
+.yuchoise__item--active:hover {
+    opacity: 1;
+}
+
+.yuchoise__item--active span {
+    text-decoration: underline;
 }
 
 .yuchoise__item img {
-    max-width: 35px;
+    max-width: 25px;
+    max-height: 25px;
 }
 
 .yudevices {
