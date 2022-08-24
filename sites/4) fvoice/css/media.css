@@ -1352,6 +1352,19 @@
     margin-left: 30px;
     margin-right: 0;
   }
+
+  .poss-item5 .poss-item5_arrow img {
+    top: 7px;
+    right: -39px;
+  }
+
+  .poss-item4 .poss-item_img {
+    max-width: 660px;
+  }
+
+  .poss-item4 .poss-item_content {
+    max-width: 100% !important;
+  }
 }
 
 /* 991 end */
@@ -1787,7 +1800,7 @@
   }
 
   .poss-item6 {
-    margin-top: 520px;
+    margin-top: 430px;
   }
 
   .advantages-item2 .ai2 {
@@ -1872,7 +1885,7 @@
   }
 
   .poss-item6 .poss-item_img {
-    bottom: 280px;
+    bottom: 200px;
     left: -200px;
   }
 
@@ -2148,6 +2161,11 @@
   .poss-item3 .pi3-phone {
     left: -10px;
     bottom: -11px;
+  }
+
+  .poss-item4 .poss-item_img {
+    max-width: 660px;
+    top: 590px !important;
   }
 }
 
@@ -2548,7 +2566,7 @@
   }
 
   .poss-item2 .poss-item_content {
-    margin-top: 70px;
+    margin-top: 40px;
     max-width: 190px;
   }
 
@@ -3072,7 +3090,22 @@
   .serv-body .page-pos {
     margin-bottom: 30px;
   }
+
+  .poss-item4 .poss-item_content {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .poss-item3 .pi3-phone {
+    left: 20px;
+  }
+
+  .poss-item4 .poss-item_img {
+    top: 430px !important;
+  }
 }
+
+/* 574 end */
 
 @media screen and (max-width: 465px) {
   .advantages-item3 .advantages-item_img .ai33 {
@@ -4623,6 +4656,7 @@
     height: 20px;
     font-size: 0;
     padding-left: 39px;
+    margin-left: auto;
   }
 
   .menu-top_close {
