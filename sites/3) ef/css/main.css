@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 /* reset */
+body {
+  background: #fff;
+}
 
 body,
 html {
@@ -394,8 +397,11 @@ section {
   position: absolute;
   width: 100%;
   height: 200%;
-  right: -1920px;
-  transition: 0.2s linear;
+  right: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  transition: 0.4s ease;
 }
 
 .sidebar-wrapper:before {
@@ -423,7 +429,8 @@ section {
 }
 
 .sidebar--active.sidebar-wrapper {
-  right: 0;
+  width: 100%;
+  height: 200%;
 }
 
 .sidebar__logo {
@@ -923,6 +930,10 @@ section {
   border-top: 2px solid #EBEBEB;
   border-bottom: 2px solid #EBEBEB;
   cursor: pointer;
+}
+
+.qa__spoiler-head:hover {
+  color: #FFDB00;
 }
 
 .qa__wrapper .qa__spoiler:last-child .qa__spoiler-head {
