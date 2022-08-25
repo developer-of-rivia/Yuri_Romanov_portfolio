@@ -100,6 +100,7 @@ textarea {
   padding-left: 38px;
   font-size: 16px;
   border: none;
+  outline: none;
 }
 
 input::-webkit-input-placeholder,
@@ -1739,6 +1740,14 @@ img.mfp-img {
   flex-wrap: wrap;
   margin-bottom: 10px;
   cursor: pointer;
+}
+
+.spoiler-wrap:hover {
+  background: #dbadfb;
+}
+
+.spoiler-wrap--active {
+  background: #dbadfb;
 }
 
 .spoiler-head {
