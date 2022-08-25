@@ -1,0 +1,118 @@
+/* yudevices */
+.index--mobile .container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.yuchoise {
+    position: fixed;
+    right: 0;
+    bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 999999;
+    box-shadow: 0 0 18px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 15px 0 0 15px;
+    z-index: 999999;
+}
+
+.yuchoise__menu {
+    position: fixed;
+    right: 0;
+    bottom: 15vh;
+    padding: 9px;
+    z-index: 999999;
+}
+
+.yuchoise__item {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: #00CD5E;
+    opacity: 0.5;
+}
+
+.yuchoise__item:hover {
+    opacity: 0.7;
+}
+
+.yuchoise .yuchoise__item:first-child {
+    border-radius: 15px 0 0 0;
+}
+
+.yuchoise .yuchoise__item:last-child {
+    border-radius: 0 0 0 15px;
+}
+
+.yuchoise__item--active {
+    opacity: 1;
+    cursor: default;
+}
+
+.yuchoise__item--active:hover {
+    opacity: 1;
+}
+
+.yuchoise__item--active span {
+    text-decoration: underline;
+}
+
+.yuchoise__item img {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.yudevices {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 99999;
+    background: #888;
+    left: -100vw;
+    transition: 0.2s ease
+}
+
+.yudevices--active.yudevices {
+    left: 0;
+}
+
+.yudevices__phone {
+    width: 450px;
+    height: 950px;
+    background: url(../_portfolio\ interface/iphone.svg) no-repeat center center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 145px;
+    padding-bottom: 145px;
+    overflow: hidden;
+}
+
+.yudevices__phone iframe {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 9999;
+    border: none;
+}
+
+.yudevices__phone img {
+    position: relative;
+    top: -726px;
+    width: 450px;
+    height: auto;
+}

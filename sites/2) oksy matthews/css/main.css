@@ -225,6 +225,10 @@ input[type=checkbox]:checked+label:before {
   background: #F754E7;
 }
 
+.main-body {
+  background: #fff;
+}
+
 /* Кнопки */
 .btn a,
 .btn button {
@@ -239,15 +243,24 @@ input[type=checkbox]:checked+label:before {
   text-align: center;
   line-height: 54px;
   text-transform: uppercase;
-  transition: 0.2s ease
+  transition: 0.1s ease transform;
 }
 
 .btn a:hover,
 .btn button:hover {
+  transform: scale(1.05);
+}
+
+.main__btn:hover {
   background: #A93CF6;
   color: #fff;
-  transform: scale(1.05)
 }
+
+.group-btn a:hover {
+  border: none;
+  background: #C41DFF;
+}
+
 
 /* Тайтлы */
 .title {
@@ -395,6 +408,14 @@ header {
   height: 177px;
   position: relative;
   z-index: 999;
+}
+
+.logo {
+  transition: 0.2s ease;
+}
+
+.logo:hover {
+  transform: scale(1.03) rotate(2deg)
 }
 
 .header-wrapper {
@@ -1221,7 +1242,7 @@ header {
 .contacts-map iframe {
   width: 100%;
   border: none;
-  filter: grayscale(1)
+  filter: grayscale(1);
 }
 
 .contacts-content {
