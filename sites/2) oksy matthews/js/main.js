@@ -12,12 +12,6 @@ $(document).ready(function () {
 			$('html').removeClass('body-stop');
 		});
 	}
-	/* spoiler */
-	/*
-	$('.spoiler-body').hide(300);
-	$(document).on('click', '.spoiler-head', function (e) {
-		$(this).parents('.spoiler-body').toggleClass("active").find('.spoiler-body').slideToggle();
-	});*/
 	// gallery 1
 	$('.gallery-wrapper1').slick({
 		sliderToShow: 1,
@@ -44,6 +38,7 @@ $(document).ready(function () {
 	/* textarea тянется вместе с содержимым */
 	autosize(document.querySelectorAll('textarea'));
 	/* spoiler */
+	/*
 	$('.spoiler-body').hide(300);
 	$(document).on('click', '.spoiler-head', function (e) {
 		e.preventDefault()
@@ -63,5 +58,16 @@ $(document).ready(function () {
 	});
 	$('.team-spoiler').on('click', function () {
 		$(this).children('.spoiler_body').toggleClass(' hidden');
+	});*/
+
+
+	$('.spoiler-wrap').on('click', function () {
+		if ($(this).hasClass('spoiler-wrap--active')) {
+			$(this).removeClass('spoiler-wrap--active');
+			$(this).children('.spoiler-body').fadeOut(500);
+		} else {
+			$(this).addClass('spoiler-wrap--active');
+			$(this).children('.spoiler-body').fadeIn(500);
+		}
 	});
 });

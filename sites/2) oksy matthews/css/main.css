@@ -1220,6 +1220,8 @@ header {
 
 .contacts-map iframe {
   width: 100%;
+  border: none;
+  filter: grayscale(1)
 }
 
 .contacts-content {
@@ -1751,4 +1753,17 @@ img.mfp-img {
 
 .spoiler-body ul {
   margin-bottom: 15px;
+}
+
+/* spoiler-wrap */
+.spoiler-body {
+  display: none;
+}
+
+.spoiler-wrap.spoiler-wrap--active .spoiler-plus {
+  display: none;
+}
+
+.spoiler-wrap.spoiler-wrap--active .spoiler-minus {
+  display: block;
 }
