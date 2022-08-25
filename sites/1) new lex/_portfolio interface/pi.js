@@ -1,7 +1,10 @@
-/* */
-$('.yuchoise').on('click', function () {
-    $('.yudevices').toggleClass(' yudevices--active');
+$('.yuchoise__item').on('click', function () {
+    $('.yuchoise__item').removeClass('yuchoise__item--active');
+    $(this).addClass('yuchoise__item--active');
 });
-$('.yudevices').on('click', function () {
-    $('.yudevices').toggleClass(' yudevices--active');
+$('.yuchoise__item--mobile').on('click', function () {
+    $('.yudevices').addClass('yudevices--active');
+});
+$('.yuchoise__item--desk').on('click', function () {
+    $('.yudevices').removeClass('yudevices--active');
 });
