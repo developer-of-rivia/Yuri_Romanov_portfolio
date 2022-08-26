@@ -94,7 +94,7 @@
 .yudevices__phone {
     width: 450px;
     height: 950px;
-    background: url(../portfolio-interface/iphone.svg) no-repeat center center;
+    background: url(iphone.svg) no-repeat center center;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 145px;
