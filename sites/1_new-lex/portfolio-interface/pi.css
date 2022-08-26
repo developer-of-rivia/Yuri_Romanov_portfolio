@@ -40,7 +40,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 5px;
-    background: #00CD5E;
+    background: mediumpurple;
     opacity: 0.5;
 }
 
@@ -82,7 +82,7 @@
     align-items: center;
     position: fixed;
     z-index: 99999;
-    background: #888;
+    background: url(table-bg.jpg);
     right: 0;
     top: 0;
     transition: 0.4s;

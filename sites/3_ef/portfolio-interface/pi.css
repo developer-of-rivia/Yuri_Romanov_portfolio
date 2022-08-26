@@ -40,7 +40,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 5px;
-    background: #00CD5E;
+    background: mediumpurple;
     opacity: 0.5;
 }
 
@@ -82,19 +82,21 @@
     align-items: center;
     position: fixed;
     z-index: 99999;
-    background: #888;
-    left: -100vw;
-    transition: 0.2s ease
+    background: url(table-bg.jpg);
+    right: 0;
+    top: 0;
+    transition: 0.4s;
+    transform: scale(0);
 }
 
 .yudevices--active.yudevices {
-    left: 0;
+    transform: scale(1);
 }
 
 .yudevices__phone {
     width: 450px;
     height: 950px;
-    background: url(../portfolio-interface/iphone.svg) no-repeat center center;
+    background: url(iphone.svg) no-repeat center center;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 145px;
