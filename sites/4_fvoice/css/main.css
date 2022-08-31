@@ -1356,7 +1356,8 @@ input::placeholder {
   .btn a,
   .btn button {
     font-size: 18px;
-    padding: 24px !important;
+    padding: 15px 24px !important;
+    font-weight: 600;
   }
 
   .title h1 {

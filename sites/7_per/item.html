@@ -1,0 +1,2097 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ПЭР - ПРОФЭНЕРГОРЕЗЕРВ</title>
+    <link rel="icon" href="favicon.svg" type="image/x-icon">
+    <style>
+        @font-face{font-display:swap;font-display:swap;font-family:'icomoon';src:url(fonts/icomoon/icomoon.eot?m3tokn);src:url(fonts/icomoon/icomoon.eot?m3tokn#iefix) format("embedded-opentype"),url(fonts/icomoon/icomoon.ttf?m3tokn) format("truetype"),url(fonts/icomoon/icomoon.woff?m3tokn) format("woff"),url(fonts/icomoon/icomoon.svg?m3tokn#icomoon) format("svg");font-weight:400;font-style:normal;font-display:block}[class^="_icon-"],[class*=" _icon-"]{font-display:swap;font-display:swap;font-family:'icomoon'!important;speak:never;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}._icon-th-list:before{content:"\e909"}._icon-th-combs:before{content:"\e90a"}._icon-arrow-left:before{content:"\e908"}._icon-arrow-right:before{content:"\e900"}._icon-close:before{content:"\e901"}._icon-star:before{content:"\e902"}._icon-heart:before{content:"\e903"}._icon-catalog:before{content:"\e904"}._icon-phone:before{content:"\e905"}._icon-burger:before{content:"\e906"}._icon-stats:before{content:"\e907"}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(fonts/roboto/Robotolight.woff2) format("woff2")}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/roboto/Roboto.woff2) format("woff2")}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/roboto/Robotomedium.woff2) format("woff2")}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/roboto/Robotobold.woff2) format("woff2")}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(fonts/roboto/Robotoblack.woff2) format("woff2")}.fakeScroll{overflow:visible!important}.fakeScroll__wrap{overflow:hidden;height:100%;position:relative;z-index:1}.fakeScroll__content{height:100%;width:100%;position:relative;overflow:auto;-moz-box-sizing:border-box;box-sizing:border-box;scrollbar-width:none;outline:none}.fakeScroll__content::-webkit-scrollbar{display:none}.fakeScroll__track{position:absolute;right:-15px;top:0;bottom:0;width:9px;cursor:default}.fakeScroll__bar{position:relative;background:rgba(255,255,255,.4);width:100%;border-radius:4px;right:0;top:0;z-index:0;transition:background .1s;cursor:-moz-grab;cursor:-webkit-grab}.fakeScroll__bar:hover{background:rgba(255,255,255,.55)}.fakeScroll__bar.fakeScroll--grabbed{cursor:-moz-grabbing;cursor:-webkit-grabbing;background:#fff}body.fakeScroll--grabbed{cursor:-moz-grabbing;cursor:-webkit-grabbing;-moz-user-select:none;-webkit-user-select:none;user-select:none}.mfp-bg{top:0;left:0;width:100%;height:100%;z-index:1042;overflow:hidden;position:fixed;background:#0b0b0b;opacity:.8}.mfp-wrap{top:0;left:0;width:100%;height:100%;z-index:1043;position:fixed;outline:none!important;-webkit-backface-visibility:hidden}.mfp-container{text-align:center;position:absolute;width:100%;height:100%;left:0;top:0;padding:0 8px;box-sizing:border-box}.mfp-container:before{content:'';display:inline-block;height:100%;vertical-align:middle}.mfp-align-top .mfp-container:before{display:none}.mfp-content{position:relative;display:inline-block;vertical-align:middle;margin:0 auto;text-align:left;z-index:1045}.mfp-inline-holder .mfp-content,.mfp-ajax-holder .mfp-content{width:100%;cursor:auto}.mfp-ajax-cur{cursor:progress}.mfp-zoom-out-cur,.mfp-zoom-out-cur .mfp-image-holder .mfp-close{cursor:-moz-zoom-out;cursor:-webkit-zoom-out;cursor:zoom-out}.mfp-zoom{cursor:pointer;cursor:-webkit-zoom-in;cursor:-moz-zoom-in;cursor:zoom-in}.mfp-auto-cursor .mfp-content{cursor:auto}.mfp-close,.mfp-arrow,.mfp-preloader,.mfp-counter{-webkit-user-select:none;-moz-user-select:none;user-select:none}.mfp-loading.mfp-figure{display:none}.mfp-hide{display:none!important}.mfp-preloader{color:#CCC;position:absolute;top:50%;width:auto;text-align:center;margin-top:-.8em;left:8px;right:8px;z-index:1044}.mfp-preloader a{color:#CCC}.mfp-preloader a:hover{color:#FFF}.mfp-s-ready .mfp-preloader{display:none}.mfp-s-error .mfp-content{display:none}button.mfp-close,button.mfp-arrow{overflow:visible;cursor:pointer;background:transparent;border:0;-webkit-appearance:none;display:block;outline:none;padding:0;z-index:1046;box-shadow:none;touch-action:manipulation}button::-moz-focus-inner{padding:0;border:0}.mfp-close{width:44px;height:44px;line-height:44px;position:absolute;right:0;top:0;text-decoration:none;text-align:center;opacity:.65;padding:0 0 18px 10px;color:#FFF;font-style:normal;font-size:28px;font-display:swap;font-display:swap;font-display:swap;font-family:Arial,Baskerville,monospace}.mfp-close:hover,.mfp-close:focus{opacity:1}.mfp-close:active{top:1px}.mfp-close-btn-in .mfp-close{color:#333}.mfp-image-holder .mfp-close,.mfp-iframe-holder .mfp-close{color:#FFF;right:-6px;text-align:right;padding-right:6px;width:100%}.mfp-counter{position:absolute;top:0;right:0;color:#CCC;font-size:12px;line-height:18px;white-space:nowrap}.mfp-arrow{position:absolute;opacity:.65;margin:0;top:50%;margin-top:-55px;padding:0;width:90px;height:110px;-webkit-tap-highlight-color:transparent}.mfp-arrow:active{margin-top:-54px}.mfp-arrow:hover,.mfp-arrow:focus{opacity:1}.mfp-arrow:before,.mfp-arrow:after{content:'';display:block;width:0;height:0;position:absolute;left:0;top:0;margin-top:35px;margin-left:35px;border:medium inset transparent}.mfp-arrow:after{border-top-width:13px;border-bottom-width:13px;top:8px}.mfp-arrow:before{border-top-width:21px;border-bottom-width:21px;opacity:.7}.mfp-arrow-left{left:0}.mfp-arrow-left:after{border-right:17px solid #FFF;margin-left:31px}.mfp-arrow-left:before{margin-left:25px;border-right:27px solid #3F3F3F}.mfp-arrow-right{right:0}.mfp-arrow-right:after{border-left:17px solid #FFF;margin-left:39px}.mfp-arrow-right:before{border-left:27px solid #3F3F3F}.mfp-iframe-holder{padding-top:40px;padding-bottom:40px}.mfp-iframe-holder .mfp-content{line-height:0;width:100%;max-width:900px}.mfp-iframe-holder .mfp-close{top:-40px}.mfp-iframe-scaler{width:100%;height:0;overflow:hidden;padding-top:56.25%}.mfp-iframe-scaler iframe{position:absolute;display:block;top:0;left:0;width:100%;height:100%;box-shadow:0 0 8px rgba(0,0,0,0.6);background:#000}img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;box-sizing:border-box;padding:40px 0;margin:0 auto}.mfp-figure{line-height:0}.mfp-figure:after{content:'';position:absolute;left:0;top:40px;bottom:40px;display:block;right:0;width:auto;height:auto;z-index:-1;box-shadow:0 0 8px rgba(0,0,0,0.6);background:#444}.mfp-figure small{color:#BDBDBD;display:block;font-size:12px;line-height:14px}.mfp-figure figure{margin:0}.mfp-bottom-bar{margin-top:-36px;position:absolute;top:100%;left:0;width:100%;cursor:auto}.mfp-title{text-align:left;line-height:18px;color:#F3F3F3;word-wrap:break-word;padding-right:36px}.mfp-image-holder .mfp-content{max-width:100%}.mfp-gallery .mfp-image-holder .mfp-figure{cursor:pointer}@media screen and (max-width: 800px) and (orientation: landscape),screen and (max-height: 300px){.mfp-img-mobile .mfp-image-holder{padding-left:0;padding-right:0}.mfp-img-mobile img.mfp-img{padding:0}.mfp-img-mobile .mfp-figure:after{top:0;bottom:0}.mfp-img-mobile .mfp-figure small{display:inline;margin-left:5px}.mfp-img-mobile .mfp-bottom-bar{background:rgba(0,0,0,0.6);bottom:0;margin:0;top:auto;padding:3px 5px;position:fixed;box-sizing:border-box}.mfp-img-mobile .mfp-bottom-bar:empty{padding:0}.mfp-img-mobile .mfp-counter{right:5px;top:3px}.mfp-img-mobile .mfp-close{top:0;right:0;width:35px;height:35px;line-height:35px;background:rgba(0,0,0,0.6);position:fixed;text-align:center;padding:0}}@media all and (max-width: 900px){.mfp-arrow{-webkit-transform:scale(0.75);transform:scale(0.75)}.mfp-arrow-left{-webkit-transform-origin:0;transform-origin:0}.mfp-arrow-right{-webkit-transform-origin:100%;transform-origin:100%}.mfp-container{padding-left:6px;padding-right:6px}}.slick-slider{position:relative;display:block;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:none}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-track,.slick-slider .slick-list{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-track{position:relative;top:0;left:0;display:block;margin-left:auto;margin-right:auto}.slick-track:before,.slick-track:after{display:table;content:''}.slick-track:after{clear:both}.slick-loading .slick-track{visibility:hidden}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir='rtl'] .slick-slide{float:right}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-initialized .slick-slide{display:block}.slick-loading .slick-slide{visibility:hidden}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.slick-arrow.slick-hidden{display:none}
+    </style>
+    <!-- Базовые стили CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="body body--main">
+    <div class="body__top">
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <a href="#" class="header__logo">
+                        <img src="img/logo.svg">
+                    </a>
+                    <div class="header__search">
+                        <input class="input menu__search-input header__search-input" placeholder="Поиск по каталогу">
+                    </div>
+                    <div class="header__loc loc">
+                        <div class="loc__your">
+                            <span>Ваш город:</span>
+                            <a href="#">Москва</a>
+                        </div>
+                        <div class="loc__your-address">
+                            <p> г. Москва, Каширское шоссе, д. 22, к. 3, офис 1014</p>
+                        </div>
+                        <a href="mailto:1@profpower.ru" class="loc__your-mail">
+                            1@profpower.ru
+                        </a>
+                    </div>
+                    <div class="hinfo">
+                        <div class="hinfo__work">
+                            Пн-Пт c 9:00 до 19:00
+                        </div>
+                        <div class="call">
+                            <span class="call__name">Бесплатный звонок по России </span>
+                            <a class="call__phone" href="tel:88005550602">8 (800) 555-06-02 </a>
+                        </div>
+                    </div>
+                    <div class="header__feedback">
+                        <div class="header__socials socials">
+                            <a href="#" class="socials__item">
+                                <img src="img/whatsapp.svg">
+                            </a>
+                            <a href="#" class="socials__item">
+                                <img src="img/viber.svg">
+                            </a>
+                        </div>
+                        <a href="#getcall" class="header__btn btn popup-link">
+                            Заказать звонок
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="menu">
+            <div class="container">
+                <div class="menu__wrapper">
+                    <div class="menu__burger">
+                        <i class="_icon-burger"></i>
+                        Меню
+                    </div>
+                    <a href="#" class="menu__catalog-link">
+                        <i class="_icon-catalog"></i>
+                        Каталог
+                    </a>
+                    <ul class="nav">
+                        <div class="nav__close">
+                            <img src="img/icons/close-icon.svg">
+                        </div>
+                        <li class="nav__list nav__parent"><a href="#">О компании</a>
+                            <ul class="nav__inner">
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Электростанции
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Дизельные генераторы</a></li>
+                                        <li><a href="#">Газовые генераторы</a></li>
+                                        <li><a href="#">Бензиновые генераторы</a></li>
+                                        <li><a href="#">Сварочные генераторы</a></li>
+                                        <li><a href="#">Акции и распродажи</a></li>
+                                    </ul>
+                                </div>
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Оборудование
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Стабилизаторы напряжения</a></li>
+                                        <li><a href="#">Источники бесперебойного питания (ИБП)
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav__list nav__parent"><a href="#">Каталог</a>
+                            <ul class="nav__inner">
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Производство
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Контейнеры</a></li>
+                                        <li><a href="#">Электрощитовое оборудование</a></li>
+                                        <li><a href="#">Блоки автоматического ввода резерва (АВР)</a></li>
+                                    </ul>
+                                </div>
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Услуги
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Предпроектное обследование</a></li>
+                                        <li><a href="#">Проектирование систем электроснабжения</a></li>
+                                        <li><a href="#">Шеф монтаж</a></li>
+                                        <li><a href="#">Пуско-наладочные работы</a></li>
+                                        <li><a href="#">Монтаж электростанций</a></li>
+                                        <li><a href="#">Техническое обслуживание</a></li>
+                                        <li><a href="#">Ремонт электростанций</a></li>
+                                        <li><a href="#">Автоматизация генераторов</a></li>
+                                        <li><a href="#">Синхронизация электростанций</a></li>
+                                    </ul>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav__list nav__parent"><a href="#">Услуги</a>
+                            <ul class="nav__inner">
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Электростанции
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Дизельные генераторы</a></li>
+                                        <li><a href="#">Газовые генераторы</a></li>
+                                        <li><a href="#">Бензиновые генераторы</a></li>
+                                        <li><a href="#">Сварочные генераторы</a></li>
+                                        <li><a href="#">Акции и распродажи</a></li>
+                                    </ul>
+                                </div>
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Оборудование
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Стабилизаторы напряжения</a></li>
+                                        <li><a href="#">Источники бесперебойного питания (ИБП)
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav__list"><a href="#">Производство</a></li>
+                        <li class="nav__list"><a href="#">Проекты</a></li>
+                        <li class="nav__list nav__parent"><a href="#">Информация</a>
+                            <ul class="nav__inner">
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Электростанции
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Дизельные генераторы</a></li>
+                                        <li><a href="#">Газовые генераторы</a></li>
+                                        <li><a href="#">Бензиновые генераторы</a></li>
+                                        <li><a href="#">Сварочные генераторы</a></li>
+                                        <li><a href="#">Акции и распродажи</a></li>
+                                    </ul>
+                                </div>
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Оборудование
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Стабилизаторы напряжения</a></li>
+                                        <li><a href="#">Источники бесперебойного питания (ИБП)
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav__list"><a href="#">Контакты</a></li>
+                        <div class="call call--nav">
+                            <div class="call-nav__left">
+                                <span class="call__name">Бесплатный звонок по России </span>
+                                <a class="call__phone call__phone--second" href="tel:88005550602">8 (800) 555-06-02
+                                </a>
+                                <a href="#getcall" class="call__btn btn popup-link">
+                                    Заказать звонок
+                                </a>
+                            </div>
+                            <div class="call__socials socials socials--vertical">
+                                <a href="#" class="socials__item socials__item--big">
+                                    <img src="img/whatsapp.svg">
+                                </a>
+                                <a href="#" class="socials__item socials__item--big">
+                                    <img src="img/viber.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </ul>
+                    <a href="#" class="menu__cont-link">
+                        <i class="_icon-phone"></i>
+                        Контакты
+                    </a>
+                    <div class="menu__search">
+                        <input class="input menu__search-input" placeholder="Поиск по каталогу">
+                    </div>
+                    <div class="menu__right">
+                        <a href="#" class="menu__icon">
+                            <i class="_icon-heart"></i>
+                            <span>Избранное</span>
+                        </a>
+                        <a href="#" class="menu__icon">
+                            <i class="_icon-stats"></i>
+                            <span>Сравнение</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- pageloc -->
+    <div class="pageloc">
+        <div class="container">
+            <ul class="pageloc__box">
+                <li class="pageloc__list">
+                    <a href="#" class="pageloc__link pageloc__link--home">
+                        Главная
+                    </a>
+                </li>
+                <li class="pageloc__list">
+                    <a href="#" class="pageloc__link">
+                        Электростанции
+                    </a>
+                </li>
+                <li class="pageloc__list select">
+                    <div class="select__head--pick select__head pageloc__link">
+                        <span>Дизельные</span>
+                    </div>
+                    <div class="select__box">
+                        <div class="select__item">
+                            <span>Газовые</span>
+                        </div>
+                        <div class="select__item">
+                            <span>Дизельные</span>
+                        </div>
+                        <div class="select__item">
+                            <span>Бензиновые</span>
+                        </div>
+                        <div class="select__item">
+                            <span>Сварочные</span>
+                        </div>
+                        <div class="select__item">
+                            <span>Акции и распродажи</span>
+                        </div>
+                    </div>
+                    <div class="select__input">
+                        <input type="text" hidden value="">
+                    </div>
+                </li>
+                <li class="pageloc__list">
+                    <a href="#" class="pageloc__link pageloc__link--product">
+                        ZM 7000 DE-3 в контейнере с АВР
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- page -->
+    <div class="page">
+        <div class="container">
+            <div class="page__wrapper">
+                <aside class="sidebar">
+                    <div class="categories">
+                        <div class="categories__item">
+                            <div class="categories__name">
+                                Электростанции
+                            </div>
+                            <ul class="categories__box">
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Дизельные генераторы
+                                    </a>
+                                </li>
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Газовые генераторы
+                                    </a>
+                                </li>
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Бензиновые генераторы
+                                    </a>
+                                </li>
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Сварочные генераторы
+                                    </a>
+                                </li>
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Акции и распродажи
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="categories__item">
+                            <div class="categories__name">
+                                Оборудование
+                            </div>
+                            <ul class="categories__box">
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Стабилизаторы напряжения
+                                    </a>
+                                </li>
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Источники бесперебойного питания (ИБП)
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="categories__item">
+                            <div class="categories__name">
+                                Производство
+                            </div>
+                            <ul class="categories__box">
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Контейнеры
+                                    </a>
+                                </li>
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Электрощитовое оборудование
+                                    </a>
+                                </li>
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Блоки автоматического ввода резерва (АВР)
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="categories__item">
+                            <div class="categories__name">
+                                Услуги
+                            </div>
+                            <ul class="categories__box">
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Предпроектное обследование
+                                    </a>
+                                </li>
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Проектирование систем электроснабжения
+                                    </a>
+                                </li>
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Шеф-монтаж
+                                    </a>
+                                </li>
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Пуско-наладочные работы
+                                    </a>
+                                </li>
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Монтаж электростанций
+                                    </a>
+                                </li>
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Техническое обслуживание
+                                    </a>
+                                </li>
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Ремонт электростанций
+                                    </a>
+                                </li>
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Автоматизация генераторов
+                                    </a>
+                                </li>
+                                <li class="categories__list">
+                                    <a href="#" class="categories__link">
+                                        Синхронизация электростанций
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- sidebar__banners -->
+                    <div class="sidebar__banners">
+                        <a href="#" class="sbanner"
+                            style="background: url(img/cbanner-calc-bg.jpg) no-repeat center center/cover">
+                            <div class="sbanner__content">
+                                <div class="sbanner__title">
+                                    Рассчитайте
+                                    мощность для вашего генератора
+                                </div>
+                                <div class="sbanner__text">
+                                    Наш калькулятор поможет выбрать нужный генератор!
+                                </div>
+                            </div>
+                            <div class="sbanner__icon">
+                                <img src="img/cbanner-calc.svg">
+                            </div>
+                        </a>
+                        <a href="#" class="sbanner"
+                            style="background: url(img/cbanner-delive-bg.jpg) no-repeat center center/cover">
+                            <div class="sbanner__content">
+                                <div class="sbanner__title">
+                                    Гарантированная доставка в любой регион России
+                                </div>
+                                <div class="sbanner__text">
+                                    Ответственность за сохранность и соблюдение сроков
+                                </div>
+                            </div>
+                            <div class="sbanner__icon">
+                                <img src="img/cbanner-var.svg">
+                            </div>
+                        </a>
+                    </div>
+                </aside>
+                <main class="main">
+                    <div class="product-section">
+                        <div class="product__top">
+                            <h1 class="product__title title">
+                                Дизельный генератор Mitsui Power ZM 7000 DE-3 в контейнере с АВР
+                            </h1>
+                            <a href="#" class="product__icon">
+                                <picture>
+                                    <source srcset="img/product-icon.webp" type="image/webp"
+                                        data-lazy="img/product-icon.webp">
+                                    <img src="img/product-icon.png" data-lazy="img/product-icon.png">
+                                </picture>
+                            </a>
+                            <div class="product__art">
+                                <span>Артикул</span>
+                                <p>63064</p>
+                            </div>
+                            <div class="product__comments">
+                                <div class="product__comments-box">
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                    <span>★</span>
+                                </div>
+                                <div class="product__comment-count">
+                                    3 отзыва
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__wrapper">
+                            <div class="product__left">
+                                <div class="product__showcase showcase">
+                                    <div class="showcase__preview">
+                                        <img src="img/showcase-img1.png">
+                                    </div>
+                                    <div class="showcase__box">
+                                        <div class="showcase__box-item">
+                                            <div class="showcase__item showcase__item--active">
+                                                <img src="img/showcase-img1.png">
+                                            </div>
+                                        </div>
+                                        <div class="showcase__box-item">
+                                            <div class="showcase__item">
+                                                <img src="img/showcase-img2.png">
+                                            </div>
+                                        </div>
+                                        <div class="showcase__box-item">
+                                            <div class="showcase__item">
+                                                <img src="img/showcase-img2.png">
+                                            </div>
+                                        </div>
+                                        <div class="showcase__box-item">
+                                            <div class="showcase__item">
+                                                <img data-src="img/showcase-img1.png" class="lazyload">
+                                            </div>
+                                        </div>
+                                        <div class="showcase__box-item">
+                                            <div class="showcase__item">
+                                                <img data-src="img/showcase-img2.png" class="lazyload">
+                                            </div>
+                                        </div>
+                                        <div class="showcase__box-item">
+                                            <div class="showcase__item">
+                                                <img data-src="img/showcase-img2.png" class="lazyload">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="showcase__slider-arrows slider-arrows--first"></div>
+                                </div>
+                                <div class="product__inter">
+                                    <a href="#" class="product__inter-link _icon-stats">
+                                        <span>Сравнить</span>
+                                    </a>
+                                    <a href="#" class="product__inter-link _icon-heart">
+                                        <span>Убрать</span>
+                                    </a>
+                                </div>
+                                <div class="products__docspape">
+                                    <div class="prodocs">
+                                        <div class="prodocs__slider">
+                                            <div class="prodocs__item">
+                                                <div class="prodocs__item-img">
+                                                    <picture>
+                                                        <source srcset="img/scert-img1.webp" type="image/webp">
+                                                        <img data-src="img/scert-img1.png" class="lazyload">
+                                                    </picture>
+                                                </div>
+                                                <div class="prodocs__item-text">
+                                                    Официальный
+                                                    дистрибьютор
+                                                    оборудования Pramac
+                                                </div>
+                                            </div>
+                                            <div class="prodocs__item">
+                                                <div class="prodocs__item-img">
+                                                    <picture>
+                                                        <source srcset="img/scert-img1.webp" type="image/webp">
+                                                        <img data-src="img/scert-img1.png" class="lazyload">
+                                                    </picture>
+                                                </div>
+                                                <div class="prodocs__item-text">
+                                                    Официальный
+                                                    дистрибьютор
+                                                    оборудования Pramac
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="prodocs__slider-arrows slider-arrows--first"></div>
+                                        <div class="prodocs__slider-pags slider-pags--first"></div>
+                                    </div>
+                                    <div class="prodpape">
+                                        <div class="prodpape__list">
+                                            <a href="#" class="prodpape__link prodpape__link--acrobat">Руководство
+                                                пользователя</a>
+                                            <a href="#" class="prodpape__link prodpape__link--acrobat">Сертификат
+                                                соответствия</a>
+                                            <a href="#" class="prodpape__link prodpape__link--word">Договор на
+                                                техническое обслуживание</a>
+                                        </div>
+                                        <div class="prodpape__text">
+                                            Паспорта, инструкции по эксплуатации, схемы и другие необходимые документы
+                                            вы
+                                            можете запросить у менеджеров нашей компании.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="prodfits">
+                                    <div class="prodfits__title">
+                                        Эта модель не подходит? <br>
+                                        Посмотрите похожие:
+                                    </div>
+                                    <div class="prodfits__list">
+                                        <a href="#" class="prodfits__link">Генераторы на 2 кВт
+                                        </a>
+                                        <a href="#" class="prodfits__link">Дизельные генераторы 2 кВт</a>
+                                        <a href="#" class="prodfits__link">Генераторы в кожухе</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product__right">
+                                <div class="product__payment">
+                                    <div class="product__payment-left">
+                                        <div class="product__payment-prices">
+                                            <div class="product__payment-now">
+                                                <span>150 079</span> руб.
+                                            </div>
+                                            <div class="product__payment-before">
+                                                180 079 руб.
+                                            </div>
+                                        </div>
+                                        <div class="product__payment-btns product__payment-btns--top">
+                                            <a href="#" class="product__payment-btn btn">
+                                                Купить
+                                            </a>
+                                            <a href="#" class="product__payment-btn btn product__payment-btn--gray">
+                                                Получить скидку
+                                            </a>
+                                        </div>
+                                        <div class="product__payment-sels">
+                                            <div class="product__payment-text">
+                                                Оплата: наличный и безналичный расчет.
+                                                Возможна оплата при получении товара.
+                                            </div>
+                                            <div class="product__payment-img">
+                                                <img src="img/payment-img.png" data-lazy="img/payment-img.png">
+                                            </div>
+                                        </div>
+                                        <a href="#" class="product__payment-calc">
+                                            <img src="img/icons/calc-icon.svg">
+                                            Калькулятор стоимости доставки
+                                        </a>
+                                    </div>
+                                    <div class="product__payment-right">
+                                        <div class="product__payment-btns product__payment-btns--bottom">
+                                            <a href="#" class="product__payment-btn btn">
+                                                Купить
+                                            </a>
+                                            <a href="#" class="product__payment-btn btn product__payment-btn--gray">
+                                                Получить скидку
+                                            </a>
+                                        </div>
+                                        <a href="#" class="product__payment-var">
+                                            Гарантия и возврат
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="prodch">
+                                    <div class="prodch__wrapper">
+                                        <div class="prodch__name">
+                                            Исполнение:
+                                        </div>
+                                        <div class="prodch__box">
+                                            <a href="#" class="prodch__item prodch__item--active">
+                                                Открытое
+                                            </a>
+                                            <a href="#" class="prodch__item">
+                                                В контейнере
+                                            </a>
+                                            <a href="#" class="prodch__item">
+                                                В кожухе
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="prodch__wrapper">
+                                        <div class="prodch__name">
+                                            Степень автоматизации:
+                                        </div>
+                                        <div class="prodch__box">
+                                            <a href="#" class="prodch__item prodch__item--active">
+                                                1 - ручной пуск
+                                            </a>
+                                            <a href="#" class="prodch__item">
+                                                2 - автозапуск
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- produbs -->
+                                <div class="produbs">
+                                    <div class="sort__tabs tabs">
+                                        <div class="sort__tabs-links tabs__links produbs__tabs">
+                                            <span class="sort__tabs-link tabs__link">
+                                                <span>Характеристики</span>
+                                            </span>
+                                            <span class="sort__tabs-link tabs__link">
+                                                <span>Варианты исполнения</span>
+                                            </span>
+                                            <span class="sort__tabs-link tabs__link">
+                                                <span>Отзывы</span>
+                                            </span>
+                                            <span class="sort__tabs-link tabs__link">
+                                                <span>Вопрос-Ответ</span>
+                                            </span>
+                                        </div>
+                                        <div class="sort__tabs-content tabs__content">
+                                            <div
+                                                class="tabs__item sort__item produbs__item sort__spoiler spoiler--fromtabs">
+                                                <div class="sort__item-name sort__spoiler-head spoiler__head--fromtabs">
+                                                    Характеристики
+                                                </div>
+                                                <div
+                                                    class="sort__spoiler-body spoiler__body--fromtabs produbs__spoiler-body">
+                                                    <div class="har__item">
+                                                        <div class="har__item-title">
+                                                            Основные характеристики
+                                                        </div>
+                                                        <div class="har__item-box">
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Мощность номинальная
+                                                                    <div class="picktool">
+                                                                        <div class="picktool__preview">
+                                                                            ?
+                                                                        </div>
+                                                                        <div class="picktool__content">
+                                                                            Контент подсказки
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    <a href="#">6кВт</a> (<a href="#">6кВа</a>)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Мощность максимальная
+                                                                    <div class="picktool">
+                                                                        <div class="picktool__preview">
+                                                                            ?
+                                                                        </div>
+                                                                        <div class="picktool__content">
+                                                                            Контент подсказки
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Напряжение
+                                                                    <div class="picktool">
+                                                                        <div class="picktool__preview">
+                                                                            ?
+                                                                        </div>
+                                                                        <div class="picktool__content">
+                                                                            Контент подсказки
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Исполнение
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Пуск
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Автоматизация
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Модель
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    <a href="#">Mitsui Power ZM 7000 DE-3</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Исполнение
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    <a href="#">в контейнере</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="har__item">
+                                                        <div class="har__item-title">
+                                                            Двигатель
+                                                        </div>
+                                                        <div class="har__item-box">
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Мощность номинальная
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Мощность максимальная
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Напряжение
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Исполнение
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Пуск
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Автоматизация
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Модель
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Исполнение
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="har__item">
+                                                        <div class="har__item-title">
+                                                            Топливная система
+                                                        </div>
+                                                        <div class="har__item-box">
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Мощность номинальная
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Автоматизация
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Модель
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Исполнение
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="har__item">
+                                                        <div class="har__item-title">
+                                                            Генератор
+                                                        </div>
+                                                        <div class="har__item-box">
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Число фаз
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Частота
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Цвет
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                            <div class="har__line">
+                                                                <div class="har__line-left">
+                                                                    Цвет
+                                                                </div>
+                                                                <div class="har__line-right">
+                                                                    6кВт (6кВа)
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="tabs__item sort__item produbs__item sort__spoiler spoiler--fromtabs">
+                                                <div
+                                                    class="sort__item-name sort__spoiler-head spoiler__head--fromtabs slick-init">
+                                                    Варианты исполнения
+                                                </div>
+                                                <div
+                                                    class="sort__spoiler-body spoiler__body--fromtabs produbs__spoiler-body">
+                                                    <div class="produbs__box">
+                                                        <div class="item item--produbs">
+                                                            <div class="item__left">
+                                                                <div class="item__line-art item__line-art--desktop">
+                                                                    артикул 63064
+                                                                </div>
+                                                                <div class="item__banner">
+                                                                    Акция
+                                                                </div>
+                                                                <div class="item__img">
+                                                                    <picture>
+                                                                        <source srcset="img/item-img1.webp"
+                                                                            type="image/webp">
+                                                                        <img data-src="img/item-img1.png"
+                                                                            class="lazyload">
+                                                                    </picture>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item__center">
+                                                                <a href="#" class="item__name">
+                                                                    Бензиновый генератор ТСС SGG 6000 EH3 (новая модель)
+                                                                </a>
+                                                                <ul class="item__char">
+                                                                    <li class="item__char-list">
+                                                                        <span>Исполнение</span>
+                                                                        <p>Открытое</p>
+                                                                    </li>
+                                                                    <li class="item__char-list">
+                                                                        <span>Автоматизация</span>
+                                                                        <p>2-автозапуск</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="item__right">
+                                                                <div class="item__price-old">
+                                                                    <p>180 079 руб.</p>
+                                                                </div>
+                                                                <div class="item__price">
+                                                                    <span>44 165</span> руб.
+                                                                </div>
+                                                                <div class="item__btn-area">
+                                                                    <a href="#" class="item__btn btn">
+                                                                        Купить
+                                                                    </a>
+                                                                </div>
+                                                                <div class="item__line-right">
+                                                                    <a href="#" class="item__line-fav">
+                                                                        <i class="_icon-heart"></i>
+                                                                    </a>
+                                                                    <a href="#" class="item__line-graph">
+                                                                        <i class="_icon-stats"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item item--produbs">
+                                                            <div class="item__left">
+                                                                <div class="item__line-art">
+                                                                    артикул 63064
+                                                                </div>
+                                                                <div class="item__banner">
+                                                                    Акция
+                                                                </div>
+                                                                <div class="item__img">
+                                                                    <picture>
+                                                                        <source srcset="img/item-img1.webp"
+                                                                            type="image/webp">
+                                                                        <img data-src="img/item-img1.png"
+                                                                            class="lazyload">
+                                                                    </picture>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item__center">
+                                                                <a href="#" class="item__name">
+                                                                    Бензиновый генератор ТСС SGG 6000 EH3 (новая модель)
+                                                                </a>
+                                                                <ul class="item__char">
+                                                                    <li class="item__char-list">
+                                                                        <span>Исполнение</span>
+                                                                        <p>Открытое</p>
+                                                                    </li>
+                                                                    <li class="item__char-list">
+                                                                        <span>Автоматизация</span>
+                                                                        <p>2-автозапуск</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="item__right">
+                                                                <div class="item__price-old">
+                                                                    <p>180 079 руб.</p>
+                                                                </div>
+                                                                <div class="item__price">
+                                                                    <span>44 165</span> руб.
+                                                                </div>
+                                                                <div class="item__btn-area">
+                                                                    <a href="#" class="item__btn btn">
+                                                                        Купить
+                                                                    </a>
+                                                                </div>
+                                                                <div class="item__line-right">
+                                                                    <a href="#" class="item__line-fav">
+                                                                        <i class="_icon-heart"></i>
+                                                                    </a>
+                                                                    <a href="#" class="item__line-graph">
+                                                                        <i class="_icon-stats"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item item--produbs">
+                                                            <div class="item__left">
+                                                                <div class="item__line-art">
+                                                                    артикул 63064
+                                                                </div>
+                                                                <div class="item__banner">
+                                                                    Акция
+                                                                </div>
+                                                                <div class="item__img">
+                                                                    <picture>
+                                                                        <source srcset="img/item-img1.webp"
+                                                                            type="image/webp">
+                                                                        <img data-src="img/item-img1.png"
+                                                                            class="lazyload">
+                                                                    </picture>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item__center">
+                                                                <a href="#" class="item__name">
+                                                                    Бензиновый генератор ТСС SGG 6000 EH3 (новая модель)
+                                                                </a>
+                                                                <ul class="item__char">
+                                                                    <li class="item__char-list">
+                                                                        <span>Исполнение</span>
+                                                                        <p>Открытое</p>
+                                                                    </li>
+                                                                    <li class="item__char-list">
+                                                                        <span>Автоматизация</span>
+                                                                        <p>2-автозапуск</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="item__right">
+                                                                <div class="item__price-old">
+                                                                    <p>180 079 руб.</p>
+                                                                </div>
+                                                                <div class="item__price">
+                                                                    <span>44 165</span> руб.
+                                                                </div>
+                                                                <div class="item__btn-area">
+                                                                    <a href="#" class="item__btn btn">
+                                                                        Купить
+                                                                    </a>
+                                                                </div>
+                                                                <div class="item__line-right">
+                                                                    <a href="#" class="item__line-fav">
+                                                                        <i class="_icon-heart"></i>
+                                                                    </a>
+                                                                    <a href="#" class="item__line-graph">
+                                                                        <i class="_icon-stats"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item item--produbs">
+                                                            <div class="item__left">
+                                                                <div class="item__line-art">
+                                                                    артикул 63064
+                                                                </div>
+                                                                <div class="item__banner">
+                                                                    Акция
+                                                                </div>
+                                                                <div class="item__img">
+                                                                    <picture>
+                                                                        <source srcset="img/item-img1.webp"
+                                                                            type="image/webp">
+                                                                        <img data-src="img/item-img1.png"
+                                                                            class="lazyload">
+                                                                    </picture>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item__center">
+                                                                <a href="#" class="item__name">
+                                                                    Бензиновый генератор ТСС SGG 6000 EH3 (новая модель)
+                                                                </a>
+                                                                <ul class="item__char">
+                                                                    <li class="item__char-list">
+                                                                        <span>Исполнение</span>
+                                                                        <p>Открытое</p>
+                                                                    </li>
+                                                                    <li class="item__char-list">
+                                                                        <span>Автоматизация</span>
+                                                                        <p>2-автозапуск</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="item__right">
+                                                                <div class="item__price-old">
+                                                                    <p>180 079 руб.</p>
+                                                                </div>
+                                                                <div class="item__price">
+                                                                    <span>44 165</span> руб.
+                                                                </div>
+                                                                <div class="item__btn-area">
+                                                                    <a href="#" class="item__btn btn">
+                                                                        Купить
+                                                                    </a>
+                                                                </div>
+                                                                <div class="item__line-right">
+                                                                    <a href="#" class="item__line-fav">
+                                                                        <i class="_icon-heart"></i>
+                                                                    </a>
+                                                                    <a href="#" class="item__line-graph">
+                                                                        <i class="_icon-stats"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item item--produbs">
+                                                            <div class="item__left">
+                                                                <div class="item__line-art">
+                                                                    артикул 63064
+                                                                </div>
+                                                                <div class="item__banner">
+                                                                    Акция
+                                                                </div>
+                                                                <div class="item__img">
+                                                                    <picture>
+                                                                        <source srcset="img/item-img1.webp"
+                                                                            type="image/webp">
+                                                                        <img data-src="img/item-img1.png"
+                                                                            class="lazyload">
+                                                                    </picture>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item__center">
+                                                                <a href="#" class="item__name">
+                                                                    Бензиновый генератор ТСС SGG 6000 EH3 (новая модель)
+                                                                </a>
+                                                                <ul class="item__char">
+                                                                    <li class="item__char-list">
+                                                                        <span>Исполнение</span>
+                                                                        <p>Открытое</p>
+                                                                    </li>
+                                                                    <li class="item__char-list">
+                                                                        <span>Автоматизация</span>
+                                                                        <p>2-автозапуск</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="item__right">
+                                                                <div class="item__price-old">
+                                                                    <p>180 079 руб.</p>
+                                                                </div>
+                                                                <div class="item__price">
+                                                                    <span>44 165</span> руб.
+                                                                </div>
+                                                                <div class="item__btn-area">
+                                                                    <a href="#" class="item__btn btn">
+                                                                        Купить
+                                                                    </a>
+                                                                </div>
+                                                                <div class="item__line-right">
+                                                                    <a href="#" class="item__line-fav">
+                                                                        <i class="_icon-heart"></i>
+                                                                    </a>
+                                                                    <a href="#" class="item__line-graph">
+                                                                        <i class="_icon-stats"></i>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="produbs__box-pags slider-pags--first msslider--active">
+                                                    </div>
+                                                    <div
+                                                        class="produbs__box-arrows slider__arrows--first msslider--active">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tabs__item sort__item sort__spoiler spoiler--fromtabs">
+                                                <div class="sort__item-name sort__spoiler-head spoiler__head--fromtabs">
+                                                    Отзывы
+                                                </div>
+                                                <div
+                                                    class="sort__box sort__spoiler-body spoiler__body--fromtabs produbs__spoiler-body">
+                                                    <div class="prodcomment__box">
+                                                        1
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tabs__item sort__item sort__spoiler spoiler--fromtabs">
+                                                <div class="sort__item-name sort__spoiler-head spoiler__head--fromtabs">
+                                                    Вопрос-Ответ
+                                                </div>
+                                                <div
+                                                    class="sort__box sort__spoiler-body spoiler__body--fromtabs produbs__spoiler-body">
+                                                    <div class="prodqa__box">
+                                                        2
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- mobile tabs area -->
+                    <div class="mobile-tabs-area"></div>
+                    <div class="product-mobile-sidebar"></div>
+                    <!-- prodtext -->
+                    <div class="prodtext">
+                        <div class="prodtext__title">
+                            Описание
+                        </div>
+                        <div class="prodtext__text">
+                            <p>
+                                Трёхфазный газовый генератор Aksa APG 1100 с выходной мощностью 880 кВт предназначена
+                                для запасного или основного энергоснабжения объектов различного назначения. Генерирует
+                                переменный электрический ток с напряжением 400/230 В. Поставляется с генератором Mecc
+                                Alte. Устанавливается внутри специально оборудованного помещения.
+                            </p>
+                            <p>
+                                В основе оборудования расположен низкооборотный двигатель PSI53L со скоростью вращения
+                                1500 об/мин, который выдерживает длительную безостановочную работу. Потребление горючего
+                                при полной нагрузке ‒ 185 литров в час.
+                            </p>
+                            <p>
+                                Преимущества: генераторная установка управляется при помощи функциональной цифровой
+                                панели . Оборудована автоматической защитой от перегрузки.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- analog -->
+                    <div class="analog">
+                        <div class="container--in">
+                            <h2 class="analog__title">
+                                Аналоги
+                            </h2>
+                            <div class="catalog__top catalog__top--analog">
+                                <div class="catalog__top-first"></div>
+                                <div class="catalog__top-name catalog__top-item">
+                                    Название модели
+                                </div>
+                                <div class="catalog__top-fuel catalog__top-item">
+                                    Топливо
+                                </div>
+                                <div class="catalog__top-power catalog__top-item">
+                                    Мощность
+                                </div>
+                                <div class="catalog__top-checks">
+                                    <div class="catalog__top-do catalog__top-item">
+                                        Исполнение
+                                    </div>
+                                    <div class="catalog__top-auto catalog__top-item">
+                                        Автоматизация
+                                    </div>
+                                </div>
+                                <div class="catalog__top-price catalog__top-item">
+                                    Цена
+                                </div>
+                            </div>
+                            <div class="analog__box">
+                                <div class="item catalog__item item--list">
+                                    <div class="item__top item__col">
+                                        <div class="item__line-art item__line-art--list ">
+                                            артикул 63064
+                                        </div>
+                                        <div class="item__banner">
+                                            Акция
+                                        </div>
+                                        <div class="item__img">
+                                            <picture>
+                                                <source srcset="img/item-img1.webp" type="image/webp">
+                                                <img data-src="img/item-img1.png" class="lazyload">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="item__col item__fuel">
+                                        Газ
+                                    </div>
+                                    <div class="item__col item__power">
+                                        2 кВт
+                                    </div>
+                                    <div class="item__col item__line">
+                                        <div class="item__line-art item__line-art--tile">
+                                            артикул 63064
+                                        </div>
+                                        <div class="item__line-right item__line--right--tile">
+                                            <a href="#" class="item__line-fav">
+                                                <i class="_icon-heart"></i>
+                                            </a>
+                                            <a href="#" class="item__line-graph">
+                                                <i class="_icon-stats"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="item__col item__name item__name--tile">
+                                        Дизельный генератор Mitsui Power ZM 7000 DE-3 в контейнере с АВР
+                                    </a>
+                                    <div class="item__col item__price item__price--tile">
+                                        <div class="item__price-new">
+                                            <span>44 165</span> руб.
+                                        </div>
+                                    </div>
+                                    <ul class="item__col item__char">
+                                        <a href="#" class="item__name item__name--list">
+                                            Дизельный генератор Mitsui Power ZM 7000 DE-3 в контейнере с АВР
+                                        </a>
+                                        <li class="item__char-list item__char-fuel">
+                                            <span>Топливо </span>
+                                            <p>Дизель</p>
+                                        </li>
+                                        <li class="item__char-list item__char-power">
+                                            <span>Мощность </span>
+                                            <p>6 кВт</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Напряжение </span>
+                                            <p>230 В</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Двигатель </span>
+                                            <p>TSS</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Страна </span>
+                                            <p>Китай</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Гарантия </span>
+                                            <p>2 года</p>
+                                        </li>
+                                    </ul>
+                                    <div class="item__col item__checks">
+                                        <span>Открытое</span>
+                                        <span>1 - ручной пуск</span>
+                                    </div>
+                                    <div class="item__col item__btn-area">
+                                        <div class="item__price item__price--list">
+                                            <div class="item__price-old">
+                                                <p>180 079 руб.</p>
+                                            </div>
+                                            <div class="item__price-new">
+                                                <span>44 165</span> руб.
+                                            </div>
+                                        </div>
+                                        <a href="#" class="item__btn btn">
+                                            Купить
+                                        </a>
+                                        <div class="item__line-right item__line--right--list">
+                                            <a href="#" class="item__line-fav">
+                                                <i class="_icon-heart"></i>
+                                            </a>
+                                            <a href="#" class="item__line-graph">
+                                                <i class="_icon-stats"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item catalog__item item--list">
+                                    <div class="item__top item__col">
+                                        <div class="item__line-art item__line-art--list">
+                                            артикул 63064
+                                        </div>
+                                        <div class="item__banner">
+                                            Акция
+                                        </div>
+                                        <div class="item__img">
+                                            <picture>
+                                                <source srcset="img/item-img1.webp" type="image/webp">
+                                                <img data-src="img/item-img1.png" class="lazyload">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="item__col item__fuel">
+                                        Газ
+                                    </div>
+                                    <div class="item__col item__power">
+                                        2 кВт
+                                    </div>
+                                    <div class="item__col item__line">
+                                        <div class="item__line-art item__line-art--tile">
+                                            артикул 63064
+                                        </div>
+                                        <div class="item__line-right item__line--right--tile">
+                                            <a href="#" class="item__line-fav">
+                                                <i class="_icon-heart"></i>
+                                            </a>
+                                            <a href="#" class="item__line-graph">
+                                                <i class="_icon-stats"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="item__col item__name item__name--tile">
+                                        Дизельный генератор Mitsui Power ZM 7000 DE-3 в контейнере с АВР
+                                    </a>
+                                    <div class="item__col item__price item__price--tile">
+                                        <div class="item__price-new">
+                                            <span>44 165</span> руб.
+                                        </div>
+                                    </div>
+                                    <ul class="item__col item__char">
+                                        <a href="#" class="item__name item__name--list">
+                                            Дизельный генератор Mitsui Power ZM 7000 DE-3 в контейнере с АВР
+                                        </a>
+                                        <li class="item__char-list item__char-fuel">
+                                            <span>Топливо </span>
+                                            <p>Дизель</p>
+                                        </li>
+                                        <li class="item__char-list item__char-power">
+                                            <span>Мощность </span>
+                                            <p>6 кВт</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Напряжение </span>
+                                            <p>230 В</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Двигатель </span>
+                                            <p>TSS</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Страна </span>
+                                            <p>Китай</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Гарантия </span>
+                                            <p>2 года</p>
+                                        </li>
+                                    </ul>
+                                    <div class="item__col item__checks">
+                                        <span>Открытое</span>
+                                        <span>1 - ручной пуск</span>
+                                    </div>
+                                    <div class="item__col item__btn-area">
+                                        <div class="item__price item__price--list">
+                                            <div class="item__price-old">
+                                                <p>180 079 руб.</p>
+                                            </div>
+                                            <div class="item__price-new">
+                                                <span>44 165</span> руб.
+                                            </div>
+                                        </div>
+                                        <a href="#" class="item__btn btn">
+                                            Купить
+                                        </a>
+                                        <div class="item__line-right item__line--right--list">
+                                            <a href="#" class="item__line-fav">
+                                                <i class="_icon-heart"></i>
+                                            </a>
+                                            <a href="#" class="item__line-graph">
+                                                <i class="_icon-stats"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item catalog__item item--list">
+                                    <div class="item__top item__col">
+                                        <div class="item__line-art item__line-art--list">
+                                            артикул 63064
+                                        </div>
+                                        <div class="item__banner">
+                                            Акция
+                                        </div>
+                                        <div class="item__img">
+                                            <picture>
+                                                <source srcset="img/item-img1.webp" type="image/webp">
+                                                <img data-src="img/item-img1.png" class="lazyload">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="item__col item__fuel">
+                                        Газ
+                                    </div>
+                                    <div class="item__col item__power">
+                                        2 кВт
+                                    </div>
+                                    <div class="item__col item__line">
+                                        <div class="item__line-art item__line-art--tile">
+                                            артикул 63064
+                                        </div>
+                                        <div class="item__line-right item__line--right--tile">
+                                            <a href="#" class="item__line-fav">
+                                                <i class="_icon-heart"></i>
+                                            </a>
+                                            <a href="#" class="item__line-graph">
+                                                <i class="_icon-stats"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="item__col item__name item__name--tile">
+                                        Дизельный генератор Mitsui Power ZM 7000 DE-3 в контейнере с АВР
+                                    </a>
+                                    <div class="item__col item__price item__price--tile">
+                                        <div class="item__price-new">
+                                            <span>44 165</span> руб.
+                                        </div>
+                                    </div>
+                                    <ul class="item__col item__char">
+                                        <a href="#" class="item__name item__name--list">
+                                            Дизельный генератор Mitsui Power ZM 7000 DE-3 в контейнере с АВР
+                                        </a>
+                                        <li class="item__char-list item__char-fuel">
+                                            <span>Топливо </span>
+                                            <p>Дизель</p>
+                                        </li>
+                                        <li class="item__char-list item__char-power">
+                                            <span>Мощность </span>
+                                            <p>6 кВт</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Напряжение </span>
+                                            <p>230 В</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Двигатель </span>
+                                            <p>TSS</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Страна </span>
+                                            <p>Китай</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Гарантия </span>
+                                            <p>2 года</p>
+                                        </li>
+                                    </ul>
+                                    <div class="item__col item__checks">
+                                        <span>Открытое</span>
+                                        <span>1 - ручной пуск</span>
+                                    </div>
+                                    <div class="item__col item__btn-area">
+                                        <div class="item__price item__price--list">
+                                            <div class="item__price-old">
+                                                <p>180 079 руб.</p>
+                                            </div>
+                                            <div class="item__price-new">
+                                                <span>44 165</span> руб.
+                                            </div>
+                                        </div>
+                                        <a href="#" class="item__btn btn">
+                                            Купить
+                                        </a>
+                                        <div class="item__line-right item__line--right--list">
+                                            <a href="#" class="item__line-fav">
+                                                <i class="_icon-heart"></i>
+                                            </a>
+                                            <a href="#" class="item__line-graph">
+                                                <i class="_icon-stats"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item catalog__item item--list">
+                                    <div class="item__top item__col">
+                                        <div class="item__line-art item__line-art--list">
+                                            артикул 63064
+                                        </div>
+                                        <div class="item__banner">
+                                            Акция
+                                        </div>
+                                        <div class="item__img">
+                                            <picture>
+                                                <source srcset="img/item-img1.webp" type="image/webp">
+                                                <img data-src="img/item-img1.png" class="lazyload">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="item__col item__fuel">
+                                        Газ
+                                    </div>
+                                    <div class="item__col item__power">
+                                        2 кВт
+                                    </div>
+                                    <div class="item__col item__line">
+                                        <div class="item__line-art item__line-art--tile">
+                                            артикул 63064
+                                        </div>
+                                        <div class="item__line-right item__line--right--tile">
+                                            <a href="#" class="item__line-fav">
+                                                <i class="_icon-heart"></i>
+                                            </a>
+                                            <a href="#" class="item__line-graph">
+                                                <i class="_icon-stats"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="item__col item__name item__name--tile">
+                                        Дизельный генератор Mitsui Power ZM 7000 DE-3 в контейнере с АВР
+                                    </a>
+                                    <div class="item__col item__price item__price--tile">
+                                        <div class="item__price-new">
+                                            <span>44 165</span> руб.
+                                        </div>
+                                    </div>
+                                    <ul class="item__col item__char">
+                                        <a href="#" class="item__name item__name--list">
+                                            Дизельный генератор Mitsui Power ZM 7000 DE-3 в контейнере с АВР
+                                        </a>
+                                        <li class="item__char-list item__char-fuel">
+                                            <span>Топливо </span>
+                                            <p>Дизель</p>
+                                        </li>
+                                        <li class="item__char-list item__char-power">
+                                            <span>Мощность </span>
+                                            <p>6 кВт</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Напряжение </span>
+                                            <p>230 В</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Двигатель </span>
+                                            <p>TSS</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Страна </span>
+                                            <p>Китай</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Гарантия </span>
+                                            <p>2 года</p>
+                                        </li>
+                                    </ul>
+                                    <div class="item__col item__checks">
+                                        <span>Открытое</span>
+                                        <span>1 - ручной пуск</span>
+                                    </div>
+                                    <div class="item__col item__btn-area">
+                                        <div class="item__price item__price--list">
+                                            <div class="item__price-old">
+                                                <p>180 079 руб.</p>
+                                            </div>
+                                            <div class="item__price-new">
+                                                <span>44 165</span> руб.
+                                            </div>
+                                        </div>
+                                        <a href="#" class="item__btn btn">
+                                            Купить
+                                        </a>
+                                        <div class="item__line-right item__line--right--list">
+                                            <a href="#" class="item__line-fav">
+                                                <i class="_icon-heart"></i>
+                                            </a>
+                                            <a href="#" class="item__line-graph">
+                                                <i class="_icon-stats"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item catalog__item item--list">
+                                    <div class="item__top item__col">
+                                        <div class="item__line-art item__line-art--list">
+                                            артикул 63064
+                                        </div>
+                                        <div class="item__banner">
+                                            Акция
+                                        </div>
+                                        <div class="item__img">
+                                            <picture>
+                                                <source srcset="img/item-img1.webp" type="image/webp">
+                                                <img data-src="img/item-img1.png" class="lazyload">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="item__col item__fuel">
+                                        Газ
+                                    </div>
+                                    <div class="item__col item__power">
+                                        2 кВт
+                                    </div>
+                                    <div class="item__col item__line">
+                                        <div class="item__line-art item__line-art--tile">
+                                            артикул 63064
+                                        </div>
+                                        <div class="item__line-right item__line--right--tile">
+                                            <a href="#" class="item__line-fav">
+                                                <i class="_icon-heart"></i>
+                                            </a>
+                                            <a href="#" class="item__line-graph">
+                                                <i class="_icon-stats"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="item__col item__name item__name--tile">
+                                        Дизельный генератор Mitsui Power ZM 7000 DE-3 в контейнере с АВР
+                                    </a>
+                                    <div class="item__col item__price item__price--tile">
+                                        <div class="item__price-new">
+                                            <span>44 165</span> руб.
+                                        </div>
+                                    </div>
+                                    <ul class="item__col item__char">
+                                        <a href="#" class="item__name item__name--list">
+                                            Дизельный генератор Mitsui Power ZM 7000 DE-3 в контейнере с АВР
+                                        </a>
+                                        <li class="item__char-list item__char-fuel">
+                                            <span>Топливо </span>
+                                            <p>Дизель</p>
+                                        </li>
+                                        <li class="item__char-list item__char-power">
+                                            <span>Мощность </span>
+                                            <p>6 кВт</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Напряжение </span>
+                                            <p>230 В</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Двигатель </span>
+                                            <p>TSS</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Страна </span>
+                                            <p>Китай</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Гарантия </span>
+                                            <p>2 года</p>
+                                        </li>
+                                    </ul>
+                                    <div class="item__col item__checks">
+                                        <span>Открытое</span>
+                                        <span>1 - ручной пуск</span>
+                                    </div>
+                                    <div class="item__col item__btn-area">
+                                        <div class="item__price item__price--list">
+                                            <div class="item__price-old">
+                                                <p>180 079 руб.</p>
+                                            </div>
+                                            <div class="item__price-new">
+                                                <span>44 165</span> руб.
+                                            </div>
+                                        </div>
+                                        <a href="#" class="item__btn btn">
+                                            Купить
+                                        </a>
+                                        <div class="item__line-right item__line--right--list">
+                                            <a href="#" class="item__line-fav">
+                                                <i class="_icon-heart"></i>
+                                            </a>
+                                            <a href="#" class="item__line-graph">
+                                                <i class="_icon-stats"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item catalog__item item--list">
+                                    <div class="item__top item__col">
+                                        <div class="item__line-art item__line-art--list">
+                                            артикул 63064
+                                        </div>
+                                        <div class="item__banner">
+                                            Акция
+                                        </div>
+                                        <div class="item__img">
+                                            <picture>
+                                                <source srcset="img/item-img1.webp" type="image/webp">
+                                                <img data-src="img/item-img1.png" class="lazyload">
+                                            </picture>
+                                        </div>
+                                    </div>
+                                    <div class="item__col item__fuel">
+                                        Газ
+                                    </div>
+                                    <div class="item__col item__power">
+                                        2 кВт
+                                    </div>
+                                    <div class="item__col item__line">
+                                        <div class="item__line-art item__line-art--tile">
+                                            артикул 63064
+                                        </div>
+                                        <div class="item__line-right item__line--right--tile">
+                                            <a href="#" class="item__line-fav">
+                                                <i class="_icon-heart"></i>
+                                            </a>
+                                            <a href="#" class="item__line-graph">
+                                                <i class="_icon-stats"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="item__col item__name item__name--tile">
+                                        Дизельный генератор Mitsui Power ZM 7000 DE-3 в контейнере с АВР
+                                    </a>
+                                    <div class="item__col item__price item__price--tile">
+                                        <div class="item__price-new">
+                                            <span>44 165</span> руб.
+                                        </div>
+                                    </div>
+                                    <ul class="item__col item__char">
+                                        <a href="#" class="item__name item__name--list">
+                                            Дизельный генератор Mitsui Power ZM 7000 DE-3 в контейнере с АВР
+                                        </a>
+                                        <li class="item__char-list item__char-fuel">
+                                            <span>Топливо </span>
+                                            <p>Дизель</p>
+                                        </li>
+                                        <li class="item__char-list item__char-power">
+                                            <span>Мощность </span>
+                                            <p>6 кВт</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Напряжение </span>
+                                            <p>230 В</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Двигатель </span>
+                                            <p>TSS</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Страна </span>
+                                            <p>Китай</p>
+                                        </li>
+                                        <li class="item__char-list">
+                                            <span>Гарантия </span>
+                                            <p>2 года</p>
+                                        </li>
+                                    </ul>
+                                    <div class="item__col item__checks">
+                                        <span>Открытое</span>
+                                        <span>1 - ручной пуск</span>
+                                    </div>
+                                    <div class="item__col item__btn-area">
+                                        <div class="item__price item__price--list">
+                                            <div class="item__price-old">
+                                                <p>180 079 руб.</p>
+                                            </div>
+                                            <div class="item__price-new">
+                                                <span>44 165</span> руб.
+                                            </div>
+                                        </div>
+                                        <a href="#" class="item__btn btn">
+                                            Купить
+                                        </a>
+                                        <div class="item__line-right item__line--right--list">
+                                            <a href="#" class="item__line-fav">
+                                                <i class="_icon-heart"></i>
+                                            </a>
+                                            <a href="#" class="item__line-graph">
+                                                <i class="_icon-stats"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="analog__box-arrows slider-arrows--fluid"></div>
+                            <div class="analog__box-pags slider-pags--first"></div>
+                        </div>
+                        <div class="analog__more">
+                            <a href="#" class="analog__btn">
+                                Показать все аналоги
+                            </a>
+                        </div>
+                    </div>
+                    <!-- adv section -->
+                    <div class="adv adv--prod">
+                        <div class="container--inner">
+                            <div class="adv__top title-area">
+                                <h1 class="adv__title title--small">
+                                    Преимущества работы с нами
+                                </h1>
+                                <a href="#" class="adv__subtitle title-area__all">
+                                    о компании »
+                                </a>
+                            </div>
+                            <div class="adv__box">
+                                <div class="adv__item">
+                                    <div class="adv__item-icon">
+                                        <img src="img/adv-icon1.svg">
+                                    </div>
+                                    <div class="adv__item-content">
+                                        <div class="adv__item-name">
+                                            Профессионализм сотрудников
+                                        </div>
+                                        <p class="adv__item-text">
+                                            Каждый из 30 инженеров обладает опытом в отрасли более 10 лет, необходимыми
+                                            сертификатами и допусками, проходит обязательную ежегодную переаттестацию.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="adv__item">
+                                    <div class="adv__item-icon">
+                                        <img src="img/adv-icon2.svg">
+                                    </div>
+                                    <div class="adv__item-content">
+                                        <div class="adv__item-name">
+                                            Любая сложность проектов
+                                        </div>
+                                        <p class="adv__item-text">
+                                            На сегодняшний день наш опыт позволяет эффективно решать задачи клиента
+                                            любой степени сложности с полной ответственностью за конечный результат.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="adv__item">
+                                    <div class="adv__item-icon">
+                                        <img src="img/adv-icon3.svg">
+                                    </div>
+                                    <div class="adv__item-content">
+                                        <div class="adv__item-name">
+                                            Сервисная поддержка
+                                        </div>
+                                        <p class="adv__item-text">
+                                            Гарантия на оборудование и проводимые работы. Сопровождение клиента по любым
+                                            вопросам на всем цикле реализованных объектов.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="adv__map">
+                                <picture>
+                                    <source srcset="img/map-img.webp" type="image/webp">
+                                    <img data-src="img/map-img.png" class="lazyload">
+                                </picture>
+                                <div class="adv__map-text">
+                                    Работаем по всей России
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__col footer__col--first">
+                    <div class="call">
+                        <span class="call__name">Бесплатный звонок по России </span>
+                        <a class="call__phone call__phone--second" href="tel:88005550602">8 (800) 555-06-02 </a>
+                        <a href="#getcall" class="call__btn btn popup-link">
+                            Заказать звонок
+                        </a>
+                        <div class="call__socials socials">
+                            <a href="#" class="socials__item">
+                                <img src="img/whatsapp.svg">
+                            </a>
+                            <a href="#" class="socials__item">
+                                <img src="img/viber.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__col footer__col--second">
+                    <div class="loc">
+                        <div class="loc__your loc__your--second">
+                            <span>Ваш город:</span>
+                            <a href="#">Москва</a>
+                        </div>
+                        <div class="loc__your-address loc__your-address--second">
+                            <p> г. Москва, Каширское шоссе, д. 22, к. 3, офис 1014</p>
+                        </div>
+                        <div class="loc__your-mail--second">
+                            <a href="mailto:1@profpower.ru" class="loc__your-mail">
+                                1@profpower.ru
+                            </a>
+                        </div>
+                        <div class="loc__phone">
+                            <a href="tel:74957801025" class="">
+                                +7 (495) 780-10-25
+                            </a>
+                            <a href="tel:74952253292" class="">
+                                +7 (495) 225-32-92
+                            </a>
+                        </div>
+                        <div class="hinfo">
+                            <div class="hinfo__work">
+                                Пн-Пт c 9:00 до 19:00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__col footer__col--third">
+                    <div class="footer__menu">
+                        <ul class="footer__menu-box">
+                            <li class="footer_list"><a href="#" class="footer_link">Дизельные генераторы</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Газовые генераторы</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Бензиновые генераторы</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Сварочные генераторы</a></li>
+                        </ul>
+                        <ul class="footer__menu-box">
+                            <li class="footer_list"><a href="#" class="footer_link">Услуги</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Доставка и оплата</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Гарантия и возврат</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Как выбрать?</a></li>
+                        </ul>
+                        <ul class="footer__menu-box">
+                            <li class="footer_list"><a href="#" class="footer_link">О компании</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Контакты</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Отзывы (???)</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Пользовательское соглашение</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__last">
+                <div class="footer__last-roots">
+                    ООО «ПрофЭнергоРезерв» © 2007-2021 Все права защищены. <br>Представленная на сайте информация не
+                    является офертой и носит информационный характер
+                </div>
+                <a href="#" class="footer__last-map">
+                    Карта сайта
+                </a>
+                <div class="footer__right">
+                    <a href="#" class="footer__arrow">
+                        <img src="img/icons/footer-arrow.png">
+                    </a>
+                    <a href="#" class="footer__yandex">
+                        <img src="img/icons/yandex-icon.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- popup -->
+    <div class="hidden">
+        <div class="popup getcall" id="getcall">
+            <div class="getcall__wrapper">
+                <div class="popup__title">
+                    Заказать звонок
+                </div>
+                <div class="popup__field">
+                    <input type="text" class="popup__input input" placeholder="Ваше Имя">
+                </div>
+                <div class="popup__field">
+                    <input type="text" class="popup__input input" placeholder="Телефон">
+                </div>
+                <div class="popup__accept">
+                    <label class="checkbox">
+                        <input type="checkbox">
+                        <div class="checkbox__content">
+                            Я согласен на обработку персональных данных
+                        </div>
+                    </label>
+                </div>
+                <div class="popup__btn-area">
+                    <button class="popup__btn btn">
+                        Отправить
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Slick slider JS -->
+    <script async src="libs/slick-slider/slick.min.js"></script>
+    <!-- Magnific Popup JS -->
+    <script async src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Custom Scroll -->
+    <script async src="libs/fakescroll/fakescroll.min.js"></script>
+    <!-- Базовые скрипты javascript -->
+    <script async src="js/scripts.js"></script>
+    <script async src="js/product.js"></script>
+    <script async src="js/lazysizes.min.js"></script>
+</body>
+
+</html>
