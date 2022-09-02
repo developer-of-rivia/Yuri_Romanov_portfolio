@@ -3006,11 +3006,17 @@ img {
   padding-bottom: 20px;
   border-bottom: 1px solid #dde3e3;
   margin-top: -40px;
+  position: relative;
+  z-index: 99999;
 }
 
 .product__inter-link {
   color: #229781;
   font-size: 14px;
+}
+
+.product__inter-link:hover {
+  text-decoration: underline;
 }
 
 .product__showcase {
