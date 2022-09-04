@@ -491,7 +491,9 @@ header {
 /* main-section */
 .main-section {
   height: 1400px;
-  background: url(../img/basic-bg.png) no-repeat center center;
+  background-image: url(../img/basic-bg.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
   padding-top: 190px;
   margin-top: -47px;
   position: relative;
