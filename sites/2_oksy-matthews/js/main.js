@@ -46,22 +46,4 @@ $(document).ready(function () {
 			$(this).children('.spoiler-body').fadeIn(500);
 		}
 	});
-	// lazy map
-	YaMapsShown = false;
-	$(document).ready(function () {
-		$(window).scroll(function () {
-			if (!YaMapsShown) {
-				if ($(window).scrollTop() + $(window).height() > $(document).height() - 700) {
-					showYaMaps();
-					YaMapsShown = true;
-				}
-			}
-		});
-	});
-	function showYaMaps() {
-		var script = document.createElement("script");
-		script.type = "text/javascript";
-		script.src = "http://api-maps.yandex.ru/services/constructor/1.0/js/?sid=iaFxi9Mln1MO3U5voKWd_CC9HX1G5YO6&width=320&height=250";
-		document.getElementByClassName("contacts-map").appendChild(script);
-	}
 });
