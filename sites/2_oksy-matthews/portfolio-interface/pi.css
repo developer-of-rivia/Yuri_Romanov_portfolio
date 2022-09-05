@@ -82,8 +82,8 @@
     align-items: center;
     position: fixed;
     z-index: 99999;
-    background: url(table-bg.jpg);
-    right: 0;
+    background-image: url(table-bg.jpg);
+    right: -200vw;
     top: 0;
     transition: 0.4s;
     transform: scale(0);
@@ -91,12 +91,15 @@
 
 .yudevices--active.yudevices {
     transform: scale(1);
+    right: 0;
 }
 
 .yudevices__phone {
     width: 450px;
     height: 950px;
-    background: url(iphone.svg) no-repeat center center;
+    background-image: url(iphone.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 145px;

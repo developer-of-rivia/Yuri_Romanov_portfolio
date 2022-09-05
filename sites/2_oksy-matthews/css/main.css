@@ -499,6 +499,15 @@ header {
   position: relative;
 }
 
+.main__background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  max-width: auto;
+  object-fit: fill;
+}
+
 .main-title {
   text-align: left;
 }

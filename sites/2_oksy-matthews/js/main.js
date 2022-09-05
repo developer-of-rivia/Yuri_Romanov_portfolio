@@ -46,4 +46,27 @@ $(document).ready(function () {
 			$(this).children('.spoiler-body').fadeIn(500);
 		}
 	});
+	/*
+	$(function () {
+		if (navigator.userAgent.indexOf('Safari') != -1 &&
+			navigator.userAgent.indexOf('Chrome') == -1) {
+			$("body").addClass("safari");
+		}
+	});*/
+
+	function ThisIsWebP() {
+		var def = $.Deferred(), crimg = new Image();
+		crimg.onload = function () { def.resolve(); };
+		crimg.onerror = function () { def.reject(); };
+		crimg.src = "https://simpl.info/webp/cherry.webp";
+		return def.promise();
+	}
+
+	ThisIsWebP().then(function () {
+		//Есть поддержка webp
+		console.log('есть');
+	}, function () {
+		//Нет поддержки webp
+		console.log('net');
+	});
 });
