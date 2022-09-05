@@ -2,30 +2,22 @@
 <html lang="en">
 
 <head>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="favicon.svg">
 	<title>Gymnastics by Oksy Mathews - центр художественной гимнастики для детей</title>
-	<!-- Slick slider CDN -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+	<!-- Slick slider -->
+	<link rel="stylesheet" href="libs/slick-slider/slick.css">
 	<!-- Magnific Popup CSS -->
 	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css">
-	<!-- Google Fonts Manrope -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
-		rel="stylesheet">
 	<!-- Animate CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="stylesheet" href="css/animate.min.css" />
 	<!-- Базовые стили CSS -->
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="portfolio-interface/pi.css">
 </head>
 
-<body class="main-body">
+<body class="main-body webp-support">
 	<!-- header -->
 	<header>
 		<div class="container">
@@ -69,11 +61,11 @@
 				</div>
 				<div class="header-burger">
 					<picture>
-						<source srcset="img/burger-btn.webp" type="image/webp">
+						<source data-srcset="img/burger-btn.webp" type="image/webp">
 						<img data-src="img/burger-btn.png" class="bb1 lazyload">
 					</picture>
 					<picture>
-						<source srcset="img/burger-btn2.webp" type="image/webp">
+						<source data-srcset="img/burger-btn2.webp" type="image/webp">
 						<img data-src="img/burger-btn2.png" class="bb2 lazyload">
 					</picture>
 				</div>
@@ -85,7 +77,7 @@
 		<div class="container">
 			<div class="main-girl">
 				<picture>
-					<source srcset="img/girl-img.webp" type="image/webp">
+					<source data-srcset="img/girl-img.webp" type="image/webp">
 					<img data-src="img/girl-img.png" class="lazyload">
 				</picture>
 			</div>
@@ -106,7 +98,7 @@
 				<div class="club-left">
 					<div class="club-img animate__pulse wow animate__animated">
 						<picture>
-							<source srcset="img/club-img.webp" type="image/webp">
+							<source data-srcset="img/club-img.webp" type="image/webp">
 							<img data-src="img/club-img.png" class="lazyload">
 						</picture>
 					</div>
@@ -131,19 +123,19 @@
 		</div>
 		<div class="main-ring_medium main-ring_icon">
 			<picture>
-				<source srcset="img/main-ring_medium.webp" type="image/webp">
+				<source data-srcset="img/main-ring_medium.webp" type="image/webp">
 				<img data-src="img/main-ring_medium.png" class="lazyload">
 			</picture>
 		</div>
 		<div class="main-ring_big main-ring_icon">
 			<picture>
-				<source srcset="img/main-ring_big.webp" type="image/webp">
+				<source data-srcset="img/main-ring_big.webp" type="image/webp">
 				<img data-src="img/main-ring_big.png" class="lazyload">
 			</picture>
 		</div>
 		<div class="main-ring_small main-ring_icon">
 			<picture>
-				<source srcset="img/main-ring_small.webp" type="image/webp">
+				<source data-srcset="img/main-ring_small.webp" type="image/webp">
 				<img data-src="img/main-ring_small.png" class="lazyload">
 			</picture>
 		</div>
@@ -171,7 +163,7 @@
 				</div>
 				<div class="group-right">
 					<picture>
-						<source srcset="img/group-img1.webp" type="image/webp">
+						<source data-srcset="img/group-img1.webp" type="image/webp">
 						<img data-src="img/group-img1.png" class="lazyload">
 					</picture>
 				</div>
@@ -464,7 +456,7 @@
 					</div>
 					<div class="comments-img2">
 						<picture>
-							<source srcset="img/comments-img.webp" type="image/webp">
+							<source data-srcset="img/comments-img.webp" type="image/webp">
 							<img data-src="img/comments-img.png" class="lazyload">
 						</picture>
 					</div>
@@ -483,7 +475,7 @@
 				<div class="comments-right">
 					<div class="comments-img">
 						<picture>
-							<source srcset="img/comments-img.webp" type="image/webp">
+							<source data-srcset="img/comments-img.webp" type="image/webp">
 							<img data-src="img/comments-img.png" class="lazyload">
 						</picture>
 					</div>
@@ -519,14 +511,11 @@
 				<div class="about-right">
 					<div class="about-img wow animate__animated animate__fadeIn">
 						<picture>
-							<source srcset="img/about-img.webp" type="image/webp">
+							<source data-srcset="img/about-img.webp" type="image/webp">
 							<img data-src="img/about-img.png" class="lazyload">
 						</picture>
 						<div class="about-img_ring1">
-							<picture>
-								<source srcset="img/about-ring1.webp" type="image/webp">
-								<img data-src="img/about-ring1.svg" class="lazyload">
-							</picture>
+							<img data-src="img/about-ring1.svg" class="lazyload">
 						</div>
 					</div>
 				</div>
@@ -542,7 +531,7 @@
 				<div class="about-right">
 					<div class="about-img about-img2">
 						<picture>
-							<source srcset="img/about-img2.webp" type="image/webp">
+							<source data-srcset="img/about-img2.webp" type="image/webp">
 							<img data-src="img/about-img2.png" class="lazyload">
 						</picture>
 						<div class="about-img_ring1 wow animate__animated animate__rotateIn">
@@ -586,7 +575,7 @@
 				<div class="says-left">
 					<div class="says-img">
 						<picture>
-							<source srcset="img/says-img1.webp" type="image/webp">
+							<source data-srcset="img/says-img1.webp" type="image/webp">
 							<img data-src="img/says-img1.png" class="lazyload">
 						</picture>
 					</div>
@@ -594,7 +583,7 @@
 				<div class="says-right animate__animated wow animate__backInRight">
 					<div class="says-quote">
 						<picture>
-							<source srcset="img/says-quote.webp" type="image/webp">
+							<source data-srcset="img/says-quote.webp" type="image/webp">
 							<img data-src="img/says-quote.png" class="lazyload">
 						</picture>
 					</div>
@@ -615,7 +604,7 @@
 		</div>
 		<div class="says-circle">
 			<picture>
-				<source srcset="img/says-circle.webp" type="image/webp">
+				<source data-srcset="img/says-circle.webp" type="image/webp">
 				<img data-src="img/says-circle.png" class="lazyload">
 			</picture>
 		</div>
@@ -631,7 +620,7 @@
 				<div class="gallery-box">
 					<div class="gallery-left">
 						<picture>
-							<source srcset="img/gallery-img1.webp" type="image/webp">
+							<source data-srcset="img/gallery-img1.webp" type="image/webp">
 							<img data-src="img/gallery-img1.png" class="lazyload">
 						</picture>
 					</div>
@@ -639,13 +628,13 @@
 						<div class="gallery-quad_row">
 							<div class="gallery-item">
 								<picture>
-									<source srcset="img/gallery-img2.webp" type="image/webp">
+									<source data-srcset="img/gallery-img2.webp" type="image/webp">
 									<img data-src="img/gallery-img2.png" class="lazyload">
 								</picture>
 							</div>
 							<div class="gallery-item">
 								<picture>
-									<source srcset="img/gallery-img3.webp" type="image/webp">
+									<source data-srcset="img/gallery-img3.webp" type="image/webp">
 									<img data-src="img/gallery-img3.png" class="lazyload">
 								</picture>
 							</div>
@@ -653,13 +642,13 @@
 						<div class="gallery-quad_row">
 							<div class="gallery-item">
 								<picture>
-									<source srcset="img/gallery-img4.webp" type="image/webp">
+									<source data-srcset="img/gallery-img4.webp" type="image/webp">
 									<img data-src="img/gallery-img4.png" class="lazyload">
 								</picture>
 							</div>
 							<div class="gallery-item">
 								<picture>
-									<source srcset="img/gallery-img5.webp" type="image/webp">
+									<source data-srcset="img/gallery-img5.webp" type="image/webp">
 									<img data-src="img/gallery-img5.png" class="lazyload">
 								</picture>
 							</div>
@@ -670,7 +659,7 @@
 				<div class="gallery-box">
 					<div class="gallery-left">
 						<picture>
-							<source srcset="img/gallery-img6.webp" type="image/webp">
+							<source data-srcset="img/gallery-img6.webp" type="image/webp">
 							<img data-src="img/gallery-img6.png" class="lazyload">
 						</picture>
 					</div>
@@ -678,13 +667,13 @@
 						<div class="gallery-quad_row">
 							<div class="gallery-item">
 								<picture>
-									<source srcset="img/gallery-img7.webp" type="image/webp">
+									<source data-srcset="img/gallery-img7.webp" type="image/webp">
 									<img data-src="img/gallery-img7.png" class="lazyload">
 								</picture>
 							</div>
 							<div class="gallery-item">
 								<picture>
-									<source srcset="img/gallery-img8.webp" type="image/webp">
+									<source data-srcset="img/gallery-img8.webp" type="image/webp">
 									<img data-src="img/gallery-img8.png" class="lazyload">
 								</picture>
 							</div>
@@ -692,195 +681,14 @@
 						<div class="gallery-quad_row">
 							<div class="gallery-item">
 								<picture>
-									<source srcset="img/gallery-img9.webp" type="image/webp">
+									<source data-srcset="img/gallery-img9.webp" type="image/webp">
 									<img data-src="img/gallery-img9.png" class="lazyload">
 								</picture>
 							</div>
 							<div class="gallery-item">
 								<picture>
-									<source srcset="img/gallery-img10.webp" type="image/webp">
+									<source data-srcset="img/gallery-img10.webp" type="image/webp">
 									<img data-src="img/gallery-img10.png" class="lazyload">
-								</picture>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- gallery-box -->
-				<div class="gallery-box">
-					<div class="gallery-left">
-						<picture>
-							<source srcset="img/gallery-img11.webp" type="image/webp">
-							<img data-src="img/gallery-img11.png" class="lazyload">
-						</picture>
-					</div>
-					<div class="gallery-quad">
-						<div class="gallery-quad_row">
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img12.webp" type="image/webp">
-									<img data-src="img/gallery-img12.png" class="lazyload">
-								</picture>
-							</div>
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img13.webp" type="image/webp">
-									<img data-src="img/gallery-img13.png" class="lazyload">
-								</picture>
-							</div>
-						</div>
-						<div class="gallery-quad_row">
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img14.webp" type="image/webp">
-									<img data-src="img/gallery-img14.png" class="lazyload">
-								</picture>
-							</div>
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img15.webp" type="image/webp">
-									<img data-src="img/gallery-img15.png" class="lazyload">
-								</picture>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- gallery-box -->
-				<div class="gallery-box">
-					<div class="gallery-left">
-						<picture>
-							<source srcset="img/gallery-img16.webp" type="image/webp">
-							<img data-src="img/gallery-img16.png" class="lazyload">
-						</picture>
-					</div>
-					<div class="gallery-quad">
-						<div class="gallery-quad_row">
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img17.webp" type="image/webp">
-									<img data-src="img/gallery-img17.png" class="lazyload">
-								</picture>
-							</div>
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img18.webp" type="image/webp">
-									<img data-src="img/gallery-img18.png" class="lazyload">
-								</picture>
-							</div>
-						</div>
-						<div class="gallery-quad_row">
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img19.webp" type="image/webp">
-									<img data-src="img/gallery-img19.png" class="lazyload">
-								</picture>
-							</div>
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img20.webp" type="image/webp">
-									<img data-src="img/gallery-img20.png" class="lazyload">
-								</picture>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- galley-box -->
-				<div class="gallery-box">
-					<div class="gallery-left">
-						<picture>
-							<source srcset="img/gallery-img21.webp" type="image/webp">
-							<img data-src="img/gallery-img21.png" class="lazyload">
-						</picture>
-					</div>
-					<div class="gallery-quad">
-						<div class="gallery-quad_row">
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img22.webp" type="image/webp">
-									<img data-src="img/gallery-img22.png" class="lazyload">
-								</picture>
-							</div>
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img23.webp" type="image/webp">
-									<img data-src="img/gallery-img23.png" class="lazyload">
-								</picture>
-							</div>
-						</div>
-						<div class="gallery-quad_row">
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img24.webp" type="image/webp">
-									<img data-src="img/gallery-img24.png" class="lazyload">
-								</picture>
-							</div>
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img25.webp" type="image/webp">
-									<img data-src="img/gallery-img25.png" class="lazyload">
-								</picture>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- gallery-box -->
-				<div class="gallery-box">
-					<div class="gallery-left">
-						<picture>
-							<source srcset="img/gallery-img26.webp" type="image/webp">
-							<img data-src="img/gallery-img26.png" class="lazyload">
-						</picture>
-					</div>
-					<div class="gallery-quad">
-						<div class="gallery-quad_row">
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img27.webp" type="image/webp">
-									<img data-src="img/gallery-img27.png" class="lazyload">
-								</picture>
-							</div>
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img28.webp" type="image/webp">
-									<img data-src="img/gallery-img28.png" class="lazyload">
-								</picture>
-							</div>
-						</div>
-						<div class="gallery-quad_row">
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img29.webp" type="image/webp">
-									<img data-src="img/gallery-img29.png" class="lazyload">
-								</picture>
-							</div>
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img30.webp" type="image/webp">
-									<img data-src="img/gallery-img30.png" class="lazyload">
-								</picture>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- gallery-box -->
-				<div class="gallery-box">
-					<div class="gallery-left">
-						<picture>
-							<source srcset="img/gallery-img31.webp" type="image/webp">
-							<img data-src="img/gallery-img31.png" class="lazyload">
-						</picture>
-					</div>
-					<div class="gallery-quad">
-						<div class="gallery-quad_row">
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img32.webp" type="image/webp">
-									<img data-src="img/gallery-img32.png" class="lazyload">
-								</picture>
-							</div>
-							<div class="gallery-item">
-								<picture>
-									<source srcset="img/gallery-img33.webp" type="image/webp">
-									<img data-src="img/gallery-img33.png" class="lazyload">
 								</picture>
 							</div>
 						</div>
@@ -897,163 +705,163 @@
 			<div class="gallery-wrapper gallery-wrapper2">
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img2.webp" type="image/webp">
+						<source data-srcset="img/gallery-img2.webp" type="image/webp">
 						<img data-src="img/gallery-img2.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img3.webp" type="image/webp">
+						<source data-srcset="img/gallery-img3.webp" type="image/webp">
 						<img data-src="img/gallery-img3.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img4.webp" type="image/webp">
+						<source data-srcset="img/gallery-img4.webp" type="image/webp">
 						<img data-src="img/gallery-img4.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img5.webp" type="image/webp">
+						<source data-srcset="img/gallery-img5.webp" type="image/webp">
 						<img data-src="img/gallery-img5.png" class="lazyload">
 					</picture>
 				</div>
 
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img7.webp" type="image/webp">
+						<source data-srcset="img/gallery-img7.webp" type="image/webp">
 						<img data-src="img/gallery-img7.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img8.webp" type="image/webp">
+						<source data-srcset="img/gallery-img8.webp" type="image/webp">
 						<img data-src="img/gallery-img8.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img9.webp" type="image/webp">
+						<source data-srcset="img/gallery-img9.webp" type="image/webp">
 						<img data-src="img/gallery-img9.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img10.webp" type="image/webp">
+						<source data-srcset="img/gallery-img10.webp" type="image/webp">
 						<img data-src="img/gallery-img10.png" class="lazyload">
 					</picture>
 				</div>
 
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img11.webp" type="image/webp">
+						<source data-srcset="img/gallery-img11.webp" type="image/webp">
 						<img data-src="img/gallery-img11.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img12.webp" type="image/webp">
+						<source data-srcset="img/gallery-img12.webp" type="image/webp">
 						<img data-src="img/gallery-img12.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img14.webp" type="image/webp">
+						<source data-srcset="img/gallery-img14.webp" type="image/webp">
 						<img data-src="img/gallery-img14.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img15.webp" type="image/webp">
+						<source data-srcset="img/gallery-img15.webp" type="image/webp">
 						<img data-src="img/gallery-img15.png" class="lazyload">
 					</picture>
 				</div>
 
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img17.webp" type="image/webp">
+						<source data-srcset="img/gallery-img17.webp" type="image/webp">
 						<img data-src="img/gallery-img17.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img18.webp" type="image/webp">
+						<source data-srcset="img/gallery-img18.webp" type="image/webp">
 						<img data-src="img/gallery-img18.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img19.webp" type="image/webp">
+						<source data-srcset="img/gallery-img19.webp" type="image/webp">
 						<img data-src="img/gallery-img19.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img20.webp" type="image/webp">
+						<source data-srcset="img/gallery-img20.webp" type="image/webp">
 						<img data-src="img/gallery-img20.png" class="lazyload">
 					</picture>
 				</div>
 
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img21.webp" type="image/webp">
+						<source data-srcset="img/gallery-img21.webp" type="image/webp">
 						<img data-src="img/gallery-img21.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img22.webp" type="image/webp">
+						<source data-srcset="img/gallery-img22.webp" type="image/webp">
 						<img data-src="img/gallery-img22.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img24.webp" type="image/webp">
+						<source data-srcset="img/gallery-img24.webp" type="image/webp">
 						<img data-src="img/gallery-img24.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img25.webp" type="image/webp">
+						<source data-srcset="img/gallery-img25.webp" type="image/webp">
 						<img data-src="img/gallery-img25.png" class="lazyload">
 					</picture>
 				</div>
 
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img27.webp" type="image/webp">
+						<source data-srcset="img/gallery-img27.webp" type="image/webp">
 						<img data-src="img/gallery-img27.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img28.webp" type="image/webp">
+						<source data-srcset="img/gallery-img28.webp" type="image/webp">
 						<img data-src="img/gallery-img28.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img29.webp" type="image/webp">
+						<source data-srcset="img/gallery-img29.webp" type="image/webp">
 						<img data-src="img/gallery-img29.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img30.webp" type="image/webp">
+						<source data-srcset="img/gallery-img30.webp" type="image/webp">
 						<img data-src="img/gallery-img30.png" class="lazyload">
 					</picture>
 				</div>
 
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img32.webp" type="image/webp">
+						<source data-srcset="img/gallery-img32.webp" type="image/webp">
 						<img data-src="img/gallery-img32.png" class="lazyload">
 					</picture>
 				</div>
 				<div class="gallery-item">
 					<picture>
-						<source srcset="img/gallery-img33.webp" type="image/webp">
+						<source data-srcset="img/gallery-img33.webp" type="image/webp">
 						<img data-src="img/gallery-img33.png" class="lazyload">
 					</picture>
 				</div>
@@ -1201,6 +1009,7 @@
 		<div class="container">
 			<div class="contacts-wrapper">
 				<div class="contacts-map">
+					<!--
 					<div class="contacts-wrapper__script" style="position:relative;overflow:hidden;"><a
 							href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
 							style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a
@@ -1208,7 +1017,7 @@
 							style="color:#eee;font-size:12px;position:absolute;top:14px;">Крылатская улица, вл2с5 —
 							Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCURnOVvpB" width="600"
 							height="550" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
-					</div>
+					</div>-->
 				</div>
 			</div>
 			<div class="contacts-content">
@@ -1271,7 +1080,7 @@
 		<div class="popup-wrapper" id="popup-wrapper">
 			<div class="popup-close">
 				<picture>
-					<source srcset="img/popup-close.webp" type="image/webp">
+					<source data-srcset="img/popup-close.webp" type="image/webp">
 					<img data-src="img/popup-close.png" class="lazyload">
 				</picture>
 			</div>
@@ -1320,6 +1129,62 @@
 			</div>
 		</form>
 	</div>
+	<!-- lazybg -->
+	<style>
+		.lazybg {
+			background-image: none !important;
+		}
+	</style>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			var lazyloadImages;
+
+			if ("IntersectionObserver" in window) {
+				lazyloadImages = document.querySelectorAll(".lazybg");
+				var imageObserver = new IntersectionObserver(function (entries, observer) {
+					entries.forEach(function (entry) {
+						if (entry.isIntersecting) {
+							var image = entry.target;
+							image.classList.remove("lazybg");
+							imageObserver.unobserve(image);
+						}
+					});
+				});
+
+				lazyloadImages.forEach(function (image) {
+					imageObserver.observe(image);
+				});
+			} else {
+				var lazyloadThrottleTimeout;
+				lazyloadImages = document.querySelectorAll(".lazybg");
+
+				function lazyload() {
+					if (lazyloadThrottleTimeout) {
+						clearTimeout(lazyloadThrottleTimeout);
+					}
+
+					lazyloadThrottleTimeout = setTimeout(function () {
+						var scrollTop = window.pageYOffset;
+						lazyloadImages.forEach(function (img) {
+							if (img.offsetTop < (window.innerHeight + scrollTop)) {
+								img.src = img.dataset.src;
+								img.classList.remove('lazybg');
+							}
+						});
+						if (lazyloadImages.length == 0) {
+							document.removeEventListener("scroll", lazyload);
+							window.removeEventListener("resize", lazyload);
+							window.removeEventListener("orientationChange", lazyload);
+						}
+					}, 20);
+				}
+
+				document.addEventListener("scroll", lazyload);
+				window.addEventListener("resize", lazyload);
+				window.addEventListener("orientationChange", lazyload);
+			}
+		})
+	</script>
 	<!-- jQuery -->
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<!-- autoScroll -->
@@ -1327,12 +1192,12 @@
 	<!-- Magnific Popup JS -->
 	<script async src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
 	<!-- Slick Slider CDN -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script src="libs/slick-slider/slick.min.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script>new WOW().init();</script>
 	<!-- Базовые скрипты javascript -->
 	<script async src="js/main.js"></script>
+	<script async src="portfolio-interface/pi.js"></script>
 	<script async src="js/lazysizes.min.js"></script>
-	<script async src="js/ls.bgset.min.js"></script>
 </body>
 </html>
