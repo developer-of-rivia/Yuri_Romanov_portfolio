@@ -1355,11 +1355,20 @@
   }
 
   .says-section {
-    background: url(../img/says-bg4.png) no-repeat center top/cover;
+    background-repeat: no-repeat;
+    background-position: center top;
     margin-top: -10px;
     height: auto;
     padding-top: 70px;
     padding-bottom: 50px;
+  }
+
+  .webp-support .says-section {
+    background-image: url(../img/says-bg4.webp);
+  }
+
+  .webp-missed .says-section {
+    background-image: url(../img/says-bg4.png);
   }
 
   .says-img {
@@ -2566,8 +2575,16 @@
   }
 
   .says-section {
-    background: url(../img/says-bg3.png) no-repeat center center/cover;
+    background-position: center center;
     padding-top: 50px;
+  }
+
+  .webp-support .says-section {
+    background-image: url(../img/says-bg3.webp);
+  }
+
+  .webp-missed .says-section {
+    background-image: url(../img/says-bg3.png);
   }
 
   .titleline-subtitle h4 {
