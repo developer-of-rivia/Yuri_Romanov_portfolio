@@ -489,9 +489,8 @@ header {
 }
 
 /* main-section */
-.main-section {
+.webp-support .main-section {
   height: 1400px;
-  background-image: url(../img/basic-bg.webp);
   background-repeat: no-repeat;
   background-position: center center;
   padding-top: 190px;
@@ -499,13 +498,12 @@ header {
   position: relative;
 }
 
-.main__background {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  max-width: auto;
-  object-fit: fill;
+.webp-support .main-section {
+  background-image: url(../img/basic-bg.webp);
+}
+
+.webp-missed .main-section {
+  background-image: url(../img/basic-bg.png);
 }
 
 .main-title {
@@ -1018,9 +1016,18 @@ header {
 .about-section {
   margin-top: 20px;
   padding-top: 0;
-  background: url(../img/about-bg-big.png) no-repeat 230px top;
+  background-repeat: no-repeat;
+  background-position: 230px top;
   padding-bottom: 160px;
   position: relative;
+}
+
+.webp-support .about-section {
+  background-image: url(../img/about-bg-big.webp);
+}
+
+.webp-missed .about-section {
+  background-image: url(../img/about-bg-big.png);
 }
 
 .about-section2 {
@@ -1094,7 +1101,16 @@ header {
 }
 
 .about-section2 {
-  background: url(../img/about-bg3.png) no-repeat calc(100% - 20%) 40px !important;
+  background-repeat: no-repeat !important;
+  background-position: calc(100% - 20%) 40px !important;
+}
+
+.webp-support .about-section2 {
+  background-image: url(../img/about-bg3.webp) !important;
+}
+
+.webp-missed .about-section2 {
+  background-image: url(../img/about-bg3.png) !important;
 }
 
 .about-section2 .about-left {
@@ -1362,9 +1378,18 @@ footer {
 }
 
 .about-section--trainer {
-  background: url(../img/trainer-about-bg.png) no-repeat 200px top;
+  background-repeat: no-repeat;
+  background-position: 200px top;
   padding-top: 45px;
   height: 850px;
+}
+
+.webp-support .about-section--trainer {
+  background-image: url(../img/trainer-about-bg.webp);
+}
+
+.webp-missed .about-section--trainer {
+  background-image: url(../img/trainer-about-bg.png);
 }
 
 .about-section--trainer .about-ul li {

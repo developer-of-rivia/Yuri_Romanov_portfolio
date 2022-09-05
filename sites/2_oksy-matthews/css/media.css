@@ -2045,11 +2045,19 @@
   }
 
   .main-section {
-    background: url(../img/basic-bg3.png) no-repeat center -120px;
     height: 1070px;
     margin-top: -20px;
     padding-top: 45px;
   }
+
+  .webp-support .main-section {
+    background: url(../img/basic-bg3.webp) no-repeat center -120px;
+  }
+
+  .webp-missed .main-section {
+    background: url(../img/basic-bg3.png) no-repeat center -120px;
+  }
+
 
   .main-subtitle {
     text-align: left;
@@ -2761,8 +2769,15 @@
 
 @media screen and (max-width: 400px) {
   .main-section {
-    background: url(../img/basic-bg3.png) no-repeat center 0px/cover;
     margin-bottom: -140px;
+  }
+
+  .webp-support .main-section {
+    background: url(../img/basic-bg3.webp) no-repeat center 0px/cover;
+  }
+
+  .webp-missed .main-section {
+    background: url(../img/basic-bg3.png) no-repeat center 0px/cover;
   }
 
   .main-wrapper {
