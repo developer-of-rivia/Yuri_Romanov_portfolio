@@ -803,7 +803,8 @@
 
   .contacts-content {
     position: relative;
-    background: url(../img/last-bg2.png) no-repeat center center/cover;
+    background-position: center center;
+    background-size: cover;
     width: 100%;
     margin-top: -50px;
     z-index: 99;
@@ -811,6 +812,14 @@
     padding-right: 50px;
     height: auto;
     padding-bottom: 60px;
+  }
+
+  .webp-support .contacts-content {
+    background-image: url(../img/last-bg2.webp);
+  }
+
+  .webp-missed .contacts-content {
+    background-image: url(../img/last-bg2.png);
   }
 
   .contacts-map {
@@ -2617,7 +2626,16 @@
   }
 
   .contacts-content {
-    background: url(../img/last-bg3.png) no-repeat center center/cover;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .webp-support .contacts-content {
+    background-image: url(../img/last-bg3.webp);
+  }
+
+  .webp-missed .contacts-content {
+    background-image: url(../img/last-bg3.png);
   }
 
   .main-left {

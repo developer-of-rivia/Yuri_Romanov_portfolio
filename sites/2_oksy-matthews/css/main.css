@@ -1285,13 +1285,22 @@ header {
 
 .contacts-content {
   position: absolute;
-  background: url(../img/last-bg.png) no-repeat right center;
+  background-repeat: no-repeat;
+  background-position: right center;
   width: 930px;
   height: 602px;
   right: 0;
   bottom: 0;
   padding-left: 250px;
   padding-top: 150px;
+}
+
+.webp-support .contacts-content {
+  background-image: url(../img/last-bg.webp);
+}
+
+.webp-missed .contacts-content {
+  background-image: url(../img/last-bg.png);
 }
 
 .contacts-title {
