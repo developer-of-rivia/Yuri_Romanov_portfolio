@@ -2857,14 +2857,17 @@
 @media screen and (max-width: 400px) {
   .main-section {
     margin-bottom: -140px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
   }
 
   .webp-support .main-section {
-    background: url(../img/basic-bg3.webp) no-repeat center 0px/cover;
+    background-image: url(../img/basic-bg3.webp);
   }
 
   .webp-missed .main-section {
-    background: url(../img/basic-bg3.png) no-repeat center 0px/cover;
+    background-image: url(../img/basic-bg3.png);
   }
 
   .main-wrapper {
