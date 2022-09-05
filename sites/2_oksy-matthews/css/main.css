@@ -1,5 +1,55 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Manrope/Manrope-Regular.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/Manrope/Manrope-Medium.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/Manrope/Manrope-SemiBold.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Manrope/Manrope-Bold.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Ptnarrow/Ptnarrow-regular.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Ptnarrow/Ptnarrow-bold.woff2) format("woff2")
+}
+
+
+
 /* reset */
 * {
   margin: 0;
@@ -80,7 +130,7 @@ ul li:last-child {
 }
 
 body {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Manrope';
 }
 
 body,
@@ -1611,80 +1661,6 @@ footer {
 
 .ty-back a {
   color: #FF3DEC;
-}
-
-/* stock-section */
-.stock-section {
-  padding-top: 75px;
-  padding-bottom: 110px;
-}
-
-.stock-box {
-  width: 100%;
-  height: 523px;
-  background: url(../img/stock-bg.png) no-repeat center center/cover;
-  display: flex;
-  border-radius: 30px;
-  padding: 70px 30px;
-}
-
-.stock-top1 {
-  font-size: 14px;
-  font-weight: 600;
-  color: #000;
-  margin-bottom: 76px;
-  text-transform: uppercase;
-}
-
-.stock-met1 {
-  color: #000;
-  margin-bottom: 16px;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 15px;
-}
-
-.stock-met1 span {
-  color: #F754E7;
-}
-
-.stock-title1 {
-  background: #E46BD8;
-  color: #fff;
-  font-weight: 700;
-  font-size: 50px;
-  text-transform: uppercase;
-  padding: 18px;
-  margin-bottom: 16px;
-}
-
-.stock-subtitle1 {
-  font-size: 37px;
-  font-weight: 700;
-}
-
-.stock-img {
-  margin-right: 20px;
-}
-
-.stock-bottom-text {
-  text-align: center;
-  margin-top: 90px;
-  margin-bottom: 20px;
-  font-size: 45px;
-}
-
-.stock-bottom-text span {
-  color: #F754E7;
-  font-weight: 700;
-}
-
-.stock-btn {
-  text-align: center;
-}
-
-.stock-bottom-text br {
-  display: none;
 }
 
 /**/
