@@ -4,11 +4,30 @@
   }
 
   .about-section2 {
-    background: url(../img/about-bg3.png) no-repeat calc(100% - 20%) 0
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20%) 0;
   }
 
+  .webp-support .about-section2 {
+    background-image: url(../img/about-bg3.webp);
+  }
+
+  .webp-missed .about-section2 {
+    background-image: url(../img/about-bg3.png);
+  }
+
+
+
   .about-section {
-    background: url(../img/about-bg-big.png) no-repeat 120px top;
+    background-position: 120px top;
+  }
+
+  .webp-support .about-section {
+    background-image: url(../img/about-bg-big.webp);
+  }
+
+  .webp-missed .about-section {
+    background-image: url(../img/about-bg-big.png);
   }
 
   .main-body .about-section {
@@ -41,7 +60,16 @@
 
 @media screen and (max-width: 1400px) {
   .about-section2 {
-    background: url(../img/about-bg3.png) no-repeat calc(100% - 2%) 40px !important;
+    background-repeat: no-repeat !important;
+    background-position: calc(100% - 2%) 40px !important;
+  }
+
+  .webp-support .about-section2 {
+    background-image: url(../img/about-bg3.webp);
+  }
+
+  .webp-missed .about-section2 {
+    background-image: url(../img/about-bg3.png);
   }
 
   .contacts-wrapper {
@@ -1096,7 +1124,15 @@
   }
 
   .about-section2 {
-    background: url(../img/about-bg3.png) no-repeat left 40px !important;
+    background-position: left 40px !important;
+  }
+
+  .webp-support .about-section2 {
+    background-image: url(../img/about-bg3.webp);
+  }
+
+  .webp-missed .about-section2 {
+    background-image: url(../img/about-bg3.png);
   }
 
   .about-img2 .about-img_ring1 {
@@ -1855,7 +1891,15 @@
   }
 
   .about-section.about-section2 {
-    background: url(../img/about-bg3.png) no-repeat calc(100% - 20%) 40px !important;
+    background-position: calc(100% - 20%) 40px !important;
+  }
+
+  .webp-support .about-section.about-section2 {
+    background-image: url(../img/about-bg3.webp);
+  }
+
+  .webp-missed .about-section.about-section2 {
+    background-image: url(../img/about-bg3.png);
   }
 
   .main-body .about-section2 {
@@ -2490,7 +2534,15 @@
   }
 
   .about-section2 {
-    background: url(../img/about-bg-big.png) no-repeat left -180px !important;
+    background-position: left -180px !important;
+  }
+
+  .webp-support .about-section2 {
+    background-image: url(../img/about-bg-big.webp);
+  }
+
+  .webp-missed .about-section2 {
+    background-image: url(../img/about-bg-big.png);
   }
 
   .main-body .about-section {

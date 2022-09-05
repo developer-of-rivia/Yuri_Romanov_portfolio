@@ -1136,9 +1136,19 @@ header {
 /* says-section */
 .says-section {
   height: 536px;
-  background: url(../img/says-bg.png) no-repeat center top/cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
   z-index: 999;
   position: relative;
+}
+
+.webp-support .says-section {
+  background-image: url(../img/says-bg.webp);
+}
+
+.webp-missed .says-section {
+  background-image: url(../img/says-bg.png);
 }
 
 .says-right {
