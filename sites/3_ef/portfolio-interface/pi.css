@@ -82,11 +82,18 @@
     align-items: center;
     position: fixed;
     z-index: 99999;
-    background: url(table-bg.jpg);
     right: 0;
     top: 0;
     transition: 0.4s;
     transform: scale(0);
+}
+
+.webp-support .yudevices {
+    background-image: url(table-bg.webp);
+}
+
+.webp-missed .yudevices {
+    background-image: url(table-bg.jpg);
 }
 
 .yudevices--active.yudevices {

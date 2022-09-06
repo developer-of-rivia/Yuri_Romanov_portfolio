@@ -23,26 +23,26 @@
 	<link rel="stylesheet" href="css/media.css">
 	<link rel="stylesheet" href="portfolio-interface/pi.css">
 </head>
-<!-- portfolio interface -->
-<div class="yudevices">
-	<div class="yudevices__phone">
-		<iframe src="index_mobile.html"></iframe>
-	</div>
-</div>
-<div class="yuchoise">
-	<div class="yuchoise__item yuchoise__item--desk yuchoise__item--active">
-		<img data-src="portfolio-interface/desktop-icon.svg" class="lazyload">
-	</div>
-	<div class="yuchoise__item yuchoise__item--mobile">
-		<img data-src="portfolio-interface/smartphone-call.svg" class="lazyload">
-	</div>
-</div>
-<a href="../../index.html" target="_blank" class="yuchoise__menu">
-	<img data-src="portfolio-interface/more.svg" class="lazyload">
-</a>
-<!-- portfolio interface -->
 
 <body>
+	<!-- portfolio interface -->
+	<div class="yudevices lazybg">
+		<div class="yudevices__phone lazybg">
+			<iframe src="index_mobile.html"></iframe>
+		</div>
+	</div>
+	<div class="yuchoise">
+		<div class="yuchoise__item yuchoise__item--desk yuchoise__item--active">
+			<img data-src="portfolio-interface/desktop-icon.svg" class="lazyload">
+		</div>
+		<div class="yuchoise__item yuchoise__item--mobile">
+			<img data-src="portfolio-interface/smartphone-call.svg" class="lazyload">
+		</div>
+	</div>
+	<a href="../../index.html" target="_blank" class="yuchoise__menu">
+		<img data-src="portfolio-interface/more.svg" class="lazyload">
+	</a>
+	<!-- portfolio interface -->
 	<!-- main -->
 	<section class="main">
 		<div class="sidebar-wrapper">
@@ -729,6 +729,62 @@
 			</div>
 		</div>
 	</div>
+	<!-- lazybg -->
+	<style>
+		.lazybg {
+			background-image: none !important;
+		}
+	</style>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			var lazyloadImages;
+
+			if ("IntersectionObserver" in window) {
+				lazyloadImages = document.querySelectorAll(".lazybg");
+				var imageObserver = new IntersectionObserver(function (entries, observer) {
+					entries.forEach(function (entry) {
+						if (entry.isIntersecting) {
+							var image = entry.target;
+							image.classList.remove("lazybg");
+							imageObserver.unobserve(image);
+						}
+					});
+				});
+
+				lazyloadImages.forEach(function (image) {
+					imageObserver.observe(image);
+				});
+			} else {
+				var lazyloadThrottleTimeout;
+				lazyloadImages = document.querySelectorAll(".lazybg");
+
+				function lazyload() {
+					if (lazyloadThrottleTimeout) {
+						clearTimeout(lazyloadThrottleTimeout);
+					}
+
+					lazyloadThrottleTimeout = setTimeout(function () {
+						var scrollTop = window.pageYOffset;
+						lazyloadImages.forEach(function (img) {
+							if (img.offsetTop < (window.innerHeight + scrollTop)) {
+								img.src = img.dataset.src;
+								img.classList.remove('lazybg');
+							}
+						});
+						if (lazyloadImages.length == 0) {
+							document.removeEventListener("scroll", lazyload);
+							window.removeEventListener("resize", lazyload);
+							window.removeEventListener("orientationChange", lazyload);
+						}
+					}, 20);
+				}
+
+				document.addEventListener("scroll", lazyload);
+				window.addEventListener("resize", lazyload);
+				window.addEventListener("orientationChange", lazyload);
+			}
+		})
+	</script>
 	<!-- jQuery -->
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<!-- maskedinput -->

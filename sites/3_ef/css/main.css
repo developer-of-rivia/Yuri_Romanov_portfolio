@@ -274,10 +274,20 @@ img {
 /* main */
 
 .main {
-  background: url(../img/main-bg.jpg) no-repeat center center/cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   min-height: 964px;
   padding-top: 0;
   position: relative;
+}
+
+.webp-support .main {
+  background-image: url(../img/main-bg.webp);
+}
+
+.webp-missed .main {
+  background-image: url(../img/main-bg.jpg);
 }
 
 .main .slick-arrow {
