@@ -16,11 +16,6 @@ $(document).ready(function () {
 		$('.sidebar-wrapper').toggleClass(' sidebar--active');
 		$('html').toggleClass(' body-stop');
 	});
-	// открытие попап окна по классу
-	/*
-	$(".popup-link").magnificPopup({
-
-	});*/
 	// спойлер
 	$('.spoiler__body').hide(300);
 	$(document).on('click', '.spoiler__head', function (e) {
