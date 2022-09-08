@@ -8,13 +8,11 @@
 	<link rel="icon" href="favicon.svg" type="image/x-icon">
 	<!-- Slick slider CSS -->
 	<link rel="stylesheet" href="libs/slick-slider/slick.css">
-	<!-- Magnific Popup CSS -->
-	<!-- <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css"> -->
 	<!-- Icons-font -->
 	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Базовые стили CSS -->
 	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="portfolio-interface/pi.css">
 </head>
 
@@ -101,7 +99,7 @@
 							маркетплейсы
 						</p>
 					</div>
-					<a href="#popup" class="popup-link main__btn btnYellow">
+					<a data-path="popup1" class="popup-link main__btn btnYellow">
 						Получить консультацию
 						<i class="_icon-right-arrow btnIcon"></i>
 					</a>
@@ -452,7 +450,7 @@
 				</div>
 			</div>
 			<div class="add__btn-area">
-				<a href="#popup" class="popup-link add__btn btnYellow">
+				<a data-path="popup1" class="popup-link add__btn btnYellow">
 					Получить консультацию
 					<i class="_icon-right-arrow btnIcon"></i>
 				</a>
@@ -698,9 +696,9 @@
 		</div>-->
 	</section>
 	<!-- popup -->
-	<div class="hidden">
-		<div class="popup" id="popup">
-			<div class="popup__close">
+	<div class="popup-wrapper modal-overlay">
+		<div class="popup modal" data-target="popup1">
+			<div class="popup__close modal__close">
 				<i class="_icon-close"></i>
 			</div>
 			<div class="popup__title">
@@ -779,16 +777,22 @@
 			}
 		})
 	</script>
+
+
+
+
+
+
+
+
 	<!-- jQuery -->
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<!-- maskedinput -->
 	<script async src="js/jquery.maskedinput.min.js"></script>
 	<!-- Slick slider JS -->
 	<script async src="libs/slick-slider/slick.min.js"></script>
-	<!-- Magnific Popup JS -->
-	<!-- <script async src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>-->
 	<!-- Базовые скрипты javascript -->
-	<script async src="js/main.min.js"></script>
+	<script async src="js/main.js"></script>
 	<script async src="portfolio-interface/pi.js"></script>
 	<script async src="js/lazysizes.min.js"></script>
 </body>
