@@ -19,8 +19,7 @@
 <body>
 	<!-- portfolio interface -->
 	<div class="yudevices lazybg">
-		<div class="yudevices__phone lazybg">
-			<!-- <iframe src="index_mobile.html"></iframe> -->
+		<div class="yudevices__phone lazybg piframe" data-mobile="index_mobile.html">
 		</div>
 	</div>
 	<div class="yuchoise">
@@ -178,7 +177,7 @@
 				</div>
 				<div class="hidden">
 					<div class="popup-video" id="popup-video">
-						<video class="popup-video_item" src="EF.mov" controls="controls"></video>
+						<video class="popup-video_item" src="" controls="controls"></video>
 					</div>
 				</div>
 			</div>
@@ -675,16 +674,18 @@
 				</div>
 			</div>
 		</div>
-		<!--
+		<style>
+			.lazy-iframe iframe {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
 		<div class="cont__map cont__map--ware cont__map--active">
-			<div style="position:relative;overflow:hidden;"><a
-					href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
-					style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a
-					href="https://yandex.ru/maps/213/moscow/house/skotoprogonnaya_ulitsa_35s6a/Z04YcA5kT0YOQFtvfXtzdntgYA==/?ll=37.694639%2C55.727734&utm_medium=mapframe&utm_source=maps&z=17.22"
-					style="color:#eee;font-size:12px;position:absolute;top:14px;">Скотопрогонная улица, 35с6А —
-					Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUNB6dEGB" width="100%"
-					height="100%" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+			<div class="lazy-iframe" width="100%" height="100%" style="position: relative"
+				data-map="https://yandex.ru/map-widget/v1/?um=constructor%3A518484330e952f88799773125f58c51337c75d7e84b4623c34df38ac5e5f4532&amp;source=constructor">
+			</div>
 		</div>
+		<!--
 		<div class="cont__map cont__map--office">
 			<div style="position:relative;overflow:hidden;"><a
 					href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps"
@@ -781,10 +782,6 @@
 
 
 
-
-
-
-
 	<!-- jQuery -->
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<!-- maskedinput -->
@@ -792,7 +789,7 @@
 	<!-- Slick slider JS -->
 	<script async src="libs/slick-slider/slick.min.js"></script>
 	<!-- Базовые скрипты javascript -->
-	<script async src="js/main.min.js"></script>
+	<script async src="js/main.js"></script>
 	<script async src="portfolio-interface/pi.js"></script>
 	<script async src="js/lazysizes.min.js"></script>
 </body>
