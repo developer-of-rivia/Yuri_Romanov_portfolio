@@ -15,6 +15,11 @@
 	<link rel="stylesheet" href="css/main.min.css">
 	<link rel="stylesheet" href="portfolio-interface/pi.css">
 </head>
+<style>
+	.lazybg {
+		background-image: none !important;
+	}
+</style>
 
 <body>
 	<!-- portfolio interface -->
@@ -35,7 +40,7 @@
 	</a>
 	<!-- portfolio interface -->
 	<!-- main -->
-	<section class="main">
+	<section class="main lazybg">
 		<div class="sidebar-wrapper">
 			<div class="sidebar">
 				<div class="sidebar__close">
@@ -722,62 +727,6 @@
 			</div>
 		</div>
 	</div>
-	<!-- lazybg -->
-	<style>
-		.lazybg {
-			background-image: none !important;
-		}
-	</style>
-	<script>
-		document.addEventListener("DOMContentLoaded", function () {
-			var lazyloadImages;
-
-			if ("IntersectionObserver" in window) {
-				lazyloadImages = document.querySelectorAll(".lazybg");
-				var imageObserver = new IntersectionObserver(function (entries, observer) {
-					entries.forEach(function (entry) {
-						if (entry.isIntersecting) {
-							var image = entry.target;
-							image.classList.remove("lazybg");
-							imageObserver.unobserve(image);
-						}
-					});
-				});
-
-				lazyloadImages.forEach(function (image) {
-					imageObserver.observe(image);
-				});
-			} else {
-				var lazyloadThrottleTimeout;
-				lazyloadImages = document.querySelectorAll(".lazybg");
-
-				function lazyload() {
-					if (lazyloadThrottleTimeout) {
-						clearTimeout(lazyloadThrottleTimeout);
-					}
-
-					lazyloadThrottleTimeout = setTimeout(function () {
-						var scrollTop = window.pageYOffset;
-						lazyloadImages.forEach(function (img) {
-							if (img.offsetTop < (window.innerHeight + scrollTop)) {
-								img.src = img.dataset.src;
-								img.classList.remove('lazybg');
-							}
-						});
-						if (lazyloadImages.length == 0) {
-							document.removeEventListener("scroll", lazyload);
-							window.removeEventListener("resize", lazyload);
-							window.removeEventListener("orientationChange", lazyload);
-						}
-					}, 20);
-				}
-
-				document.addEventListener("scroll", lazyload);
-				window.addEventListener("resize", lazyload);
-				window.addEventListener("orientationChange", lazyload);
-			}
-		})
-	</script>
 
 
 
@@ -792,10 +741,15 @@
 	<script async src="js/main.js"></script>
 	<script async src="portfolio-interface/pi.js"></script>
 
+	<!-- webp support -->
+	<script async src="js/webp-support.js"></script>
 	<!-- lazy load для изображений -->
 	<script async src="js/lazysizes.min.js"></script>
 	<!-- lazy load для iframe -->
 	<script async src="js/lazy-iframes.js"></script>
+	<!-- lazy bg -->
+	<script src="js/lazybg.js"></script>
+
 </body>
 
 </html>
