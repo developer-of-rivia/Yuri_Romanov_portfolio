@@ -114,3 +114,18 @@ html {
 .description.hidden p {
 	transform: translateY(2vh);
 }
+/**/
+/**/
+/**/
+.item{
+	background: #fff;
+}
+.item__img img{
+	max-width: 100%;
+}
+.item__wrapper{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	padding: 0 20px;
+}
