@@ -1,0 +1,476 @@
+@import "1 vars.sass"
+@import "2 media-mix.sass"
+@import "3 reset.sass"
+@import "4 layout.sass"
+@import "5 ui.sass"
+/* preloader */
+#preloader
+    position: fixed
+    display: flex
+    justify-content: center
+    align-items: center
+    left: 0
+    top: 0
+    z-index: 999999
+    width: 100%
+    height: 100%
+    overflow: visible
+    background: #fff
+.visible
+    visibility: visible
+    opacity: 1
+    transition: opacity 0.1s linear
+.hidden
+    visibility: hidden
+    opacity: 0
+    transition: visibility 0s 0.1s, opacity 0.1s linear
+#preloader div
+  width: 8vmax
+  height: 8vmax
+  border-right: 4px solid #0042FF
+  border-radius: 100%
+  animation: spinRight 800ms linear infinite
+  &:before, &:after
+    content: ''
+    width: 6vmax
+    height: 6vmax
+    display: block
+    position: absolute
+    top: calc(50% - 3vmax)
+    left: calc(50% - 3vmax)
+    border-left: 3px solid #0042FF
+    border-radius: 100%
+    animation: spinLeft 800ms linear infinite
+  &:after 
+    width: 4vmax
+    height: 4vmax
+    top: calc(50% - 2vmax)
+    left: calc(50% - 2vmax)
+    border: 0
+    border-right: 2px solid #0042FF
+    animation: none
+/* header */
+.header
+    display: flex
+    justify-content: space-between
+    margin-bottom: 40px
+    +lg
+        margin-bottom: 30px
+    +md
+        margin-bottom: 90px
+    +sm
+        margin-bottom: 50px
+    +xs
+        margin-bottom: 45px
+.header__left
+    display: flex
+    gap: 23px
+    align-items: center
+.header__right
+    display: flex
+    gap: 20px
+    align-items: center
+    +md
+        gap: 10px
+.header__bloggers
+    height: 42px
+    +md
+        height: 36px
+.header__enter
+    height: 42px
+    width: 42px
+    color: #1D202C
+    +md
+        width: 36px
+        height: 36px
+    i
+        font-size: 16.5px
+.header__logo
+    +md
+        width: 114px
+.header__burger
+    color: #fff
+    font-size: 24px
+    cursor: pointer
+    &:hover
+        color: #a1fd42
+        transform: scale(1.1)
+/* main */
+.main
+    height: 590px
+    background: url(../img/main-bg.jpg) no-repeat center bottom/cover
+    padding-top: 28px
+    position: relative
+    overflow: hidden
+    z-index: 2
+    border-radius: 0 0 100px 100px
+    +lg
+        padding-top: 20px
+        height: 500px
+        border-radius: 0 0 70px 70px
+    +md
+        height: 590px
+        border-radius: 0 0 50px 50px
+        background: url(../img/main-bg2.jpg) no-repeat center bottom/cover
+    +xs
+        height: 1037px
+        border-radius: 0 0 40px 40px
+        background: url(../img/main-bg3.jpg) no-repeat center bottom/cover
+    .container
+        position: relative
+        height: 100%
+.main__stamp
+    background: #a1fd42
+    border-radius: 15px 15px 15px 0
+    box-shadow: 0 15px 31px 0 rgba(185, 255, 102, 0.2)
+    display: inline-flex
+    align-items: center
+    gap: 10px
+    padding: 20px 25px
+    margin-bottom: 28px
+    font-weight: 500
+    +lg
+        font-size: 14px
+        padding: 15px 20px
+        margin-bottom: 15px
+    +md
+        display: none
+.main__title
+    font-size: 52px
+    color: #fff
+    font-family: 'NeueMachina'
+    font-weight: 400
+    line-height: 95%
+    margin-bottom: 25px
+    span
+        font-weight: 700
+        font-family: 'NeueMachina'
+        hyphens: auto
+    br
+        display: none
+        +md
+            display: block
+        +sm
+            display: none
+    +lg
+        font-size: 38px
+    +md
+        font-size: 52px
+        line-height: 95%
+    +sm
+        font-size: 42px
+    +xs
+        font-size: 52px
+        hyphens: auto
+.main__content
+    width: 550px
+    +lg
+        width: 450px
+    +md
+        width: 330px
+    +sm
+        width: 390px
+    +xs
+        width: 100%
+.main__text
+    font-size: 18px
+    line-height: 140%
+    color: #fff
+    width: 410px
+    +md
+        font-size: 16px
+    +xs
+        width: 230px
+        margin-bottom: 75px
+.main__phones
+    position: absolute
+    right: 75px
+    bottom: -180px
+    width: 475px
+    display: flex
+    +lg
+        width: 280px
+        right: 175px
+    +md
+        width: auto
+        right: 0
+        top: 65px
+        display: block
+        width: 250px
+    +sm
+        width: 250px
+        top: 315px
+    +xs
+        width: 100%
+        position: relative
+        right: 0
+        bottom: 0
+        top: 0
+        left: 0
+    img
+        position: relative
+        z-index: 9
+    .main__phones-green
+        position: absolute
+        width: 80px
+        height: 50px
+        background: #a1fd42
+        top: 290px
+        right: -40px
+        border-radius: 0 0 12px 0
+        animation-name: greenMainLine
+        animation-duration: 3s
+        animation-delay: 2s
+        animation-fill-mode: forwards
+        opacity: 0
+        +lg
+            right: -140px
+            top: 200px
+        +md
+            top: 240px
+            right: -40px
+        +sm
+            top: 190px
+.main__mouse
+    width: 94px
+    height: 54px
+    display: inline-flex
+    justify-content: center
+    align-items: center
+    position: absolute
+    left: 50%
+    margin-left: -46px
+    top: -30px
+    z-index: 9
+    background: #fff
+    border-radius: 20px
+    cursor: pointer
+    transition: 0.2s ease
+    i
+        color: #1D202C
+        font-size: 20px
+    &:hover
+        background: #a1fd42
+.main__phone1
+    position: absolute
+    left: 5px
+    top: -95px
+    +md
+        left: -95px
+        top: -5px
+        width: 240px
+    +sm
+        width: 160px
+        left: 15px
+        top: -5px
+    +xs
+        width: 230px
+.main__phone2
+    position: absolute
+    right: 170px
+    top: -25px
+    +md
+        right: -20px
+        top: -385px
+        width: 240px
+    +sm
+        width: 170px
+        right: -80px    
+        top: -260px
+    +xs
+        width: 240px
+        right: -110px
+        top: -380px
+// main icons
+.main__video-icon
+    position: absolute
+    left: 395px
+    top: 10px
+    +lg
+        width: 70px
+        left: 335px
+        top: 20px
+    +md
+        width: 90px
+        left: 210px
+        top: 30px
+    +sm
+        left: 420px
+        top: 180px
+        z-index: 9
+    +xs
+        left: 320px
+        top: 100px
+.main__pac-icon
+    position: absolute
+    right: -30px
+    top: 100px
+    +lg
+        width: 60px
+        top: 75px
+        right: 10px
+    +md
+        display: none
+.main__arrow-icon
+    position: absolute
+    left: 390px
+    bottom: 30px
+    +lg
+        width: 60px
+        left: 350px
+        width: 75px
+    +md
+        bottom: 70px
+        left: 240px
+    +sm
+        left: 58px
+        bottom: 82px
+    +xs
+        left: 10px
+        bottom: 47px
+.main__ice-cube-icon
+    position: absolute
+    left: -70px
+    bottom: -230px
+    +lg
+        width: 400px
+        left: -50px
+        bottom: -170px
+    +md
+        width: 333px
+    +xs
+        bottom: auto
+        left: auto
+        top: 180px
+        right: -190px
+    &:before
+        content: ''
+        display: inline-block
+        width: 100px
+        height: 80px
+        background: #fff
+        border-radius: 0 0 0 20px
+        position: absolute
+        left: 0px
+        bottom: 264px
+        +lg
+            bottom: 229px
+            height: 70px
+        +md
+            display: none
+    img
+        position: relative
+.main__ice-cube-icon2
+    position: absolute
+    right: -390px
+    top: 22%
+    +sm
+        right: -190px
+        top: 5%
+    +xs
+        display: none
+// love
+.love
+    position: relative
+    z-index: 9
+    padding-top: 75px
+    padding-bottom: 30px
+    +sm
+        padding-top: 60px
+    .container
+        +xs
+            margin-left: 0
+            width: 100%
+.love__title
+    margin-bottom: 80px
+    +lg
+        margin-bottom: 60px
+    +md
+        margin-bottom: 40px
+    span
+        font-weight: 700
+        display: inline-flex
+        align-items: center
+    img
+        margin: 0 20px
+        +md
+            width: 50px
+.love__table
+    width: 540px
+    margin: 0 auto
+    position: relative
+    &:before
+        content: ''
+        display: inline-block
+        background: #F5F8FA
+        width: 463px
+        height: 308px
+        position: absolute
+        right: -15px
+        top: -15px
+        border-radius: 15px
+        +md
+            width: 400px
+        +sm
+            width: 300px
+        +xs
+            width: 463px
+    +md
+        width: 476px
+    +sm
+        width: 80%
+    +xs
+        margin-left: 0
+        margin-right: 34px
+        width: auto
+.love__table-col
+    width: 25%
+    text-align: center
+    font-weight: 500
+    font-size: 16px
+    +md
+        font-size: 14px
+    i
+        font-size: 10px
+        color: #A2A9B4
+.love__table-row
+    display: flex
+    align-items: center
+    justify-content: space-between
+    height: 40px
+    border-radius: 10px
+    border-bottom-left-radius: 0
+    margin-bottom: 25px
+    padding: 0 20px
+    padding-right: 0
+    z-index: 3
+    background: #fff
+    position: relative
+    box-shadow: 4px 10px 14px -7px rgba(29, 32, 44, 0.1)
+    .love__table-col:first-child
+        text-align: left
+    .love__table-col:last-child
+        width: 21%
+        +xs
+            width: 25%
+.love__table-row--top
+    margin-bottom: 15px
+    height: auto
+    background: none
+    box-shadow: none
+    .love__table-col
+        color: #A2A9B4
+.love__table-row--first
+    background: #0042FF
+    color: #fff
+    +xs
+        border-top-left-radius: 0
+    .love__table-col i
+        color: #fff
+.love__title-icon2
+    position: absolute
+    right: -15px
+    top: -10px
+    +md
+        max-width: 20px
+        right: -10px

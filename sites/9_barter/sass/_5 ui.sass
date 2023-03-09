@@ -1,0 +1,256 @@
+@import "1 vars.sass"
+@import "2 media-mix.sass"
+// fonts
+@font-face
+    font-family: 'NeueMachina'
+    src: url('../fonts/NeueMachina-Bold.woff2')
+    font-style: normal
+    font-weight: 700
+@font-face
+    font-family: 'NeueMachina'
+    src: url('../fonts/NeueMachina-Regular.woff2')
+    font-style: normal
+    font-weight: 400
+@font-face
+    font-family: 'TTFirsNeue'
+    src: url('../fonts/TTFirsNeue-Medium.woff2')
+    font-style: normal
+    font-weight: 500
+@font-face
+    font-family: 'TTFirsNeue'
+    src: url('../fonts/TTFirsNeue-Regular.woff2')
+    font-style: normal
+    font-weight: 400
+@font-face
+    font-family: 'Akshar'
+    src: url('../fonts/Akshar-Light.woff2')
+    font-style: normal
+    font-weight: 400
+// helpers
+.overflow-hidden
+    overflow: hidden !important
+// config
+*
+    font-family: 'TTFirsNeue'
+    font-style: normal
+// title на сайте
+.title
+    text-align: center
+    font-family: 'NeueMachina'
+    font-size: 40px
+    font-weight: 400
+    line-height: 120%
+    display: inline-block
+    position: relative
+    +md
+        font-size: 30px
+    +sm 
+        font-size: 24px
+    +xs
+        font-size: 30px
+    span
+        font-family: 'NeueMachina'
+    p
+        position: relative
+        display: inline-block
+        span
+            position: relative
+            font-weight: 700
+            z-index: 5
+        img
+            position: absolute
+            left: 0
+            bottom: 0
+            z-index: 3
+.title-wrap
+    position: relative
+    text-align: center
+// btn на сайте
+.btn
+    border-radius: 10px
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    width: 100%
+    text-align: center
+    cursor: pointer
+    img
+        font-size: 0
+.btn1
+    padding: 10px
+    height: 42px
+    font-size: 16px
+    padding: 11px 17px
+    gap: 11px
+    color: #1D202C
+.btn1--type1
+    background: #fff
+    font-weight: 500
+    &:hover
+        background: #F4F6F6
+    &:disabled
+        opacity: .5
+.btn1--type2
+    background: #B9FF66
+    font-weight: 500
+    &:hover
+        background: #9FE051
+    &:disabled
+        opacity: .5
+.btn1--type3
+    background: none
+    border: 1px solid #fff
+    border-radius: 13px
+    color: #fff
+    font-size: 14px
+    &:hover
+        background: #fff
+        color: #1D202C
+    i
+        font-size: 16px
+.btn1--type4
+    background: #0042FF
+    color: #fff
+    font-size: 14px
+    &:hover
+        background: #0037D7
+    &:disabled
+        opacity: .5
+.btn1--type5
+    background: #B9FF66
+    color: #1D202C
+    font-size: 16px
+    position: relative
+    .icon-right-arrow
+        position: absolute
+        right: 0
+        top: 0
+        width: 60px
+        height: 60px
+        z-index: 9
+        font-size: 20px
+        background: #fff
+        display: inline-flex
+        align-items: center
+        justify-content: center
+        border-top-right-radius: 10px
+        border-bottom-right-radius: 10px
+        overflow: hidden
+        +xs
+            font-size: 15px
+            width: 45px
+            height: 42px
+        &:after
+            content: ''
+            position: absolute
+            left: 0
+            top: 0
+            border: 20px solid transparent
+            border-left: 1px solid #B9FF66
+            border-top: 55px solid #B9FF66
+            +xs
+                border-top: 70px solid #B9FF66
+                left: -10px
+    span
+        position: relative
+        z-index: 9
+        align-items: center
+    &:hover
+        opacity: .95
+    &:disabled
+        opacity: .5
+.btn1--type5__star
+    position: absolute
+    left: -11px
+    top: -11px
+/* swiper */
+.swiper-button-next
+    right: -15px
+    top: 5px
+    position: absolute
+    color: #1D202C
+    width: 46px
+    height: 46px
+    display: inline-flex
+    justify-content: center
+    align-items: center
+    background: #fff
+    border-radius: 15px
+    &:hover
+        color: #0042FF
+    &:after
+        display: none
+.swiper-button-prev
+    left: -15px
+    top: 5px
+    position: absolute
+    color: #1D202C
+    width: 46px
+    height: 46px
+    display: inline-flex
+    justify-content: center
+    align-items: center
+    background: #fff
+    border-radius: 15px
+    &:hover
+        color: #0042FF
+    &:after
+        display: none
+// inputs
+.input
+    background-color: #F5F8FA
+    border-radius: 10px
+    width: 100%
+    border: none
+    color: #1D202C
+    background-repeat: no-repeat
+    background-position: 18px center
+    &:placeholder
+        color: #A2A9B4
+    ::-webkit-input-placeholder
+        color: #A2A9B4
+    ::-moz-placeholder
+        color: #A2A9B4
+    :-ms-input-placeholder
+        color: #A2A9B4
+    :-moz-placeholder
+        color: #A2A9B4
+.input--size1
+    height: 52px
+    padding-left: 48px
+    font-size: 14px
+.input--size2
+    padding-left: 50px
+    font-size: 16px
+    height: 60px
+.input--name
+    background-image: url(../img/input-persons.svg)
+.input--phone
+    background-image: url(../img/input-phone.svg)
+// simplebar
+.simplebar-track.simplebar-vertical
+    background-color: #1D202C
+    width: 5px
+.simplebar-content-wrapper
+    padding-right: 15px
+.simplebar-scrollbar::before
+    left: 0
+    top: 0
+    right: 0
+    bottom: 0
+    opacity: 1
+    background-color: #1D202C
+    border-radius: 5px
+    border-top-right-radius: 0
+    cursor: pointer
+    z-index: 9999
+.simplebar-track.simplebar-vertical .simplebar-scrollbar::before
+    top: 0
+    bottom: 0
+.simplebar-scrollbar.simplebar-visible::before
+    opacity: 1
+.steps
+    .simplebar-track.simplebar-vertical
+        background-color: #fff
+    .simplebar-scrollbar::before
+        background-color: #fff
