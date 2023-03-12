@@ -1,0 +1,868 @@
+Uri: https://cdn.jsdelivr.net/npm/suggestions-jquery@21.12.0/dist/css/suggestions.min.css
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\npm\suggestions-jquery@21.12.0\dist\css\suggestions.min.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/npm/suggestions-jquery@21.12.0/dist/js/jquery.suggestions.min.js
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\npm\suggestions-jquery@21.12.0\dist\js\jquery.suggestions.min.js
+Content Type: application/javascript
+
+Uri: https://code.jivo.ru/widget/EYey4tV1Ka
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\widget\EYey4tV1Ka
+Content Type: application/javascript
+
+Uri: https://mc.yandex.ru/watch/89915020
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\watch\89915020
+Content Type: image/gif
+
+Uri: https://zalogkredit.ru/
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\index.htm
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/apartamentyi
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\apartamentyi.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/assets/components/cityfields/css/web/cityselect.css
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\assets\components\cityfields\css\web\cityselect.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/assets/components/cityfields/js/web/cityselect.js
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\assets\components\cityfields\js\web\cityselect.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/css/custom.css?v.1.238
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\css\custom-1.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/css/custom.css?v.20220829081661785420
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\css\custom.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/css/custom.css?v.20220829081661785446
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\css\custom-2.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/css/custom.css?v.20220829081661785447
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\css\custom-3.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/css/custom.css?v.20220829081661785448
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\css\custom-4.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/css/custom.css?v.20220829081661785449
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\css\custom-5.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/css/custom.css?v.20220829081661785450
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\css\custom-6.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/css/fonts.css
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\css\fonts.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/css/images/spinner.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\css\images\spinner.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/css/jquery.fias.min.css
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\css\jquery.fias.min.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/css/main.css?v.1.003
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\css\main.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/css/media.css?v.1.003
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\css\media.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/css/simplebar.css
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\css\simplebar.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/doli-v-nedvizhimosti
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\doli-v-nedvizhimosti.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/doma
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\doma.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/favicon.ico
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://zalogkredit.ru/fonts/GilroyBold/GilroyBold.eot
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyBold\GilroyBold.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://zalogkredit.ru/fonts/GilroyBold/GilroyBold.ttf
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyBold\GilroyBold.ttf
+Content Type: application/font-sfnt
+
+Uri: https://zalogkredit.ru/fonts/GilroyBold/GilroyBold.woff
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyBold\GilroyBold.woff
+Content Type: application/font-woff
+
+Uri: https://zalogkredit.ru/fonts/GilroyBold/GilroyBold.woff2
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyBold\GilroyBold.woff2
+Content Type: 
+
+Uri: https://zalogkredit.ru/fonts/GilroyExtrabold/GilroyExtrabold.eot
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyExtrabold\GilroyExtrabold.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://zalogkredit.ru/fonts/GilroyExtrabold/GilroyExtrabold.ttf
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyExtrabold\GilroyExtrabold.ttf
+Content Type: application/font-sfnt
+
+Uri: https://zalogkredit.ru/fonts/GilroyExtrabold/GilroyExtrabold.woff
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyExtrabold\GilroyExtrabold.woff
+Content Type: application/font-woff
+
+Uri: https://zalogkredit.ru/fonts/GilroyExtrabold/GilroyExtrabold.woff2
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyExtrabold\GilroyExtrabold.woff2
+Content Type: 
+
+Uri: https://zalogkredit.ru/fonts/GilroyLight/gilroylight.eot
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyLight\gilroylight.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://zalogkredit.ru/fonts/GilroyLight/gilroylight.ttf
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyLight\gilroylight.ttf
+Content Type: application/font-sfnt
+
+Uri: https://zalogkredit.ru/fonts/GilroyLight/gilroylight.woff
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyLight\gilroylight.woff
+Content Type: application/font-woff
+
+Uri: https://zalogkredit.ru/fonts/GilroyLight/gilroylight.woff2
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyLight\gilroylight.woff2
+Content Type: 
+
+Uri: https://zalogkredit.ru/fonts/GilroyMedium/GilroyMedium.eot
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyMedium\GilroyMedium.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://zalogkredit.ru/fonts/GilroyMedium/GilroyMedium.ttf
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyMedium\GilroyMedium.ttf
+Content Type: application/font-sfnt
+
+Uri: https://zalogkredit.ru/fonts/GilroyMedium/GilroyMedium.woff
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyMedium\GilroyMedium.woff
+Content Type: application/font-woff
+
+Uri: https://zalogkredit.ru/fonts/GilroyMedium/GilroyMedium.woff2
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyMedium\GilroyMedium.woff2
+Content Type: 
+
+Uri: https://zalogkredit.ru/fonts/GilroyRegular/GilroyRegular.eot
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyRegular\GilroyRegular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://zalogkredit.ru/fonts/GilroyRegular/GilroyRegular.ttf
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyRegular\GilroyRegular.ttf
+Content Type: application/font-sfnt
+
+Uri: https://zalogkredit.ru/fonts/GilroyRegular/GilroyRegular.woff
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyRegular\GilroyRegular.woff
+Content Type: application/font-woff
+
+Uri: https://zalogkredit.ru/fonts/GilroyRegular/GilroyRegular.woff2
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroyRegular\GilroyRegular.woff2
+Content Type: 
+
+Uri: https://zalogkredit.ru/fonts/GilroySemiBold/GilroySemiBold.eot
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroySemiBold\GilroySemiBold.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://zalogkredit.ru/fonts/GilroySemiBold/GilroySemiBold.ttf
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroySemiBold\GilroySemiBold.ttf
+Content Type: application/font-sfnt
+
+Uri: https://zalogkredit.ru/fonts/GilroySemiBold/GilroySemiBold.woff
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroySemiBold\GilroySemiBold.woff
+Content Type: application/font-woff
+
+Uri: https://zalogkredit.ru/fonts/GilroySemiBold/GilroySemiBold.woff2
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\fonts\GilroySemiBold\GilroySemiBold.woff2
+Content Type: 
+
+Uri: https://zalogkredit.ru/img/acc-filter_icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\acc-filter_icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/acc-sort-icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\acc-sort-icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/acc-sort-icon_a.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\acc-sort-icon_a.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/all-icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\all-icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/any-bg.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\any-bg.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/any-icon1.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\any-icon1.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/any-icon2.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\any-icon2.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/any-plus.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\any-plus.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/ask-bg.jpg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\ask-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://zalogkredit.ru/img/banks/bjf_bank_logo_02х300.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\banks\bjf_bank_logo_02х300.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/banks/bjf_sertf.pptx
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\banks\bjf_sertf.pptx
+Content Type: application/vnd.openxmlformats-officedocument.presentationml.presentation
+
+Uri: https://zalogkredit.ru/img/benefit-cross-icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\benefit-cross-icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/benefit-cross-icon.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\benefit-cross-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/benefit-name-icon.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\benefit-name-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/benefit-name-icon2.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\benefit-name-icon2.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/benefit-small-icon1.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\benefit-small-icon1.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/benefit-small-icon2.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\benefit-small-icon2.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/benefit-small-img1.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\benefit-small-img1.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/benefit-small-img2.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\benefit-small-img2.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/calendar-icon.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\calendar-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/comments-icon-bank.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\comments-icon-bank.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/comments-icon-city.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\comments-icon-city.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/contacts-adress-icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\contacts-adress-icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/contacts-message-icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\contacts-message-icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/contacts-phone-icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\contacts-phone-icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/enter-icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\enter-icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/example-img.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\example-img.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/form-checkmark.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\form-checkmark.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/gasfort-logo.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\gasfort-logo.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/green-phone.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\green-phone.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/header-burger-icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\header-burger-icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/header-loc-icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\header-loc-icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/header-search-icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\header-search-icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/icon/pod-icon1.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\icon\pod-icon1.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/icon/pod-icon10.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\icon\pod-icon10.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/icon/pod-icon2.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\icon\pod-icon2.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/icon/pod-icon3.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\icon\pod-icon3.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/icon/pod-icon4.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\icon\pod-icon4.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/icon/pod-icon5.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\icon\pod-icon5.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/icon/pod-icon6.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\icon\pod-icon6.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/icon/pod-icon7.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\icon\pod-icon7.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/icon/pod-icon8.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\icon\pod-icon8.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/icon/pod-icon9.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\icon\pod-icon9.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/logo.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\logo.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/main-form-checkmark.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\main-form-checkmark.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/main-section-bg.jpg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\main-section-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://zalogkredit.ru/img/main-section-bg2.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\main-section-bg2.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/main-section-bg3.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\main-section-bg3.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/menu-arrow-closed.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\menu-arrow-closed.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/menu-arrow-open.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\menu-arrow-open.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/menu-close-icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\menu-close-icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/new-img.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\new-img.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/news-arrow-left--active.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\news-arrow-left--active.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/news-arrow-left.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\news-arrow-left.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/news-arrow-right--active.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\news-arrow-right--active.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/news-arrow-right.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\news-arrow-right.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/news-item-1.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\news-item-1.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/news-item-2.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\news-item-2.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/news-item-3.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\news-item-3.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/news-item-4.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\news-item-4.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/order-arrow-down.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\order-arrow-down.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/order-arrow-top.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\order-arrow-top.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/order-cross-icon.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\order-cross-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/order-docs-icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\order-docs-icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/order-docs-icon.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\order-docs-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/partners-img1.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\partners-img1.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/partners-img2.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\partners-img2.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/partners-img3.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\partners-img3.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/partners-img4.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\partners-img4.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/partners-img5.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\partners-img5.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/partners-img6.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\partners-img6.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/partners-img7.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\partners-img7.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/partners-img8.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\partners-img8.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/pledge-tick_icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\pledge-tick_icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/purple-message-icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\purple-message-icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/purple-phone-icon.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\purple-phone-icon.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/sect-title-icon1.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\sect-title-icon1.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/sect-title-icon2.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\sect-title-icon2.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/send-bg.jpg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\send-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://zalogkredit.ru/img/send-bg2.jpg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\send-bg2.jpg
+Content Type: image/jpeg
+
+Uri: https://zalogkredit.ru/img/star-empty.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\star-empty.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/star-full.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\star-full.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/ungle-down.png
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\ungle-down.png
+Content Type: image/png
+
+Uri: https://zalogkredit.ru/img/way-icon1.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\way-icon1.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/way-icon2.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\way-icon2.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/way-icon3.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\way-icon3.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/way-icon4.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\way-icon4.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/img/way-item-bg.svg
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\img\way-item-bg.svg
+Content Type: image/svg+xml
+
+Uri: https://zalogkredit.ru/js/autosize.js
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\autosize.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785420
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785445
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-1.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785446
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-2.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785447
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-3.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785448
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-4.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785449
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-5.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785450
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-6.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785451
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-7.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785452
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-8.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785453
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-9.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785456
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-10.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785544
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-11.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785773
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-12.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785774
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-13.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785775
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-14.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785896
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-15.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785897
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-16.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/custom.js?v.20220829081661785898
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\custom-17.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/datepicker/datepicker.min.css
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\datepicker\datepicker.min.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/js/datepicker/datepicker.min.js
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\datepicker\datepicker.min.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/inputmask.binding.js
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\inputmask.binding.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/jquery-3.3.1.min.js
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\jquery-3.3.1.min.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/jquery.cookies.js
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\jquery.cookies.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/jquery.fias.min.js
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\jquery.fias.min.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/jquery.inputmask.min.js
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\jquery.inputmask.min.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/jquery.maskedinput.min.js
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\jquery.maskedinput.min.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/jquery.MultiFile.min.js
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\jquery.MultiFile.min.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/main.js?v.20220829081661785445
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\main.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/main.js?v.20220829081661785450
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\main-1.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/main.js?v.20220829081661785451
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\main-2.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/main.js?v.20220829081661785452
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\main-3.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/main.js?v.20220829081661785453
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\main-4.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/main.js?v.20220829081661785456
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\main-5.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/main.js?v.20220829081661785544
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\main-6.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/main.js?v.20220829081661785773
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\main-7.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/main.js?v.20220829081661785774
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\main-8.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/main.js?v.20220829081661785775
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\main-9.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/main.js?v.20220829081661785896
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\main-10.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/main.js?v.20220829081661785897
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\main-11.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/main.js?v.20220829081661785898
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\main-12.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/js/main_new.js
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\js\main_new.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/kak-eto-rabotaet
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\kak-eto-rabotaet.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/kommercheskoj-nedvizhimosti
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\kommercheskoj-nedvizhimosti.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/komnatyi
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\komnatyi.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/kontaktyi
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\kontaktyi.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/kvartiryi
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\kvartiryi.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/libs/magnific-popup/jquery.magnific-popup.min.js
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\libs\magnific-popup\jquery.magnific-popup.min.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/libs/magnific-popup/magnific-popup.css
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\libs\magnific-popup\magnific-popup.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/libs/owl-carousel/owl.carousel.min.css
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\libs\owl-carousel\owl.carousel.min.css
+Content Type: text/css
+
+Uri: https://zalogkredit.ru/libs/owl-carousel/owl.carousel.min.js
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\libs\owl-carousel\owl.carousel.min.js
+Content Type: application/javascript
+
+Uri: https://zalogkredit.ru/novosti/
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\novosti\index.htm
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/novosti/banki-ne-smogut-vyiplachivat-pensii-na-kartyi-visa-i-mastercard
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\novosti\banki-ne-smogut-vyiplachivat-pensii-na-kartyi-visa-i-mastercard.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/novosti/kartyi-gor-v-skfo-stali-v-2,5-raza-bolshe-ispolzovat-kreditki-18-iyunya-2021
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\novosti\kartyi-gor-v-skfo-stali-v-2,5-raza-bolshe-ispolzovat-kreditki-18-iyunya-2021.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/novosti/kreditnyie-kartyi/
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\novosti\kreditnyie-kartyi\index.htm
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/novosti/novost
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\novosti\novost.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/novosti/novost-1
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\novosti\novost-1.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/novosti/novost-2
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\novosti\novost-2.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/novosti/novost-3
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\novosti\novost-3.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/novosti/novost-4
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\novosti\novost-4.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/novosti/novost-5
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\novosti\novost-5.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/novosti/novost-6
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\novosti\novost-6.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/novosti/novost-7
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\novosti\novost-7.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/novosti/zajmyi
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\novosti\zajmyi.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/pod-zalogavto
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\pod-zalogavto.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/politika-ispolzovaniya-informaczii
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\politika-ispolzovaniya-informaczii.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/politika-konfidenczialnosti
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\politika-konfidenczialnosti.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/politika-obrabotki-personalnyix-dannyix
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\politika-obrabotki-personalnyix-dannyix.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/preimushhestva
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\preimushhestva.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/refinansirovanie
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\refinansirovanie.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/taunxausa
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\taunxausa.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/usloviya-obrabotki-personalnyix-dannyix
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\usloviya-obrabotki-personalnyix-dannyix.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/voprosyi-i-otvetyi/
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\voprosyi-i-otvetyi\index.htm
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/voprosyi-i-otvetyi/dlinnyij-dlinnyij-vopros-pod-nomerom-vtoryim
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\voprosyi-i-otvetyi\dlinnyij-dlinnyij-vopros-pod-nomerom-vtoryim.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/voprosyi-i-otvetyi/mne-nuzhno-srazu-platit-brokeru
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\voprosyi-i-otvetyi\mne-nuzhno-srazu-platit-brokeru.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/voprosyi-i-otvetyi/pyatyij-vopros
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\voprosyi-i-otvetyi\pyatyij-vopros.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/voprosyi-i-otvetyi/tretij-vopros
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\voprosyi-i-otvetyi\tretij-vopros.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/voprosyi-i-otvetyi/vopros-pod-nomerom-chetvertyim
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\voprosyi-i-otvetyi\vopros-pod-nomerom-chetvertyim.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/voprosyi-i-otvetyi/vopros-pod-nomerom-odin
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\voprosyi-i-otvetyi\vopros-pod-nomerom-odin.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/zayavka
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\zayavka.html
+Content Type: text/html
+
+Uri: https://zalogkredit.ru/zemelnogo-uchastka
+File Name: C:\Downloaded Web Sites\zalogkredit.ru\zemelnogo-uchastka.html
+Content Type: text/html
+

@@ -1,0 +1,878 @@
+@import "1 vars.sass"
+@import "2 media-mix.sass"
+@import "3 reset.sass"
+@import "4 layout.sass"
+@import "5 ui.sass"
+@import "6 modules.sass"
+// сброс стилей на сайта
+ul, ol
+    margin: 0
+p
+    margin: 0
+a:hover
+    text-decoration: none
+h1,h2,h3,h4,h5,h6
+    margin: 0
+// стили 10.02.2023
+.nd-htop__menu > .menu-item-has-children > a:after
+    font: normal normal normal 14px/1 FontAwesome
+    content: "\f107"
+    font-size: 10px
+    color: #52617E
+    margin-bottom: 5px
+//
+body
+    padding-top: 148px
+    +md
+        padding-top: 128px
+    +sm
+        padding-top: 116px
+.nd-hcenter__logo--fixed
+    +sm
+        display: none !important
+.nd-hcenter--fixed
+    +sm
+        grid-template-columns: 1fr !important
+.nd-hcenter__phone--fixed
+    +sm
+        margin-right: 0 !important
+.nd-hcenter__search--fixed
+    +sm
+        display: none !important
+.nd-hbottom__title--fixed
+    +sm
+        position: absolute
+        top: 7px
+        left: 30px
+        +xs
+            left: 15px
+.nd-header--fixed
+    +sm
+        height: 56px
+.nd-menu--open
+    +sm
+        top: 56px !important
+.nd-menu--open.nd-menu--fixed
+    top: 148px !important
+    +sm
+        top: 56px !important
+        height: 85vh
+.nd-mbanner__title
+    font-size: 17px
+    font-weight: 700
+    color: $primary
+    margin-bottom: 10px
+    +xs
+        font-size: 13px
+.nd-mbanner__text
+    font-size: 13px
+    color: #474D63
+    margin-bottom: 22px
+    +xs
+        font-size: 11px
+        margin-bottom: 16px
+.nd-mbanner__btn
+    margin-bottom: 166px
+    padding: 15px
+    width: 100%
+    font-weight: 400
+    +xs
+        font-size: 13px
+    i
+        font-size: 10px
+        margin-left: 7px
+/* ND-HEADER */
+.nd-header--fixed
+    top: 0
+    left: 0
+    box-shadow: 0 4px 13px 0 rgba(0,0,0,0.07)
+.nd-header
+    background: #fff
+    width: 100%
+    transition: 0.2s ease
+    position: fixed
+    z-index: 1000
+    left: 0
+    top: 0
+    +sm
+        padding-bottom: 15px
+/* nd-header__top */
+.nd-header__top
+    height: 33px
+    background: #F0F3FA
+    +sm
+        display: none
+.nd-header__top-container
+    height: 100%
+.nd-htop
+    height: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+    +md
+        justify-content: flex-end
+// nd-htop__menu
+.nd-htop__menu
+    display: flex
+    gap: 22.8px
+    height: 100%
+    +md
+        display: none
+.nd-htop__list
+    height: 100%
+    display: inline-flex
+    align-items: center
+    position: relative
+    cursor: pointer
+.nd-htop__suplist
+    color: #52617E
+    font-size: 14px
+    position: relative
+    display: flex
+    align-items: flex-end
+    gap: 3px
+    &:hover
+        color: $accent
+        i
+            color: $accent
+    i
+        font-size: 10px
+        color: #52617E
+        margin-bottom: 5px
+.nd-htop__sublist
+    display: block
+.nd-htop__subpoint
+    color: #52617E
+    font-size: 14px
+    &:hover
+        color: $accent
+.nd-htop__submenu
+    position: absolute
+    display: flex
+    flex-direction: column
+    gap: 10px
+    left: 0
+    top: 33px
+    background: #fff
+    padding: 14px 16px 16px 16px
+    border-radius: 7px
+    box-shadow: 0 4px 18px 0 rgba(0,0,0,0.22)
+    z-index: 100
+    display: none
+    width: max-content
+    &:hover
+        display: block
+.nd-htop__list:hover .nd-htop__submenu
+    display: flex
+.nd-htop__point
+    @extend .nd-htop__suplist
+// nd-htop__right
+.nd-htop__right
+    display: flex
+    align-items: center
+    height: 100%
+    gap: 20px
+// nd-hjob
+.nd-hjob__title
+    color: #474D63
+    font-size: 13px
+    font-weight: 500
+    height: 100%
+    cursor: pointer
+    display: flex
+    align-items: center
+    gap: 5px
+    i
+        color: #474D63
+        font-size: 9px
+    .icon-clock
+        font-size: 13.5px
+        position: relative
+    .icon-ungle-bottom
+        font-size: 5px
+    span
+        display: inline-block
+        letter-spacing: -0.1px
+.nd-hjob
+    position: relative
+    display: inline-flex
+    align-items: center
+    line-height: 100%
+    height: 100%
+    font-size: 13px
+.nd-htop__schema
+    font-size: 13px
+    color: $accent
+    cursor: pointer
+    position: relative
+    z-index: 105
+    line-height: 100%
+    height: 100%
+    display: flex
+    align-items: center
+    gap: 5px
+    &:hover
+        color: #FF833E
+    span
+        display: inline-block
+.nd-hjob__box-item
+    display: flex
+    justify-content: space-between
+    align-items: center
+.nd-hjob__box-left
+    display: flex
+    flex-direction: column
+    gap: 3px
+    li
+        font-size: 13px
+        color: $primary
+.nd-hjob__box-right
+    color: $primary
+    font-size: 15px
+    font-weight: 600
+.nd-hjob__box-wrapper
+    display: none
+    z-index: 100
+.nd-hjob__box
+    width: 245px
+    height: 175px
+    border-radius: 7px
+    padding: 14px 16px 16px 16px
+    box-shadow: 0 4px 18px 0 rgba(0,0,0,0.22)
+    background: #fff
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    .nd-hjob__box-item:first-child
+        padding-bottom: 10px
+        border-bottom: 1px solid #DFE8FF
+        margin-bottom: 8px
+    .nd-hjob__box-item:last-child
+        .nd-hjob__box-left li
+            color: #2B4CA1
+        .nd-hjob__box-right
+            color: #2B4CA1
+.nd-hjob
+    &:hover
+        .nd-hjob__box-wrapper
+            display: block
+            padding-top: 30px
+            position: absolute
+            right: 0
+            top: 0
+        .nd-hjob__title
+            color: $accent
+            i
+                color: $accent
+        .nd-hjob__box
+            display: block
+/* nd-header__center */
+.nd-header__center-container
+    height: 100%
+    +sm
+        width: 100% !important
+        padding: 0 30px !important
+    +xs
+        padding: 0 15px !important
+.nd-hcenter
+    height: 100%
+    display: grid
+    grid-template-columns: 243px 360px 557px
+    position: relative
+    +lg
+        grid-template-columns: 180px 210px 557px
+        justify-content: space-between
+    +md
+        grid-template-columns: 235px 493px
+    +sm
+        padding-top: 5px
+        grid-template-columns: 151px 266px
+    +xs
+        grid-template-columns: minmax(40px, 1fr) minmax(200px, 267px)
+.nd-header__center
+    border-bottom: 1px solid #F1F1F1
+    height: 67px
+    align-items: center
+    display: flex
+    +sm
+        height: 48px
+        margin-bottom: 13px
+        border-bottom: none
+    +xs
+        margin-bottom: 13px
+// nd-hcenter__logo
+.nd-hcenter__logo
+    padding-right: 29px
+    border-right: 1px solid #F1F1F1
+    height: 100%
+    display: flex
+    align-items: center
+    +sm
+        padding-right: 0
+        border-right: none
+// nd-hcenter__search
+.nd-hcenter__search
+    border-right: 1px solid #F1F1F1
+    padding-left: 22px
+    padding-right: 22px
+    display: flex
+    align-items: center
+    +lg
+        justify-content: center
+    +md
+        border-right: none
+        height: 33px
+        position: absolute
+        left: 0
+        top: -34px
+        padding: 0
+    +sm
+        top: auto
+        bottom: -53px
+        right: 0
+        left: auto
+        width: 70%
+        height: 40px
+        border: 1px solid #E0E0E0
+        border-radius: 5px
+    +xs
+        width: 80%
+        bottom: -53px
+.nd-hcenter__searchinput
+    font-size: 13px
+    color: #ABB3C3
+    width: 100%
+    padding-left: 47px
+    background: url(../img/fonticon/magnifer.svg) no-repeat left center, transparent
+    border: none
+    max-width: 100%
+    +md
+        padding-left: 30px
+    +sm
+        width: 100%
+        padding-left: 19px
+        background: url(../img/fonticon/magnifer.svg) no-repeat calc(100% - 8px) center, transparent
+// nd-hcenter__right
+.nd-hcenter__right
+    display: flex
+    align-items: center
+    gap: 5px
+    padding-left: 22px
+    height: 100%
+    +md
+        padding-left: 17px
+    +sm
+        flex-direction: row-reverse
+        margin-left: auto
+    +xs
+        padding-left: 0
+.nd-cat-desk-ico-open
+    background: url(../img/cross-icon.svg) no-repeat center center
+    path
+        display: none
+.nd-hcenter__phone
+    margin-right: auto
+    +sm
+        min-width: 40px !important
+        height: 40px
+        background: $accent
+        border-radius: 5px
+        justify-content: center
+        align-items: center
+        display: inline-flex
+        position: relative
+    +xs
+        margin-right: 0
+    a
+        color: $primary
+        font-size: 16.5px
+        font-weight: 700
+        &:hover
+            color: $accent
+        +lg
+            font-size: 16px
+        +sm
+            display: none
+    p
+        color: $accent
+        font-size: 12px
+        padding-left: 25px
+        cursor: pointer
+        &:hover
+            color: #FF833E
+        +lg
+            padding-left: 21px
+        +sm
+            position: absolute
+            left: 0
+            top: 0
+            opacity: 1
+            width: 100%
+            height: 100%
+            background: url(../img/phone-icon.svg) no-repeat center center
+            font-size: 0
+    i
+        color: $accent
+        +sm
+            color: #fff
+    svg
+        position: relative
+        width: 14px
+        top: 4px
+        left: 0px
+.nd-hcenter__btn
+    color: $primary
+    font-size: 14px
+    font-weight: 500
+    padding: 13.5px 15px
+    border: 1px solid #E0E0E0
+    border-radius: 5px
+    display: inline-flex
+    gap: 8px
+    align-items: center
+    justify-content: center
+    height: 46px
+    +md
+        padding: 15px 12px
+        font-size: 13px
+    +sm
+        height: 40px
+        padding: 15px 10px
+    span
+        font-weight: 600
+        +sm
+            font-size: 12px
+        +xs
+            font-size: 12px
+.nd-hcenter__btn1
+    width: 157px
+    &:hover
+        box-shadow: 0px 0px 2px 0 $accent
+        color: $accent
+        border-color: $accent
+    +lg
+        width: 140px
+    +md
+        width: 119px
+    i
+        color: #3B9F18
+        +sm
+            font-size: 25px
+    span
+        +sm
+            display: none
+    +sm
+        width: 40px
+    img
+        width: 18px
+        +md
+            width: 14px
+        +sm
+            min-width: 24px
+            width: 24px
+.nd-hcenter__btn2
+    width: 170px
+    &:hover
+        box-shadow: 0px 0px 2px 0 $accent
+        color: $accent
+        border-color: $accent
+    +md
+        width: 154px
+    +sm
+        min-width: 145px !important
+        width: 145px !important
+    +xs
+        padding: 0 10px
+    i
+        color: $accent
+/* nd-header__bottom */
+.nd-header__bottom
+    height: 49px
+    +sm
+        height: auto
+.nd-header__bottom-container
+    height: 100%
+    +sm
+        width: 100%
+        padding: 0 30px
+    +xs
+        padding: 0 15px
+.nd-hbottom
+    height: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+.nd-hbottom__title
+    font-size: 13px
+    font-weight: 600
+    color: $accent
+    display: inline-flex
+    align-items: center
+    gap: 4px
+    border-radius: 5px
+    cursor: pointer
+    svg
+        position: relative
+        top: -1px
+    &:hover
+        color: #FF833E
+        i
+            color: #FF833E
+    +sm
+        color: #fff
+        background: $accent
+        font-size: 13px
+        font-weight: 600
+        width: 117px
+        height: 40px
+        justify-content: center
+        gap: 15px
+        align-items: center
+        &:hover
+            color: #fff
+            i
+                color: #fff
+    +xs
+        width: 46px
+    .icon-burger
+        color: $accent
+        position: relative
+        top: -1px
+        margin-right: 3px
+        +sm
+            color: #fff
+            font-size: 18px
+    .fa-close
+        font-size: 17px
+        position: relative
+        top: 1px
+        margin-right: 3px
+    .nd-hbottom__title1
+        +sm
+            display: none
+    .nd-hbottom__title2
+        +sm
+            font-size: 13px
+            font-weight: 500
+        +xs
+            display: none
+    .fa
+        +sm
+            display: none
+.nd-cat-mobile-ico
+    display: none
+    +sm
+        display: inline-block
+.nd-cat-desk-ico
+    +sm
+        display: none
+// nd-hbottom__menu
+.nd-hbottom__menu
+    display: flex
+    justify-content: flex-end
+    gap: 46px
+    align-items: center
+    +lg
+        gap: 35px
+    +md
+        gap: 25px
+    +sm
+        display: none
+    .nd-hbottom__list:nth-child(6)
+        +lg
+            display: none
+    .nd-hbottom__list:nth-child(5)
+        +md
+            display: none
+.nd-hbottom__point
+    font-size: 13px
+    color: $primary
+    &:hover
+        color: $accent
+/* ND-MENU */
+.container--menu
+    position: relative
+.nd-menu--open
+    top: 150px !important
+    opacity: 1 !important
+    +sm
+        top: 115px !important
+.nd-menu
+    background: #fff
+    border-radius: 7px
+    box-shadow: 0 0 37px 0 rgba(0,0,0,0.25)
+    width: 1025px
+    left: 50%
+    margin-left: -572.5px
+    display: grid
+    grid-template-columns: 249px 777px
+    position: fixed
+    transition: 0.2s ease
+    top: -150vh
+    z-index: 1000
+    opacity: 0
+    +lg
+        width: 950px
+        grid-template-columns: 1fr 3fr
+        margin-left: -475px
+    +md
+        height: 619px
+        width: 728px
+        margin-left: -365px
+        grid-template-columns: 250px auto
+    +sm
+        display: flex
+        grid-template-columns: 185px minmax(482px, auto)
+        height: 78vh
+        width: 96%
+        margin-left: -48%
+    +xs
+        grid-template-columns: 127px 193px
+.nd-menu__left
+    background: #F0F4FB
+    padding: 15px
+    border-top-left-radius: 7px
+    border-bottom-left-radius: 7px
+    display: flex
+    flex-direction: column
+    +sm
+        padding: 0
+.nd-menu__right
+    padding: 32px 43px
+    max-height: 100%
+    +sm
+        padding: 32px 30px
+        width: 100%
+    +xs
+        padding: 32px 18px
+        padding-right: 5px
+.nd-menu__item-title
+    color: #0C0A3E
+    font-weight: 600
+    font-size: 16px
+    margin-bottom: 10px
+.nd-menu__top-all
+    padding-bottom: 2px
+.nd-menu__top
+    margin-bottom: 32px
+    display: flex
+    align-items: flex-end
+    gap: 20px
+    +sm
+        flex-direction: column
+        align-items: flex-start
+        gap: 8px
+    h3
+        font-size: 34px
+        +sm
+            font-size: 28px
+    span
+        font-size: 16px
+        +md
+            font-size: 15px
+    a
+        color: $accent
+        font-weight: 500
+        font-size: 15px
+        &:hovecr
+            color: #FF833E
+        +xs
+            font-size: 15px
+.nd-menu__top-all
+    .fa-angle-down
+        color: $accent
+        transform: rotate(270deg)
+        font-size: 12px
+        display: inline-block
+.nd-menu__item-list a
+    color: #474D63
+    font-size: 14px
+    &:hover
+        color: #0C0A3E
+.nd-menu__item
+    margin-bottom: 30px
+    +md
+        margin-bottom: 0
+.nd-menu__item-box
+    display: flex
+    flex-direction: column
+    gap: 6px
+.nd-menu__basic
+    display: flex
+    flex-direction: column
+    gap: 10px
+    margin-bottom: 25px
+    padding: 10px
+    padding-bottom: 0
+    +sm
+        padding: 30px 20px
+        padding-bottom: 0
+.nd-menu__basic-list a
+    color: #0C0A3E
+    font-weight: 500
+    font-size: 22px
+    border-bottom: 2px solid transparent
+    &:hover
+        border-bottom: 2px solid $accent
+    +xs
+        font-size: 18px
+.nd-manother
+    display: flex
+    flex-direction: column
+    gap: 14px
+    margin-bottom: 36px
+    padding-left: 10px
+    +sm
+        padding-left: 20px
+.nd-manother__point
+    color: #474D63
+    font-size: 16px
+    &:hover
+        color: $accent
+.nd-menu__item-submenu
+    display: flex
+    flex-direction: column
+    gap: 8px
+    padding: 8px 0
+    padding-left: 15px
+    .nd-menu__item-sublist
+        a
+            color: #777B90
+.nd-menu__item-suplist
+    color: #474D63
+    font-size: 14px
+    cursor: pointer
+    display: flex
+    align-items: center
+    gap: 5px
+    i
+        font-size: 12px
+        display: inline-block
+.nd-menu__item-submenu
+    display: none
+.nd-menu__item-submenu--open
+    .nd-menu__item-submenu
+        display: flex
+.nd-menu__box
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    overflow-y: scroll
+    overflow-x: hidden
+    max-height: 100%
+    +md
+        grid-template-columns: 1fr 1fr
+        gap: 30px 36px
+        height: 470px
+    +sm
+        grid-template-columns: 1fr
+        gap: 30px
+        height: 55vh
+        padding-bottom: 50px
+.nd-tab-active a
+    color: $accent
+.nd-tab-item
+    max-height: 100%
+.nd-menu__close
+    position: absolute
+    right: 25px
+    top: 25px
+    cursor: pointer
+    +sm
+        right: 10px
+        top: 10px
+    i
+        color: #D9D9D9
+        font-size: 26px
+        &:hover
+            color: $accent
+.nd-hbottom__title--menu-open
+    +xs
+        border: 1px solid $accent
+        background: url(../img/burger-cross-icon.svg) no-repeat center center
+    i
+        +xs
+            display: none
+    svg
+        +xs
+            display: none
+.nd-mbanner
+    background-color: #D7E5FC
+    background-image: url(../img/menu-banner-man.png)
+    background-repeat: no-repeat
+    background-position: bottom center
+    border-radius: 7px
+    padding: 25px 13px 0 13px
+    text-align: center
+    height: 346px
+    margin-top: auto
+    +sm
+        border-bottom-right-radius: 0
+/* nd-popup */
+.nd-popup
+    width: 515px
+    height: auto
+    border-radius: 7px
+    background: #fff
+    padding: 44px 63px 26px 63px
+    text-align: center
+    border: 1px solid gray
+    position: relative
+    +sm
+        width: 340px
+        padding: 24px 20px
+.nd-popup__title
+    font-size: 38px
+    font-weight: 600
+    margin-bottom: 17px
+    +sm
+        font-size: 28px
+.nd-popup__text
+    font-size: 14px
+    line-height: 135%
+    color: #474D63
+    margin-bottom: 34px
+    +sm
+        font-size: 13px
+.nd-popup__img
+    margin-bottom: 11px
+    +sm
+        width: 59px
+        margin-left: auto
+        margin-right: auto
+.nd-popup__field
+    margin-bottom: 34px
+    &:focus
+        border: none
+    +sm
+        margin-bottom: 28px
+.nd-popup__btn
+    margin-bottom: 17px
+.nd-popup__last
+    font-size: 12px
+    line-height: 140%
+    color: #949494
+    +sm
+        font-size: 11px
+    a
+        color: #949494
+.carousel__button.is-close
+    position: absolute !important
+    top: 10px !important
+    right: 10px !important
+    +sm
+        top: 5px !important
+        right: 5px !important
+    &:before
+        content: "\e90b"
+        font-family: 'icomoon' !important
+        font-size: 25px
+        color: #DDD
+        &:hover
+            color: $accent
+        +sm
+            font-size: 20px
+    svg
+        display: none
+.nd-popup__btn button
+    +sm
+        padding: 14px

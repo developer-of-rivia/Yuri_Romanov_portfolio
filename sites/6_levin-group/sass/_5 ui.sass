@@ -1,0 +1,168 @@
+@import "1 vars.sass"
+@import "2 media-mix.sass"
+// fonts
+@font-face
+  font-family: "Inter"
+  font-style: normal
+  font-weight: 500
+  src: url(../fonts/Inter/Inter-Medium.woff2)
+@font-face
+  font-family: "Inter"
+  font-style: normal
+  font-weight: 800
+  src: url(../fonts/Inter/Inter-ExtraBold.woff2)
+@font-face
+  font-family: "Inter"
+  font-style: normal
+  font-weight: 700
+  src: url(../fonts/Inter/Inter-Bold.woff2)
+@font-face
+  font-family: "Inter"
+  font-style: normal
+  font-weight: 600
+  src: url(../fonts/Inter/Inter-SemiBold.woff2)
+@font-face
+  font-family: "Inter"
+  font-style: normal
+  font-weight: 400
+  src: url(../fonts/Inter/Inter-Regular.woff2)
+@font-face
+  font-family: "Inter"
+  font-style: normal
+  font-weight: 300
+  src: url(../fonts/Inter/Inter-Light.woff2)
+// helpers
+.overflow-hidden
+    overflow: hidden !important
+// config
+body, html
+  overflow-x: hidden
+*
+    font-family: "Inter"
+// nd-title
+.nd-title
+  font-weight: 600
+  font-size: 38px
+  letter-spacing: -0.8px
+  color: #99A4B5
+  text-transform: uppercase
+  +lg
+    font-size: 32px
+  +sm
+    font-size: 28px
+  span
+    color: $primary
+// field
+.nd-field
+    border: none
+    padding-bottom: 15px
+    border-bottom: 1px solid
+    width: 100%
+    background: none
+    &:focus
+        outline: none !important
+    &:active
+        outline: none !important
+.nd-field--white
+  border-color: #F0F4FB
+  color: #fff
+  &::-webkit-input-placeholder
+    color: #F0F4FB
+  &:-moz-placeholder
+    color: #F0F4FB
+  &::-moz-placeholder
+    color: #F0F4FB
+  &:-ms-input-placeholder
+    color: #F0F4FB
+  &:-ms-input-placeholder
+    color: #F0F4FB
+  &::placeholder
+    color: #F0F4FB
+.nd-field--dark
+  border-color: #0C0A3E
+  &::-webkit-input-placeholder
+    color: #0C0A3E
+  &:-moz-placeholder
+    color: #0C0A3E
+  &::-moz-placeholder
+    color: #0C0A3E
+  &:-ms-input-placeholder
+    color: #0C0A3E
+  &:-ms-input-placeholder
+    color: #0C0A3E
+  &::placeholder
+    color: #0C0A3E
+// btn
+.nd-btn
+    font-weight: 600
+    border-radius: 5px
+    cursor: pointer
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    i
+      position: relative
+      top: 2px
+.nd-btn--default
+    background: $accent
+    color: #fff
+    &:hover
+      background: #FF833E
+.nd-btn--border
+  background: transparent
+  border: 1px solid $accent
+  color: $accent
+  &:hover
+    border-color: #FF833E
+    color: #FF833E
+// nd-slider-arrows
+.nd-slider-arrows
+  display: flex
+  justify-content: space-between
+  .slick-arrow
+    font-size: 52px
+    color: #D9D9D9
+    cursor: pointer
+    &:hover
+      color: $accent
+.nd-slider-arrows--size1
+  width: 1250px
+  left: 50%
+  margin-left: -625px
+  position: relative
+  +lg
+    width: 1000px
+    margin-left: -500px
+  +md
+    width: 760px
+    margin-left: -380px
+  +sm
+    width: 470px
+    margin-left: -235px
+  +xs
+    width: 350px
+    margin-left: -175px
+.nd-slider-dots
+  .slick-dots
+    display: flex
+    justify-content: center
+    gap: 3px
+    li
+      display: flex
+      align-items: flex-end
+      button
+        display: inline-block
+        min-width: 8px
+        max-width: 8px
+        min-height: 8px
+        max-width: 8px
+        background: #ABB3C3
+        font-size: 0
+        color: transparent
+        border-radius: 50px
+        cursor: pointer
+        &:hover
+          background: $accent
+      &.slick-active
+        button
+          background: $accent

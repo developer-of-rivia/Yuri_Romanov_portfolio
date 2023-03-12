@@ -1,0 +1,1032 @@
+Uri: https://a-t-p.ru/
+File Name: C:\Downloaded Web Sites\a-t-p.ru\index.htm
+Content Type: text/html
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/1/10_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\1\10_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/1/11_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\1\11_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/1/12_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\1\12_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/1/1_770x580_cc9.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\1\1_770x580_cc9.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/1/2_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\1\2_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/1/3_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\1\3_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/1/4_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\1\4_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/1/5_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\1\5_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/1/6_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\1\6_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/1/7_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\1\7_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/1/8_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\1\8_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/1/9_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\1\9_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/2/13_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\2\13_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/2/14_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\2\14_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/2/15_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\2\15_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/2/16_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\2\16_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/6/17_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\6\17_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/6/18_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\6\18_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/7/19_370x275_36d.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\7\19_370x275_36d.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/7/19_599x445_369.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\7\19_599x445_369.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/7/20_370x275_36d.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\7\20_370x275_36d.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/7/20_599x445_369.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\7\20_599x445_369.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/7/21_370x275_36d.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\7\21_370x275_36d.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/7/21_599x445_369.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\7\21_599x445_369.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/7/22_370x275_56e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\7\22_370x275_56e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/cache_image/assets/gallery/7/22_599x445_c4e.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\cache_image\assets\gallery\7\22_599x445_c4e.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/components/gallery/css/web.css
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\components\gallery\css\web.css
+Content Type: text/css
+
+Uri: https://a-t-p.ru/assets/gallery/1/1.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\1\1.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/1/10.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\1\10.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/1/11.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\1\11.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/1/12.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\1\12.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/1/2.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\1\2.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/1/3.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\1\3.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/1/4.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\1\4.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/1/5.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\1\5.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/1/6.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\1\6.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/1/7.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\1\7.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/1/8.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\1\8.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/1/9.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\1\9.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/2/13.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\2\13.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/2/14.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\2\14.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/2/15.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\2\15.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/2/16.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\2\16.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/6/17.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\6\17.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/6/18.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\6\18.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/assets/gallery/7/19.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\7\19.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/assets/gallery/7/20.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\7\20.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/assets/gallery/7/21.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\7\21.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/assets/gallery/7/22.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\assets\gallery\7\22.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/clients/client-img1.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\clients\client-img1.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/clients/client-img2.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\clients\client-img2.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/clients/client-img3.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\clients\client-img3.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/clients/client-img4.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\clients\client-img4.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/clients/client-img5.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\clients\client-img5.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/clients/client-img6.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\clients\client-img6.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/clients/client-img7.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\clients\client-img7.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/clients/client-img8.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\clients\client-img8.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/css/custom.css?v.1.011
+File Name: C:\Downloaded Web Sites\a-t-p.ru\css (1)\custom.css
+Content Type: text/css
+
+Uri: https://a-t-p.ru/css/fonts.css
+File Name: C:\Downloaded Web Sites\a-t-p.ru\css (1)\fonts.css
+Content Type: text/css
+
+Uri: https://a-t-p.ru/css/main.css?v.1.009
+File Name: C:\Downloaded Web Sites\a-t-p.ru\css (1)\main.css
+Content Type: text/css
+
+Uri: https://a-t-p.ru/css/media.css?v.1.009
+File Name: C:\Downloaded Web Sites\a-t-p.ru\css (1)\media.css
+Content Type: text/css
+
+Uri: https://a-t-p.ru/doverie
+File Name: C:\Downloaded Web Sites\a-t-p.ru\doverie.html
+Content Type: text/html
+
+Uri: https://a-t-p.ru/favicon.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\favicon.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/files/file.pdf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\files\file.pdf
+Content Type: application/pdf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/black/MontserratBlack.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\black\MontserratBlack.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/black/MontserratBlack.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\black\MontserratBlack.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/black/MontserratBlack.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\black\MontserratBlack.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/black/MontserratBlack.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\black\MontserratBlack.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/black/MontserratBlack.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\black\MontserratBlack.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/blackitalic/MontserratBlackItalic.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\blackitalic\MontserratBlackItalic.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/blackitalic/MontserratBlackItalic.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\blackitalic\MontserratBlackItalic.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/blackitalic/MontserratBlackItalic.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\blackitalic\MontserratBlackItalic.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/blackitalic/MontserratBlackItalic.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\blackitalic\MontserratBlackItalic.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/blackitalic/MontserratBlackItalic.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\blackitalic\MontserratBlackItalic.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/bold/MontserratBold.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\bold\MontserratBold.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/bold/MontserratBold.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\bold\MontserratBold.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/bold/MontserratBold.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\bold\MontserratBold.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/bold/MontserratBold.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\bold\MontserratBold.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/bold/MontserratBold.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\bold\MontserratBold.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/bolditalic/MontserratBoldItalic.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\bolditalic\MontserratBoldItalic.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/bolditalic/MontserratBoldItalic.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\bolditalic\MontserratBoldItalic.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/bolditalic/MontserratBoldItalic.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\bolditalic\MontserratBoldItalic.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/bolditalic/MontserratBoldItalic.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\bolditalic\MontserratBoldItalic.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/bolditalic/MontserratBoldItalic.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\bolditalic\MontserratBoldItalic.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extrabold/MontserratExtraBold.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extrabold\MontserratExtraBold.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extrabold/MontserratExtraBold.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extrabold\MontserratExtraBold.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extrabold/MontserratExtraBold.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extrabold\MontserratExtraBold.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extrabold/MontserratExtraBold.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extrabold\MontserratExtraBold.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extrabold/MontserratExtraBold.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extrabold\MontserratExtraBold.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extrabolditalic/MontserratExtraBoldItalic.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extrabolditalic\MontserratExtraBoldItalic.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extrabolditalic/MontserratExtraBoldItalic.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extrabolditalic\MontserratExtraBoldItalic.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extrabolditalic/MontserratExtraBoldItalic.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extrabolditalic\MontserratExtraBoldItalic.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extrabolditalic/MontserratExtraBoldItalic.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extrabolditalic\MontserratExtraBoldItalic.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extrabolditalic/MontserratExtraBoldItalic.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extrabolditalic\MontserratExtraBoldItalic.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extralight/MontserratExtraLight.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extralight\MontserratExtraLight.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extralight/MontserratExtraLight.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extralight\MontserratExtraLight.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extralight/MontserratExtraLight.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extralight\MontserratExtraLight.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extralight/MontserratExtraLight.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extralight\MontserratExtraLight.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extralight/MontserratExtraLight.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extralight\MontserratExtraLight.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extralightitalic/MontserratExtraLightItalic.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extralightitalic\MontserratExtraLightItalic.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extralightitalic/MontserratExtraLightItalic.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extralightitalic\MontserratExtraLightItalic.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extralightitalic/MontserratExtraLightItalic.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extralightitalic\MontserratExtraLightItalic.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extralightitalic/MontserratExtraLightItalic.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extralightitalic\MontserratExtraLightItalic.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/extralightitalic/MontserratExtraLightItalic.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\extralightitalic\MontserratExtraLightItalic.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/italic/MontserratItalic.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\italic\MontserratItalic.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/italic/MontserratItalic.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\italic\MontserratItalic.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/italic/MontserratItalic.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\italic\MontserratItalic.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/italic/MontserratItalic.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\italic\MontserratItalic.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/italic/MontserratItalic.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\italic\MontserratItalic.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/light/MontserratLight.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\light\MontserratLight.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/light/MontserratLight.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\light\MontserratLight.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/light/MontserratLight.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\light\MontserratLight.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/light/MontserratLight.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\light\MontserratLight.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/light/MontserratLight.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\light\MontserratLight.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/lightitalic/MontserratLightItalic.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\lightitalic\MontserratLightItalic.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/lightitalic/MontserratLightItalic.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\lightitalic\MontserratLightItalic.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/lightitalic/MontserratLightItalic.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\lightitalic\MontserratLightItalic.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/lightitalic/MontserratLightItalic.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\lightitalic\MontserratLightItalic.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/lightitalic/MontserratLightItalic.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\lightitalic\MontserratLightItalic.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/medium/MontserratMedium.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\medium\MontserratMedium.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/medium/MontserratMedium.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\medium\MontserratMedium.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/medium/MontserratMedium.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\medium\MontserratMedium.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/medium/MontserratMedium.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\medium\MontserratMedium.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/medium/MontserratMedium.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\medium\MontserratMedium.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/mediumitalic/MontserratMediumItalic.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\mediumitalic\MontserratMediumItalic.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/mediumitalic/MontserratMediumItalic.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\mediumitalic\MontserratMediumItalic.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/mediumitalic/MontserratMediumItalic.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\mediumitalic\MontserratMediumItalic.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/mediumitalic/MontserratMediumItalic.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\mediumitalic\MontserratMediumItalic.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/mediumitalic/MontserratMediumItalic.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\mediumitalic\MontserratMediumItalic.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/regular/MontserratRegular.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\regular\MontserratRegular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/regular/MontserratRegular.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\regular\MontserratRegular.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/regular/MontserratRegular.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\regular\MontserratRegular.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/regular/MontserratRegular.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\regular\MontserratRegular.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/regular/MontserratRegular.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\regular\MontserratRegular.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/semibold/MontserratSemiBold.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\semibold\MontserratSemiBold.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/semibold/MontserratSemiBold.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\semibold\MontserratSemiBold.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/semibold/MontserratSemiBold.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\semibold\MontserratSemiBold.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/semibold/MontserratSemiBold.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\semibold\MontserratSemiBold.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/semibold/MontserratSemiBold.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\semibold\MontserratSemiBold.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/semibolditalic/MontserratSemiBoldItalic.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\semibolditalic\MontserratSemiBoldItalic.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/semibolditalic/MontserratSemiBoldItalic.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\semibolditalic\MontserratSemiBoldItalic.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/semibolditalic/MontserratSemiBoldItalic.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\semibolditalic\MontserratSemiBoldItalic.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/semibolditalic/MontserratSemiBoldItalic.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\semibolditalic\MontserratSemiBoldItalic.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/semibolditalic/MontserratSemiBoldItalic.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\semibolditalic\MontserratSemiBoldItalic.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/thin/MontserratThin.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\thin\MontserratThin.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/thin/MontserratThin.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\thin\MontserratThin.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/thin/MontserratThin.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\thin\MontserratThin.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/thin/MontserratThin.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\thin\MontserratThin.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/thin/MontserratThin.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\thin\MontserratThin.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/fonts/Montserrat/thinitalic/MontserratThinItalic.eot
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\thinitalic\MontserratThinItalic.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://a-t-p.ru/fonts/Montserrat/thinitalic/MontserratThinItalic.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\thinitalic\MontserratThinItalic.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/fonts/Montserrat/thinitalic/MontserratThinItalic.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\thinitalic\MontserratThinItalic.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://a-t-p.ru/fonts/Montserrat/thinitalic/MontserratThinItalic.woff
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\thinitalic\MontserratThinItalic.woff
+Content Type: application/font-woff
+
+Uri: https://a-t-p.ru/fonts/Montserrat/thinitalic/MontserratThinItalic.woff2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\fonts\Montserrat\thinitalic\MontserratThinItalic.woff2
+Content Type: application/font-woff2
+
+Uri: https://a-t-p.ru/gallery/
+File Name: C:\Downloaded Web Sites\a-t-p.ru\gallery\index.htm
+Content Type: text/html
+
+Uri: https://a-t-p.ru/img/abobe-forest.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\abobe-forest.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/arrow-left.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\arrow-left.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/arrow-right.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\arrow-right.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/blue-forest.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\blue-forest.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/client-bg.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\client-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/img/contacts-form-bg.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\contacts-form-bg.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/cross-icon.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\cross-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/drill-bg-small.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\drill-bg-small.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/drill-bottom-bg.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\drill-bottom-bg.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/drill-img-3.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\drill-img-3.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/drill-overlay_1.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\drill-overlay_1.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/drill-overlay_big.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\drill-overlay_big.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/drill-part1.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\drill-part1.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/drill-part2.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\drill-part2.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/drill-top-bg.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\drill-top-bg.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/footer-bg.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\footer-bg.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/footer-bg.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\footer-bg.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/footer-bg2.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\footer-bg2.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/gasfort.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\gasfort.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/icons/icon_12.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\icons\icon_12.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/icons/icon_13.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\icons\icon_13.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/icons/icon_14.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\icons\icon_14.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/icons/icon_15.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\icons\icon_15.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/icons/icon_16.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\icons\icon_16.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/icons/icon_17.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\icons\icon_17.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/icons/icon_18.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\icons\icon_18.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/logo_atp.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\logo_atp.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/mail-icon.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\mail-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/mail-icon2.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\mail-icon2.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/main-bg.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\main-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/img/menu-icon.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\menu-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/news/10dec2021/10dec2021_01.jpeg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\news\10dec2021\10dec2021_01.jpeg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/img/news/10dec2021/10dec2021_06.jpeg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\news\10dec2021\10dec2021_06.jpeg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/img/news/10dec2021/10dec2021_09.jpeg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\news\10dec2021\10dec2021_09.jpeg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/img/news/17dec2021/17dec21-01.jpeg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\news\17dec2021\17dec21-01.jpeg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/img/news/17dec2021/17dec21-04.jpeg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\news\17dec2021\17dec21-04.jpeg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/img/news/news-img3.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\news\news-img3.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/news/photo-img4.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\news\photo-img4.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/news/service-img.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\news\service-img.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/phone-icon.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\phone-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/phone-icon3.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\phone-icon3.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/photo-tab1--active.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\photo-tab1--active.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/photo-tab1.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\photo-tab1.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/photo-tab2--active.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\photo-tab2--active.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/photo-tab2.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\photo-tab2.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/photo-tab3--active.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\photo-tab3--active.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/photo-tab3.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\photo-tab3.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/service-lic-img.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\service-lic-img.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/single-header-bg.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\single-header-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/img/tech-icon1.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\tech-icon1.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/tech-icon10.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\tech-icon10.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/tech-icon2.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\tech-icon2.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/tech-icon3.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\tech-icon3.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/tech-icon4.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\tech-icon4.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/tech-icon5.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\tech-icon5.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/tech-icon6.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\tech-icon6.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/tech-icon7.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\tech-icon7.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/tech-icon8.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\tech-icon8.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/tech-icon9.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\tech-icon9.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/tower-3.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\tower-3.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/tracking-img-3.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\tracking-img-3.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/tracking-top-uzor.svg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\tracking-top-uzor.svg
+Content Type: image/svg+xml
+
+Uri: https://a-t-p.ru/img/trust-bg.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\trust-bg.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/trust-img.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\trust-img.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/trust-img2.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\trust-img2.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/trust-line_icon1.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\trust-line_icon1.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/trust-line_icon2.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\trust-line_icon2.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/vac-bg.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\vac-bg.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/vac-img.png
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\vac-img.png
+Content Type: image/png
+
+Uri: https://a-t-p.ru/img/vac-text-bg.jpg
+File Name: C:\Downloaded Web Sites\a-t-p.ru\img\vac-text-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://a-t-p.ru/js/autosize.js
+File Name: C:\Downloaded Web Sites\a-t-p.ru\js\autosize.js
+Content Type: application/x-javascript
+
+Uri: https://a-t-p.ru/js/fancybox/jquery.fancybox.min.css
+File Name: C:\Downloaded Web Sites\a-t-p.ru\js\fancybox\jquery.fancybox.min.css
+Content Type: text/css
+
+Uri: https://a-t-p.ru/js/fancybox/jquery.fancybox.min.js
+File Name: C:\Downloaded Web Sites\a-t-p.ru\js\fancybox\jquery.fancybox.min.js
+Content Type: application/x-javascript
+
+Uri: https://a-t-p.ru/js/jquery-3.3.1.min.js
+File Name: C:\Downloaded Web Sites\a-t-p.ru\js\jquery-3.3.1.min.js
+Content Type: application/x-javascript
+
+Uri: https://a-t-p.ru/js/main.js?v.1.002
+File Name: C:\Downloaded Web Sites\a-t-p.ru\js\main.js
+Content Type: application/x-javascript
+
+Uri: https://a-t-p.ru/kontaktyi
+File Name: C:\Downloaded Web Sites\a-t-p.ru\kontaktyi.html
+Content Type: text/html
+
+Uri: https://a-t-p.ru/libs/magnific-popup/jquery.magnific-popup.min.js
+File Name: C:\Downloaded Web Sites\a-t-p.ru\libs\magnific-popup\jquery.magnific-popup.min.js
+Content Type: application/x-javascript
+
+Uri: https://a-t-p.ru/libs/magnific-popup/magnific-popup.css
+File Name: C:\Downloaded Web Sites\a-t-p.ru\libs\magnific-popup\magnific-popup.css
+Content Type: text/css
+
+Uri: https://a-t-p.ru/libs/slick-slider/slick.css
+File Name: C:\Downloaded Web Sites\a-t-p.ru\libs\slick-slider\slick.css
+Content Type: text/css
+
+Uri: https://a-t-p.ru/libs/slick-slider/slick.min.js
+File Name: C:\Downloaded Web Sites\a-t-p.ru\libs\slick-slider\slick.min.js
+Content Type: application/x-javascript
+
+Uri: https://a-t-p.ru/news/
+File Name: C:\Downloaded Web Sites\a-t-p.ru\news\index.htm
+Content Type: text/html
+
+Uri: https://a-t-p.ru/news/?cat=15
+File Name: C:\Downloaded Web Sites\a-t-p.ru\news\index-1.htm
+Content Type: text/html
+
+Uri: https://a-t-p.ru/news/?cat=16
+File Name: C:\Downloaded Web Sites\a-t-p.ru\news\index-2.htm
+Content Type: text/html
+
+Uri: https://a-t-p.ru/news/?cat=17
+File Name: C:\Downloaded Web Sites\a-t-p.ru\news\index-3.htm
+Content Type: text/html
+
+Uri: https://a-t-p.ru/news/perevozka-burovyix-otxodov/opyit,-professionalizm,-texnicheskoe-i-transportnoe-obespechenie
+File Name: C:\Downloaded Web Sites\a-t-p.ru\news\perevozka-burovyix-otxodov\opyit,-professionalizm,-texnicheskoe-i-transportnoe-obespechenie.html
+Content Type: text/html
+
+Uri: https://a-t-p.ru/news/samosvalnaya-texnika/eshhe-novost
+File Name: C:\Downloaded Web Sites\a-t-p.ru\news\samosvalnaya-texnika\eshhe-novost.html
+Content Type: text/html
+
+Uri: https://a-t-p.ru/news/tranzit/novost-1
+File Name: C:\Downloaded Web Sites\a-t-p.ru\news\tranzit\novost-1.html
+Content Type: text/html
+
+Uri: https://a-t-p.ru/news/tranzit/novost-2
+File Name: C:\Downloaded Web Sites\a-t-p.ru\news\tranzit\novost-2.html
+Content Type: text/html
+
+Uri: https://a-t-p.ru/obsluzhivanie-neftyanyix-mestorozhdenij
+File Name: C:\Downloaded Web Sites\a-t-p.ru\obsluzhivanie-neftyanyix-mestorozhdenij.html
+Content Type: text/html
+
+Uri: https://a-t-p.ru/texnika
+File Name: C:\Downloaded Web Sites\a-t-p.ru\texnika.html
+Content Type: text/html
+
+Uri: https://a-t-p.ru/vakansii
+File Name: C:\Downloaded Web Sites\a-t-p.ru\vakansii.html
+Content Type: text/html
+
+Uri: https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900|Rubik:500,700,900&subset=latin,cyrillic
+File Name: C:\Downloaded Web Sites\a-t-p.ru\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51S7ACc-CsE.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\s\roboto\v30\KFOjCnqEu92Fr1Mu51S7ACc-CsE.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TzBic-CsE.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\s\roboto\v30\KFOjCnqEu92Fr1Mu51TzBic-CsE.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1Mu51xMIzc.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\s\roboto\v30\KFOkCnqEu92Fr1Mu51xMIzc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fABc9.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\s\roboto\v30\KFOlCnqEu92Fr1MmEU9fABc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfABc9.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\s\roboto\v30\KFOlCnqEu92Fr1MmWUlfABc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfABc9.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\s\roboto\v30\KFOlCnqEu92Fr1MmYUtfABc9.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxP.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\s\roboto\v30\KFOmCnqEu92Fr1Mu5mxP.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v21/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-FU0Uw.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\s\rubik\v21\iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-FU0Uw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v21/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYiFU0Uw.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\s\rubik\v21\iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYiFU0Uw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/rubik/v21/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-ro-FU0Uw.ttf
+File Name: C:\Downloaded Web Sites\a-t-p.ru\s\rubik\v21\iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-ro-FU0Uw.ttf
+Content Type: font/ttf
+

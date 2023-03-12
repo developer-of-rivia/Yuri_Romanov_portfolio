@@ -1,0 +1,124 @@
+/* yudevices */
+.index--mobile .container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.yuchoise {
+    position: fixed;
+    right: 0;
+    bottom: 20vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 999999;
+    box-shadow: 0 0 18px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 15px 0 0 15px;
+    z-index: 999999;
+}
+
+.yuchoise__menu {
+    position: fixed;
+    right: 0;
+    bottom: 15vh;
+    padding: 9px;
+    z-index: 999999;
+}
+
+.yuchoise__item {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    background: mediumpurple;
+    opacity: 0.5;
+}
+
+.yuchoise__item:hover {
+    opacity: 0.7;
+}
+
+.yuchoise__item--desk {
+    border-radius: 15px 0 0 0;
+}
+
+.yuchoise__item--mobile {
+    border-radius: 0 0 0 15px;
+}
+
+.yuchoise__item--active {
+    opacity: 1;
+    cursor: default;
+}
+
+.yuchoise__item--active:hover {
+    opacity: 1;
+}
+
+.yuchoise__item--active span {
+    text-decoration: underline;
+}
+
+.yuchoise__item img {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.yudevices {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 99999;
+    right: 0;
+    top: 0;
+    transition: 0.4s;
+    transform: scale(0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yudevices--active.yudevices {
+    transform: scale(1);
+}
+
+.yudevices__phone {
+    width: 457px;
+    height: 958px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 145px;
+    padding-bottom: 145px;
+    overflow: hidden;
+}
+
+.yudevices__phone iframe {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 9999;
+    border: none;
+}
+
+.yudevices__phone img {
+    position: relative;
+    top: -726px;
+    width: 450px;
+    height: auto;
+}
+
+.yuchoise.hidden{
+    display: none;
+}

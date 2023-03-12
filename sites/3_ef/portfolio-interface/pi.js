@@ -1,27 +1,28 @@
-$('.yuchoise__item').on('click', function () {
-    $('.yuchoise__item').removeClass('yuchoise__item--active');
-    $(this).addClass('yuchoise__item--active');
+let yuchoise_item_desk = document.querySelector('.yuchoise__item--desk');
+let yuchoise_item_mobile = document.querySelector('.yuchoise__item--mobile');
+let yudevices = document.querySelector('.yudevices');
+
+
+yuchoise_item_desk.addEventListener('click', function(){
+    this.classList.add('yuchoise__item--active');
+    yuchoise_item_mobile.classList.remove('yuchoise__item--active');
+    yudevices.classList.remove('yudevices--active');
 });
-$('.yuchoise__item--mobile').on('click', function () {
-    $('.yudevices').addClass('yudevices--active');
+yuchoise_item_mobile.addEventListener('click', function(){
+    this.classList.add('yuchoise__item--active');
+    yuchoise_item_desk.classList.remove('yuchoise__item--active');
+    yudevices.classList.add('yudevices--active');
 });
-$('.yuchoise__item--desk').on('click', function () {
-    $('.yudevices').removeClass('yudevices--active');
-});
 
 
-// lazy load portfolio interface
-window.addEventListener("click", piframe);
-
-function piframe() {
-    const piElement = document.querySelector('.piframe');
-
-    if (!piElement.classList.contains('pi_loaded')) {
-        const piElementUrl = piElement.dataset.mobile;
-        piElement.insertAdjacentHTML(
-            "beforeend",
-            `<iframe src="${piElementUrl}" style="border: 0" allowfullscreen=""></iframe>`
-        );
-        piElement.classList.add('pi_loaded');
-    }
+function iniFrame() {
+if ( window.location !== window.parent.location )
+{
+    let yuchoiseInterface = document.querySelector('.yuchoise');
+    yuchoiseInterface.classList.add('hidden');
 }
+// else {
+//     document.write("The page is not in an iFrame");
+// }
+}
+iniFrame();

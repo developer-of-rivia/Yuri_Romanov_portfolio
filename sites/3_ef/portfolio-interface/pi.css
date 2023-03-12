@@ -31,8 +31,6 @@
     text-align: center;
     font-size: 12px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 10px;
     cursor: pointer;
@@ -48,11 +46,11 @@
     opacity: 0.7;
 }
 
-.yuchoise .yuchoise__item:first-child {
+.yuchoise__item--desk {
     border-radius: 15px 0 0 0;
 }
 
-.yuchoise .yuchoise__item:last-child {
+.yuchoise__item--mobile {
     border-radius: 0 0 0 15px;
 }
 
@@ -86,14 +84,8 @@
     top: 0;
     transition: 0.4s;
     transform: scale(0);
-}
-
-.webp-support .yudevices {
-    background-image: url(table-bg.webp);
-}
-
-.webp-missed .yudevices {
-    background-image: url(table-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .yudevices--active.yudevices {
@@ -101,9 +93,10 @@
 }
 
 .yudevices__phone {
-    width: 450px;
-    height: 950px;
-    background: url(iphone.svg) no-repeat center center;
+    width: 457px;
+    height: 958px;
+    background-repeat: no-repeat;
+    background-position: center center;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 145px;
@@ -124,4 +117,8 @@
     top: -726px;
     width: 450px;
     height: auto;
+}
+
+.yuchoise.hidden{
+    display: none;
 }

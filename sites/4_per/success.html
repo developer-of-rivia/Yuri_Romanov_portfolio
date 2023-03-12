@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ПЭР - ПРОФЭНЕРГОРЕЗЕРВ</title>
+    <link rel="icon" href="favicon.svg" type="image/x-icon">
+    <style>
+        @font-face{font-display:swap;font-display:swap;font-family:'icomoon';src:url(fonts/icomoon/icomoon.eot?m3tokn);src:url(fonts/icomoon/icomoon.eot?m3tokn#iefix) format("embedded-opentype"),url(fonts/icomoon/icomoon.ttf?m3tokn) format("truetype"),url(fonts/icomoon/icomoon.woff?m3tokn) format("woff"),url(fonts/icomoon/icomoon.svg?m3tokn#icomoon) format("svg");font-weight:400;font-style:normal;font-display:block}[class^="_icon-"],[class*=" _icon-"]{font-display:swap;font-display:swap;font-family:'icomoon'!important;speak:never;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}._icon-th-list:before{content:"\e909"}._icon-th-combs:before{content:"\e90a"}._icon-arrow-left:before{content:"\e908"}._icon-arrow-right:before{content:"\e900"}._icon-close:before{content:"\e901"}._icon-star:before{content:"\e902"}._icon-heart:before{content:"\e903"}._icon-catalog:before{content:"\e904"}._icon-phone:before{content:"\e905"}._icon-burger:before{content:"\e906"}._icon-stats:before{content:"\e907"}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(fonts/roboto/Robotolight.woff2) format("woff2")}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/roboto/Roboto.woff2) format("woff2")}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/roboto/Robotomedium.woff2) format("woff2")}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(fonts/roboto/Robotobold.woff2) format("woff2")}@font-face{font-family:'Roboto';font-style:normal;font-weight:900;font-display:swap;src:url(fonts/roboto/Robotoblack.woff2) format("woff2")}.fakeScroll{overflow:visible!important}.fakeScroll__wrap{overflow:hidden;height:100%;position:relative;z-index:1}.fakeScroll__content{height:100%;width:100%;position:relative;overflow:auto;-moz-box-sizing:border-box;box-sizing:border-box;scrollbar-width:none;outline:none}.fakeScroll__content::-webkit-scrollbar{display:none}.fakeScroll__track{position:absolute;right:-15px;top:0;bottom:0;width:9px;cursor:default}.fakeScroll__bar{position:relative;background:rgba(255,255,255,.4);width:100%;border-radius:4px;right:0;top:0;z-index:0;transition:background .1s;cursor:-moz-grab;cursor:-webkit-grab}.fakeScroll__bar:hover{background:rgba(255,255,255,.55)}.fakeScroll__bar.fakeScroll--grabbed{cursor:-moz-grabbing;cursor:-webkit-grabbing;background:#fff}body.fakeScroll--grabbed{cursor:-moz-grabbing;cursor:-webkit-grabbing;-moz-user-select:none;-webkit-user-select:none;user-select:none}.mfp-bg{top:0;left:0;width:100%;height:100%;z-index:1042;overflow:hidden;position:fixed;background:#0b0b0b;opacity:.8}.mfp-wrap{top:0;left:0;width:100%;height:100%;z-index:1043;position:fixed;outline:none!important;-webkit-backface-visibility:hidden}.mfp-container{text-align:center;position:absolute;width:100%;height:100%;left:0;top:0;padding:0 8px;box-sizing:border-box}.mfp-container:before{content:'';display:inline-block;height:100%;vertical-align:middle}.mfp-align-top .mfp-container:before{display:none}.mfp-content{position:relative;display:inline-block;vertical-align:middle;margin:0 auto;text-align:left;z-index:1045}.mfp-inline-holder .mfp-content,.mfp-ajax-holder .mfp-content{width:100%;cursor:auto}.mfp-ajax-cur{cursor:progress}.mfp-zoom-out-cur,.mfp-zoom-out-cur .mfp-image-holder .mfp-close{cursor:-moz-zoom-out;cursor:-webkit-zoom-out;cursor:zoom-out}.mfp-zoom{cursor:pointer;cursor:-webkit-zoom-in;cursor:-moz-zoom-in;cursor:zoom-in}.mfp-auto-cursor .mfp-content{cursor:auto}.mfp-close,.mfp-arrow,.mfp-preloader,.mfp-counter{-webkit-user-select:none;-moz-user-select:none;user-select:none}.mfp-loading.mfp-figure{display:none}.mfp-hide{display:none!important}.mfp-preloader{color:#CCC;position:absolute;top:50%;width:auto;text-align:center;margin-top:-.8em;left:8px;right:8px;z-index:1044}.mfp-preloader a{color:#CCC}.mfp-preloader a:hover{color:#FFF}.mfp-s-ready .mfp-preloader{display:none}.mfp-s-error .mfp-content{display:none}button.mfp-close,button.mfp-arrow{overflow:visible;cursor:pointer;background:transparent;border:0;-webkit-appearance:none;display:block;outline:none;padding:0;z-index:1046;box-shadow:none;touch-action:manipulation}button::-moz-focus-inner{padding:0;border:0}.mfp-close{width:44px;height:44px;line-height:44px;position:absolute;right:0;top:0;text-decoration:none;text-align:center;opacity:.65;padding:0 0 18px 10px;color:#FFF;font-style:normal;font-size:28px;font-display:swap;font-display:swap;font-display:swap;font-family:Arial,Baskerville,monospace}.mfp-close:hover,.mfp-close:focus{opacity:1}.mfp-close:active{top:1px}.mfp-close-btn-in .mfp-close{color:#333}.mfp-image-holder .mfp-close,.mfp-iframe-holder .mfp-close{color:#FFF;right:-6px;text-align:right;padding-right:6px;width:100%}.mfp-counter{position:absolute;top:0;right:0;color:#CCC;font-size:12px;line-height:18px;white-space:nowrap}.mfp-arrow{position:absolute;opacity:.65;margin:0;top:50%;margin-top:-55px;padding:0;width:90px;height:110px;-webkit-tap-highlight-color:transparent}.mfp-arrow:active{margin-top:-54px}.mfp-arrow:hover,.mfp-arrow:focus{opacity:1}.mfp-arrow:before,.mfp-arrow:after{content:'';display:block;width:0;height:0;position:absolute;left:0;top:0;margin-top:35px;margin-left:35px;border:medium inset transparent}.mfp-arrow:after{border-top-width:13px;border-bottom-width:13px;top:8px}.mfp-arrow:before{border-top-width:21px;border-bottom-width:21px;opacity:.7}.mfp-arrow-left{left:0}.mfp-arrow-left:after{border-right:17px solid #FFF;margin-left:31px}.mfp-arrow-left:before{margin-left:25px;border-right:27px solid #3F3F3F}.mfp-arrow-right{right:0}.mfp-arrow-right:after{border-left:17px solid #FFF;margin-left:39px}.mfp-arrow-right:before{border-left:27px solid #3F3F3F}.mfp-iframe-holder{padding-top:40px;padding-bottom:40px}.mfp-iframe-holder .mfp-content{line-height:0;width:100%;max-width:900px}.mfp-iframe-holder .mfp-close{top:-40px}.mfp-iframe-scaler{width:100%;height:0;overflow:hidden;padding-top:56.25%}.mfp-iframe-scaler iframe{position:absolute;display:block;top:0;left:0;width:100%;height:100%;box-shadow:0 0 8px rgba(0,0,0,0.6);background:#000}img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;box-sizing:border-box;padding:40px 0;margin:0 auto}.mfp-figure{line-height:0}.mfp-figure:after{content:'';position:absolute;left:0;top:40px;bottom:40px;display:block;right:0;width:auto;height:auto;z-index:-1;box-shadow:0 0 8px rgba(0,0,0,0.6);background:#444}.mfp-figure small{color:#BDBDBD;display:block;font-size:12px;line-height:14px}.mfp-figure figure{margin:0}.mfp-bottom-bar{margin-top:-36px;position:absolute;top:100%;left:0;width:100%;cursor:auto}.mfp-title{text-align:left;line-height:18px;color:#F3F3F3;word-wrap:break-word;padding-right:36px}.mfp-image-holder .mfp-content{max-width:100%}.mfp-gallery .mfp-image-holder .mfp-figure{cursor:pointer}@media screen and (max-width: 800px) and (orientation: landscape),screen and (max-height: 300px){.mfp-img-mobile .mfp-image-holder{padding-left:0;padding-right:0}.mfp-img-mobile img.mfp-img{padding:0}.mfp-img-mobile .mfp-figure:after{top:0;bottom:0}.mfp-img-mobile .mfp-figure small{display:inline;margin-left:5px}.mfp-img-mobile .mfp-bottom-bar{background:rgba(0,0,0,0.6);bottom:0;margin:0;top:auto;padding:3px 5px;position:fixed;box-sizing:border-box}.mfp-img-mobile .mfp-bottom-bar:empty{padding:0}.mfp-img-mobile .mfp-counter{right:5px;top:3px}.mfp-img-mobile .mfp-close{top:0;right:0;width:35px;height:35px;line-height:35px;background:rgba(0,0,0,0.6);position:fixed;text-align:center;padding:0}}@media all and (max-width: 900px){.mfp-arrow{-webkit-transform:scale(0.75);transform:scale(0.75)}.mfp-arrow-left{-webkit-transform-origin:0;transform-origin:0}.mfp-arrow-right{-webkit-transform-origin:100%;transform-origin:100%}.mfp-container{padding-left:6px;padding-right:6px}}.slick-slider{position:relative;display:block;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:none}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-track,.slick-slider .slick-list{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-track{position:relative;top:0;left:0;display:block;margin-left:auto;margin-right:auto}.slick-track:before,.slick-track:after{display:table;content:''}.slick-track:after{clear:both}.slick-loading .slick-track{visibility:hidden}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir='rtl'] .slick-slide{float:right}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-initialized .slick-slide{display:block}.slick-loading .slick-slide{visibility:hidden}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.slick-arrow.slick-hidden{display:none}
+    </style>
+    <!-- Базовые стили CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="body body--catalog">
+    <div class="body__top">
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <a href="#" class="header__logo">
+                        <img src="img/logo.svg">
+                    </a>
+                    <div class="header__search">
+                        <input class="input menu__search-input header__search-input" placeholder="Поиск по каталогу">
+                    </div>
+                    <div class="header__loc loc">
+                        <div class="loc__your">
+                            <span>Ваш город:</span>
+                            <a href="#">Москва</a>
+                        </div>
+                        <div class="loc__your-address">
+                            <p> г. Москва, Каширское шоссе, д. 22, к. 3, офис 1014</p>
+                        </div>
+                        <a href="mailto:1@profpower.ru" class="loc__your-mail">
+                            1@profpower.ru
+                        </a>
+                    </div>
+                    <div class="hinfo">
+                        <div class="hinfo__work">
+                            Пн-Пт c 9:00 до 19:00
+                        </div>
+                        <div class="call">
+                            <span class="call__name">Бесплатный звонок по России </span>
+                            <a class="call__phone" href="tel:88005550602">8 (800) 555-06-02 </a>
+                        </div>
+                    </div>
+                    <div class="header__feedback">
+                        <div class="header__socials socials">
+                            <a href="#" class="socials__item">
+                                <img src="img/whatsapp.svg">
+                            </a>
+                            <a href="#" class="socials__item">
+                                <img src="img/viber.svg">
+                            </a>
+                        </div>
+                        <a href="#getcall" class="header__btn btn popup-link">
+                            Заказать звонок
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="menu">
+            <div class="container">
+                <div class="menu__wrapper">
+                    <div class="menu__burger">
+                        <i class="_icon-burger"></i>
+                        Меню
+                    </div>
+                    <a href="#" class="menu__catalog-link">
+                        <i class="_icon-catalog"></i>
+                        Каталог
+                    </a>
+                    <ul class="nav">
+                        <div class="nav__close">
+                            <img src="img/icons/close-icon.svg">
+                        </div>
+                        <li class="nav__list nav__parent"><a href="#">О компании</a>
+                            <ul class="nav__inner">
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Электростанции
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Дизельные генераторы</a></li>
+                                        <li><a href="#">Газовые генераторы</a></li>
+                                        <li><a href="#">Бензиновые генераторы</a></li>
+                                        <li><a href="#">Сварочные генераторы</a></li>
+                                        <li><a href="#">Акции и распродажи</a></li>
+                                    </ul>
+                                </div>
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Оборудование
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Стабилизаторы напряжения</a></li>
+                                        <li><a href="#">Источники бесперебойного питания (ИБП)
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav__list nav__parent"><a href="#">Каталог</a>
+                            <ul class="nav__inner">
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Электростанции
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Дизельные генераторы</a></li>
+                                        <li><a href="#">Газовые генераторы</a></li>
+                                        <li><a href="#">Бензиновые генераторы</a></li>
+                                        <li><a href="#">Сварочные генераторы</a></li>
+                                        <li><a href="#">Акции и распродажи</a></li>
+                                    </ul>
+                                </div>
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Оборудование
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Стабилизаторы напряжения</a></li>
+                                        <li><a href="#">Источники бесперебойного питания (ИБП)
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav__list nav__parent"><a href="#">Услуги</a>
+                            <ul class="nav__inner">
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Электростанции
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Дизельные генераторы</a></li>
+                                        <li><a href="#">Газовые генераторы</a></li>
+                                        <li><a href="#">Бензиновые генераторы</a></li>
+                                        <li><a href="#">Сварочные генераторы</a></li>
+                                        <li><a href="#">Акции и распродажи</a></li>
+                                    </ul>
+                                </div>
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Оборудование
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Стабилизаторы напряжения</a></li>
+                                        <li><a href="#">Источники бесперебойного питания (ИБП)
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav__list"><a href="#">Производство</a></li>
+                        <li class="nav__list"><a href="#">Проекты</a></li>
+                        <li class="nav__list nav__parent"><a href="#">Информация</a>
+                            <ul class="nav__inner">
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Электростанции
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Дизельные генераторы</a></li>
+                                        <li><a href="#">Газовые генераторы</a></li>
+                                        <li><a href="#">Бензиновые генераторы</a></li>
+                                        <li><a href="#">Сварочные генераторы</a></li>
+                                        <li><a href="#">Акции и распродажи</a></li>
+                                    </ul>
+                                </div>
+                                <div class="nav__inner-col">
+                                    <div class="nav__inner-title">
+                                        Оборудование
+                                    </div>
+                                    <ul class="nav__inner-box">
+                                        <li><a href="#">Стабилизаторы напряжения</a></li>
+                                        <li><a href="#">Источники бесперебойного питания (ИБП)
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav__list"><a href="#">Контакты</a></li>
+                        <div class="call call--nav">
+                            <div class="call-nav__left">
+                                <span class="call__name">Бесплатный звонок по России </span>
+                                <a class="call__phone call__phone--second" href="tel:88005550602">8 (800) 555-06-02
+                                </a>
+                                <a href="#getcall" class="call__btn btn popup-link">
+                                    Заказать звонок
+                                </a>
+                            </div>
+                            <div class="call__socials socials socials--vertical">
+                                <a href="#" class="socials__item socials__item--big">
+                                    <img src="img/whatsapp.svg">
+                                </a>
+                                <a href="#" class="socials__item socials__item--big">
+                                    <img src="img/viber.svg">
+                                </a>
+                            </div>
+                        </div>
+                    </ul>
+                    <a href="#" class="menu__cont-link">
+                        <i class="_icon-phone"></i>
+                        Контакты
+                    </a>
+                    <div class="menu__search">
+                        <input class="input menu__search-input" placeholder="Поиск по каталогу">
+                    </div>
+                    <div class="menu__right">
+                        <a href="#" class="menu__icon fav">
+                            <div class="fav__count">
+                                12
+                            </div>
+                            <i class="_icon-heart"></i>
+                            <span>Избранное</span>
+                        </a>
+                        <a href="#" class="menu__icon">
+                            <i class="_icon-stats"></i>
+                            <span>Сравнение</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pageloc">
+        <div class="container">
+            <ul class="pageloc__box pageloc__box--basket">
+                <li class="pageloc__list">
+                    <a href="#" class="pageloc__link pageloc__link--home">
+                        Главная
+                    </a>
+                </li>
+                <li class="pageloc__list">
+                    <a href="#" class="pageloc__link pageloc__link--here">
+                        Оформление заказа
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- page -->
+    <div class="page">
+        <div class="container">
+            <main class="main">
+                <div class="basket" style="min-height: 50vh">
+                    <div class="basket__title">
+                        Успешно
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__col footer__col--first">
+                    <div class="call">
+                        <span class="call__name">Бесплатный звонок по России </span>
+                        <a class="call__phone call__phone--second" href="tel:88005550602">8 (800) 555-06-02 </a>
+                        <a href="#getcall" class="call__btn btn popup-link">
+                            Заказать звонок
+                        </a>
+                        <div class="call__socials socials">
+                            <a href="#" class="socials__item">
+                                <img src="img/whatsapp.svg">
+                            </a>
+                            <a href="#" class="socials__item">
+                                <img src="img/viber.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__col footer__col--second">
+                    <div class="loc">
+                        <div class="loc__your loc__your--second">
+                            <span>Ваш город:</span>
+                            <a href="#">Москва</a>
+                        </div>
+                        <div class="loc__your-address loc__your-address--second">
+                            <p> г. Москва, Каширское шоссе, д. 22, к. 3, офис 1014</p>
+                        </div>
+                        <div class="loc__your-mail--second">
+                            <a href="mailto:1@profpower.ru" class="loc__your-mail">
+                                1@profpower.ru
+                            </a>
+                        </div>
+                        <div class="loc__phone">
+                            <a href="tel:74957801025" class="">
+                                +7 (495) 780-10-25
+                            </a>
+                            <a href="tel:74952253292" class="">
+                                +7 (495) 225-32-92
+                            </a>
+                        </div>
+                        <div class="hinfo">
+                            <div class="hinfo__work">
+                                Пн-Пт c 9:00 до 19:00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__col footer__col--third">
+                    <div class="footer__menu">
+                        <ul class="footer__menu-box">
+                            <li class="footer_list"><a href="#" class="footer_link">Дизельные генераторы</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Газовые генераторы</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Бензиновые генераторы</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Сварочные генераторы</a></li>
+                        </ul>
+                        <ul class="footer__menu-box">
+                            <li class="footer_list"><a href="#" class="footer_link">Услуги</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Доставка и оплата</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Гарантия и возврат</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Как выбрать?</a></li>
+                        </ul>
+                        <ul class="footer__menu-box">
+                            <li class="footer_list"><a href="#" class="footer_link">О компании</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Контакты</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Отзывы (???)</a></li>
+                            <li class="footer_list"><a href="#" class="footer_link">Пользовательское соглашение</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__last">
+                <div class="footer__last-roots">
+                    ООО «ПрофЭнергоРезерв» © 2007-2021 Все права защищены. <br>Представленная на сайте информация не
+                    является офертой и носит информационный характер
+                </div>
+                <a href="#" class="footer__last-map">
+                    Карта сайта
+                </a>
+                <div class="footer__right">
+                    <a href="#" class="footer__arrow">
+                        <img src="img/icons/footer-arrow.png">
+                    </a>
+                    <a href="#" class="footer__yandex">
+                        <img src="img/icons/yandex-icon.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- popup -->
+    <div class="hidden">
+        <div class="popup getcall" id="getcall">
+            <div class="getcall__wrapper">
+                <div class="popup__title">
+                    Заказать звонок
+                </div>
+                <div class="popup__field">
+                    <input type="text" class="popup__input input" placeholder="Ваше Имя">
+                </div>
+                <div class="popup__field">
+                    <input type="text" class="popup__input input" placeholder="Телефон">
+                </div>
+                <div class="popup__accept">
+                    <label class="checkbox">
+                        <input type="checkbox">
+                        <div class="checkbox__content">
+                            Я согласен на обработку персональных данных
+                        </div>
+                    </label>
+                </div>
+                <div class="popup__btn-area">
+                    <button class="popup__btn btn">
+                        Отправить
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Slick slider JS -->
+    <script async src="libs/slick-slider/slick.min.js"></script>
+    <!-- Magnific Popup JS -->
+    <script async src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Custom Scroll -->
+    <script async src="libs/fakescroll/fakescroll.min.js"></script>
+    <!-- Базовые скрипты javascript -->
+    <script async src="js/scripts.js"></script>
+    <script async src="js/basket.js"></script>
+    <script async src="js/lazysizes.min.js"></script>
+</body>
+
+</html>

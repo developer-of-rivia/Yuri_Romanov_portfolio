@@ -1,0 +1,298 @@
+@import "1 vars.sass"
+@import "2 media-mix.sass"
+//
+.ua_js_yes.ua_svg_yes
+    overflow: hidden
+/* nd-footer */
+.nd-footer
+    padding-top: 62px
+    background: #F0F4FB
+    +xs
+        padding-top: 43px
+    .container
+        position: relative
+.nd-footer__first
+    padding-bottom: 20px
+    border-bottom: 1px solid #D5E0F3
+    +md
+        padding-bottom: 26px
+.nd-footer__first-wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+    +xs
+        justify-content: center
+.nd-footer__middle
+    border-bottom: 1px solid #D5E0F3
+    +xs
+        position: relative
+.nd-footer__middle-wrapper
+    display: flex
+.nd-footer__menu
+    display: flex
+    justify-content: space-between
+    gap: 70px
+    padding-right: 76px
+    border-right: 1px solid #D5E0F3
+    padding-top: 34px
+    padding-bottom: 30px
+    width: 578px
+    +lg
+        gap: 50px
+        width: 478px
+    +md
+        flex-direction: column
+        gap: 23px
+        justify-content: flex-start
+        width: 200px
+        border-right: none
+        padding-bottom: 41px
+    +sm
+        display: none
+.nd-footer__content
+    padding-left: 49px
+    padding-top: 34px
+    padding-bottom: 30px
+    display: flex
+    justify-content: space-between
+    width: 584px
+    +lg
+        padding-left: 29px
+    +md
+        padding-left: 0
+        padding-bottom: 41px
+    +xs
+        flex-direction: column-reverse
+        align-items: center
+        text-align: center
+        padding-top: 26px
+        padding-bottom: 30px
+.nd-footer__column-title
+    color: #0C0A3E
+    border-bottom: 1px solid $accent
+    font-size: 22px
+    margin-bottom: 18px
+    display: inline-block
+    &:hover
+        color: $accent
+    +lg
+        font-size: 18px
+    +md
+        margin-bottom: 0
+        font-size: 22px
+.nd-footer__column-menu
+    display: flex
+    flex-direction: column
+    gap: 14px
+    +lg
+        gap: 11px
+    +md
+        display: none
+.nd-footer__column-list a
+    color: #474D63
+    font-size: 15px
+    &:hover
+        color: $primary
+    +lg
+        font-size: 14px
+.nd-footer__infos
+    display: flex
+    flex-direction: column
+    gap: 30px
+    +md
+        height: 100%
+        justify-content: space-between
+    +sm
+        width: 215px
+    +xs
+        width: 100%
+        gap: 27px
+.nd-footer__infos-item
+    span
+        color: $primary
+        font-weight: 500
+        font-size: 15px
+        margin-bottom: 9px
+        display: block
+        +lg
+            font-size: 13px
+            margin-bottom: 6px
+        +md
+            font-size: 15px
+    p
+        color: #474D63
+        font-size: 14px
+        +lg
+            font-size: 13px
+        +md
+            font-size: 14px
+        +sm
+            font-size: 13px
+.nd-footer__content-left
+    width: 240px
+    +xs
+        position: absolute
+        left: 50%
+        margin-left: -120px
+        bottom: 225px
+.nd-footer__content-right
+    display: block
+    text-align: right
+    padding-top: 3px
+    display: flex
+    flex-direction: column
+    height: 100%
+    justify-content: space-between
+    align-items: flex-end
+    +xs
+        align-items: center
+.nd-footer__last
+    padding-top: 26px
+    padding-bottom: 32px
+.nd-fanchors__box
+    display: flex
+    gap: 30px
+    +md
+        gap: 23px
+    +xs
+        display: none
+.nd-fanchors__item
+    font-size: 15px
+    color: #474D63
+    &:hover
+        color: $accent
+.nd-footer__infos-item-content li
+    font-size: 14px
+    color: #474D63
+    text-transform: uppercase
+    +lg
+        font-size: 13px
+    +md
+        font-size: 14px
+    +sm
+        font-size: 13px
+.nd-footer__infos-phone
+    margin-bottom: 8px
+    +xs
+        margin-bottom: 13px
+    a
+        color: $primary
+        font-size: 16.5px
+        font-weight: 700
+        &:hover
+            color: $accent
+        +md
+            font-size: 18px
+    i
+        color: $accent
+        font-size: 16px
+        position: relative
+        right: -3px
+        top: 2px
+.nd-footer_infos-call
+    margin-bottom: 7px
+    padding: 12px
+    font-size: 12px
+    +xs
+        margin-bottom: 19px
+.nd-footer_infos-mail
+    color: $accent
+    font-size: 12px
+    text-decoration: underline
+    margin-bottom: 12px
+    &:hover
+        text-decoration: none
+    +xs
+        margin-bottom: 280px
+.nd-footer_infos-rate
+    margin-bottom: 1px
+    +xs
+        margin-bottom: 17px
+.nd-footer_infos-youtube
+    margin-bottom: 8px
+    margin-right: -15px
+    &:hover
+        span
+            background: $primary
+    +xs
+        margin-bottom: 23px
+    span
+        font-weight: 700
+        font-size: 10px
+        color: #fff
+        background: #ABB3C3
+        padding: 8px 14px
+        display: inline-flex
+        justify-content: center
+        align-items: center
+        border-radius: 5px
+        width: 128px
+        height: 27px
+    i
+        color: #fff
+        background: #FF0000
+        display: inline-flex
+        justify-content: center
+        align-items: center
+        border-radius: 50px
+        width: 37px
+        height: 37px
+        position: relative
+        left: -15px
+.nd-footer__root
+    font-size: 12px
+    color: #ABB3C3
+    +lg
+        width: 60%
+    +md
+        width: 100%
+        font-size: 11.5px
+    +sm
+        font-size: 12px
+    span
+        color: #474D63
+        +md
+            display: none
+        +sm
+            display: inline-block
+            position: absolute
+            left: 0
+            bottom: 0
+        +xs
+            position: static
+            margin-top: 4px
+.nd-footer__last-wrapper
+    display: flex
+    justify-content: space-between
+    position: relative
+    +md
+        flex-direction: column
+        gap: 6px
+    +sm
+        gap: 15px
+    +xs
+        text-align: center
+.nd-footer__useraccept
+    font-size: 12px
+    color: $accent
+    text-decoration: underline
+    &:hover
+        text-decoration: none
+    +sm
+        text-align: right
+    +xs
+        text-align: center
+.nd-footer_infos-payments
+    +lg
+        width: 200px
+        margin-left: auto
+    +md
+        width: auto
+.nd-footer__anchors
+    .nd-fanchors__list
+        +sm
+            display: none
+    .nd-fanchors__list:last-child
+        display: none
+        +sm
+            display: block

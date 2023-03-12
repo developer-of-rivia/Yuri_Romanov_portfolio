@@ -1,0 +1,1158 @@
+@import "1 vars.sass"
+@import "2 media-mix.sass"
+/* structure */
+/* nd-tiled */
+.nd-tiled
+    height: 289px
+    background-position: center center
+    background-size: cover
+    background-repeat: no-repeat
+    padding: 35px 38px
+    padding-bottom: 33px
+    border-radius: 7px
+    display: inline-flex
+    flex-direction: column
+    justify-content: flex-end
+    position: relative
+    +lg
+        height: 260px
+        padding: 30px 25px
+    +md
+        height: 235px
+        padding: 20px 22px
+.nd-tiled-row
+    display: flex
+    align-items: center
+.nd-tiled-arrow
+    margin-left: auto
+.nd-tiled-name
+    font-weight: 600
+    font-size: 24px
+    margin-right: 8px
+    color: #fff
+    line-height: 111%
+    max-width: 160px
+    display: flex
+    +md
+        font-size: 18px
+    +xs
+        font-size: 14px
+.nd-tiled-count
+    color: $accent
+    font-size: 13px
+    font-weight: 600
+    position: relative
+    top: -10px
+    right: -8px
+    +md
+        font-size: 11px
+    +xs
+        right: 2px
+.nd-tiled-arrow
+    color: #fff
+    font-size: 25px
+    position: relative
+    top: 4px
+    +md
+        position: absolute
+        right: 13px
+        top: 13px
+.icon-arrow-right-top
+    font-size: 16px
+/* nd-main */
+.nd-main
+    padding-top: 70px
+    padding-bottom: 69px
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    height: 424px
+    &:after
+        display: none !important
+    +md
+        height: 432px
+    +sm
+        height: 332px
+        padding-top: 30px
+        padding-bottom: 50px
+    +xs
+        height: 325px
+        padding-bottom: 60px
+.nd-main__title
+    color: #fff
+    font-size: 48px
+    font-weight: 600
+    margin-bottom: 124px
+    line-height: 105%
+    +md
+        font-size: 38px
+        margin-bottom: 153px
+    +sm
+        font-size: 24px
+        margin-bottom: 70px
+    +xs
+        margin-bottom: 43px
+.nd-main__consult-text
+    color: #F0F4FB
+    line-height: 140%
+    font-size: 14px
+    width: 295px
+    +md
+        width: 250px
+    +sm
+        width: 170px
+        font-size: 13px
+    +xs
+        width: auto
+.nd-main__consult-img
+    +xs
+        min-width: 74px
+.nd-main__consult
+    display: flex
+    align-items: center
+    gap: 17px
+    +sm
+        flex-direction: column
+        align-items: flex-start
+    +xs
+        flex-direction: row
+        align-items: center
+        margin-bottom: 46px
+.nd-main__dots
+    position: relative
+    top: -37px
+    +xs
+        top: -30px
+.nd-main__wrapper
+    display: flex
+    justify-content: space-between
+    +xs
+        flex-direction: column
+.nd-main__right
+    width: 425px
+    padding-top: 30px
+    +lg
+        width: 375px
+    +md
+        width: 300px
+    +sm
+        width: 220px
+        padding-top: 0
+    +xs
+        display: none
+.nd-main__cell
+    margin-bottom: 34px
+.nd-main__btn
+    margin-bottom: 19px
+    .nd-btn
+        width: 100%
+        padding: 16px
+        font-size: 15px
+.nd-main__accept
+    font-size: 11px
+    line-height: 140%
+    color: #D9D9D9
+    +sm
+        font-size: 8px
+    a
+        text-decoration: underline
+        color: #D9D9D9
+.nd-main__left
+    +sm
+        width: 190px
+    +xs
+        width: 100%
+.nd-main__leave
+    display: none
+    +xs
+        display: inline-flex
+        padding: 16px
+        width: 100%
+// nd-main--content
+.nd-main--content
+    position: relative
+    +sm
+        &:before
+            content: ''
+            display: block
+            width: 100%
+            height: 100%
+            position: absolute
+            left: 0
+            top: 0
+            background: rgba(0,0,0,0.5)
+    .nd-container
+        position: relative
+        z-index: 99999
+        +sm
+            height: 100%
+    .nd-main__btn
+        margin-bottom: 0
+    .nd-main__title
+        color: $primary
+        width: 575px
+        margin-bottom: 18px
+        +md
+            width: 425px
+        +sm
+            width: 100%
+            font-size: 30px
+            color: #fff
+    .nd-main__text
+        margin-bottom: 67px
+        font-size: 16px
+        color: #474D63
+        width: 350px
+        +sm
+            width: 100%
+            font-size: 14px
+            color: #fff
+        +xs
+            margin-bottom: 20px
+    .nd-main__btn
+        padding: 22px 41px
+        gap: 5px
+        +sm
+            padding: 20px 30px
+            font-size: 14px
+        i
+            top: 1px
+    .nd-main__wrapper
+        +sm
+            height: 60%
+    .nd-main__left
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: flex-start
+        +sm
+            width: 100%
+/* nd-cats */
+.nd-cats
+    padding-top: 73px
+    padding-bottom: 105px
+    +md
+        padding-top: 70px
+        padding-bottom: 70px
+    +sm
+        padding-top: 45px
+        padding-bottom: 60px
+.nd-cats__title
+    margin-bottom: 34px
+    +lg
+        margin-bottom: 28px
+    +sm
+        margin-bottom: 13px
+.nd-cats__box
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    gap: 12px
+    justify-content: space-between
+    +sm
+        grid-template-columns: 1fr
+    .nd-tiled
+        +sm
+            height: 158px
+/* pops */
+.nd-pops
+    padding-bottom: 103px
+    +md
+        padding-bottom: 70px
+    +sm
+        padding-bottom: 60px
+    +xs
+        padding-bottom: 55px
+.nd-pops__title
+    margin-bottom: 30px
+    +lg
+        margin-bottom: 25px
+    +sm
+        margin-bottom: 13px
+.nd-pops__box
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    gap: 12px 0
+    +sm
+        gap: 11px 0
+    +xs
+        gap: 9px 0
+    .nd-tiled
+        &:nth-child(1)
+            width: 28.5%
+        &:nth-child(2)
+            width: 28.5%
+        &:nth-child(3)
+            width: 40.8%
+        &:nth-child(4)
+            width: 40.8%
+        &:nth-child(5)
+            width: 28.5%
+        &:nth-child(6)
+            width: 28.5%
+        &:nth-child(7)
+            width: 28.5%
+        &:nth-child(8)
+            width: 28.5%
+        &:nth-child(9)
+            width: 40.8%
+        &:nth-child(10)
+            width: 40.8%
+        &:nth-child(11)
+            width: 58%
+    .nd-tiled
+        +lg
+            width: 32.5% !important
+        +sm
+            width: 49% !important
+            height: 213px
+        +xs
+            height: 155px
+            padding: 12px
+        &:nth-child(11)
+            +lg
+                width: 66.3% !important
+            +sm
+                width: 100% !important
+.nd-pops__block
+    background: #F0F4FB
+    padding: 32px 38px
+    align-items: flex-start
+    justify-content: flex-start
+    position: relative
+    overflow: hidden
+    +md
+        padding: 25px 27px
+    +sm
+        padding: 20px 27px
+    +xs
+        padding: 24px 28px 193px !important
+        height: auto !important
+        text-align: center
+.nd-pops__block-img
+    position: absolute
+    right: 0
+    bottom: -8px
+    +lg
+        width: 245px
+    +md
+        width: 215px
+        right: -10px
+    +sm
+        width: 190px
+        right: -30px
+    +xs
+        right: 52px
+.nd-pops__block-title
+    color: $primary
+    font-weight: 600
+    font-size: 32px
+    line-height: 105%
+    margin-bottom: 9px
+    max-width: 333px
+    letter-spacing: -1px
+    +md
+        font-size: 28px
+    +xs
+        font-size: 24px
+.nd-pops__block-text
+    font-size: 14px
+    line-height: 140%
+    color: #474D63
+    margin-bottom: 41px
+    max-width: 314px
+    +lg
+        margin-bottom: 20px
+    +md
+        font-size: 13px
+        max-width: 247px
+        margin-bottom: 21px
+.nd-pops__block-btn
+    padding: 22px 35px
+    font-size: 15px
+    font-weight: 500
+    gap: 14px
+    +md
+        padding: 20px 34px
+    +sm
+        padding: 15px 34px
+    +xs
+        margin: 0 auto
+    i
+        font-size: 12px
+        top: 1px
+        +md
+            top: 2px
+/* nd-num */
+.nd-num
+    padding-bottom: 86px
+    +md
+        padding-bottom: 42px
+.nd-num__title
+    margin-bottom: 35px
+    +sm
+        margin-bottom: 15px
+    span
+        +xs
+            display: block
+.nd-num__wrapper
+    display: flex
+    gap: 62px
+    +lg
+        gap: 42px
+    +sm
+        flex-direction: column
+.nd-num__left
+    width: 460px
+    +md
+        width: 310px
+    +sm
+        width: 100%
+.nd-num__right
+    width: 604px
+    +md
+        width: 376px
+    +sm
+        width: 100%
+.nd-num__box
+    display: grid
+    grid-template-columns: 220px 168px
+    flex-wrap: wrap
+    justify-content: space-between
+    gap: 73px
+    +lg
+        grid-template-columns: 190px 168px
+        gap: 40px
+    +md
+        gap: 53px 0
+        grid-template-columns: 180px 133px
+    +sm
+        gap: 31px 0
+.nd-num__item
+    span
+        font-size: 63px
+        font-weight: 600
+        color: $primary
+        letter-spacing: -5.5px
+        +lg
+            font-size: 55px
+        +md
+            font-size: 40px
+            letter-spacing: -3.5px
+        +sm
+            font-size: 44px
+        +xs
+            font-size: 38px
+            display: inline-block
+            margin-bottom: 10px
+    p
+        font-size: 14px
+        color: $primary
+.nd-num__text
+    padding-top: 15px
+    margin-bottom: 39px
+    +lg
+        padding-top: 0
+    +sm
+        margin-bottom: 24px
+    p
+        margin-bottom: 20px
+        font-size: 14px
+        line-height: 140%
+        +md
+            font-size: 13px
+        span
+            font-weight: 600
+            color: $primary
+        &:last-child
+            margin-bottom: 0
+.nd-num__btn
+    padding: 20px 32px
+    font-size: 15px
+    gap: 10px
+    +sm
+        width: 100%
+        padding: 15px
+        justify-content: center
+    i
+        font-size: 10px
+/* nd-video */
+.nd-video
+    padding-bottom: 3px 
+/* nd-adv */
+.nd-adv
+    background: #2B4CA1
+    padding: 84px 0 92px
+    +lg
+        padding: 70px 0
+    +md
+        padding-top: 60px
+        padding-bottom: 70px
+    +sm
+        padding: 42px 0
+        background: #4572B6
+.nd-adv__box
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 0 20px
+    +md
+        padding: 0
+    +sm
+        flex-wrap: wrap
+        justify-content: center
+        gap: 21px 2px
+    +xs
+        flex-direction: column
+.nd-adv__item
+    max-width: 20%
+    text-align: center
+    +sm
+        max-width: auto
+        width: 100%
+        min-width: 145px
+    +xs
+        display: flex
+        align-items: center
+        justify-content: flex-start
+        width: 100%
+        max-width: 100%
+.nd-adv__item-icon
+    margin-bottom: 16px
+    height: 41px
+    +xs
+        margin-bottom: 0
+        margin-right: 12px
+        width: 44px
+.nd-adv__item-name
+    color: #fff
+    font-size: 15px
+    line-height: 130%
+    +md
+        font-size: 12px
+        line-height: 111%
+    +xs
+        text-align: left
+    br
+        +xs
+            display: none
+/* nd-coop */
+.nd-coop
+    padding: 105px 0
+    padding-bottom: 115px
+    +lg
+        padding-bottom: 85px
+    +md
+        padding: 70px 0
+    +sm
+        padding: 60px 0
+.nd-coop__title
+    margin-bottom: 25px
+    span
+        +xs
+            display: block
+.nd-coop__box
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    gap: 10px 2%
+    +sm
+        gap: 10px 0
+    img
+        max-width: 23%
+        +sm
+            max-width: 45%
+/* nd-coms */
+.nd-coms
+    padding-bottom: 105px
+    +lg
+        padding-bottom: 80px
+    +sm
+        padding-bottom: 60px
+.nd-coms__item
+    padding: 27px
+    border-radius: 7px
+    background: #F0F4FB
+    display: flex
+    justify-content: space-between
+    width: 33%
+    +md
+        padding: 17px 13px
+    +sm
+        width: 100%
+    +xs
+        height: 143px
+        padding: 20px 16px
+.nd-coms__item-count
+    color: $primary
+    font-size: 54px
+    display: inline-block
+    margin-bottom: 3px
+    +sm
+        margin-bottom: 23px
+.nd-coms__box
+    display: flex
+    justify-content: space-between
+    gap: 13px
+    +sm
+        flex-direction: column
+.nd-coms__title
+    margin-bottom: 27px
+.nd-coms__item-left
+    height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    +sm
+        height: inherit
+    +xs
+        height: 100%
+.nd-coms__item-link
+    color: $accent
+    font-size: 15px
+    line-height: 24px
+    font-weight: 500
+    display: flex
+    align-items: center
+    gap: 9px
+    i
+        font-size: 10px
+        +md
+            font-size: 8px
+.nd-coms__item-right
+    height: 100%
+    text-align: right
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+.nd-coms__item-logo
+    img
+        +md
+            width: 80%
+/* nd-clients */
+.nd-clients
+    padding-bottom: 65px
+    +lg
+        padding-bottom: 45px
+    +sm
+        padding-bottom: 25px
+.nd-clients__title
+    +sm
+        font-size: 26px
+    +xs
+        width: 154px
+.nd-clients__top
+    display: flex
+    justify-content: space-between
+    margin-bottom: 28px
+    align-items: center
+    +xs
+        margin-bottom: 15px
+.nd-citem
+    border-radius: 7px
+    border: 3px solid #F0F4FB
+    padding: 23px 32px
+    height: 231px
+    +sm
+        height: auto
+.nd-citem__top
+    display: flex
+    justify-content: space-between
+    margin-bottom: 23px
+    align-items: center
+    +md
+        flex-direction: column
+        align-items: flex-start
+        margin-bottom: 12px
+.nd-citem__wrapper
+    width: 574px
+    margin-right: 12px
+    +lg
+        width: 470px
+    +md
+        width: 358px
+    +sm
+        margin-right: 0
+.nd-citem__human
+    display: flex
+    align-items: center
+    gap: 13px
+    +md
+        margin-bottom: 10px
+.nd-citem__name
+    color: $primary
+    font-size: 18px
+    font-weight: 700
+.nd-citem__date
+    color: #555
+    font-size: 12px
+.nd-citem__info
+    display: flex
+    align-items: center
+    gap: 9px
+.nd-citem__text
+    color: $primary
+    font-size: 14px
+    line-height: 148%
+    +sm
+        font-size: 13px
+.nd-clients__dots
+    position: relative
+    top: -38px
+.nd-clients__arrows
+    bottom: 140px
+    +sm
+        bottom: 130px
+.nd-clients__btn
+    padding: 16px 25px
+    gap: 5px
+    +sm 
+        font-size: 15px
+    +xs
+        font-size: 14px
+    i
+        top: 1px
+/* nd-leave */
+.nd-leave
+    padding-bottom: 100px
+    +lg
+        padding-bottom: 80px
+    +sm
+        padding-bottom: 60px
+    +xs
+        padding-bottom: 55px
+.nd-leave__wrapper
+    padding: 60px 68px 70px
+    background: #F0F4FB
+    position: relative
+    overflow: hidden
+    +md
+        padding: 43px 38px
+    +sm
+        padding: 32px
+.nd-leave__title
+    margin-bottom: 52px
+    +md
+        margin-bottom: 44px
+    +sm
+        margin-bottom: 26px
+    +xs
+        font-size: 26px
+    span
+        display: block
+.nd-leave__form
+    background: transparent
+    width: 423px
+    +md
+        position: relative
+        z-index: 10
+    +sm
+        width: 100%
+.nd-leave__field
+    margin-bottom: 34px
+    +xs
+        margin-bottom: 31px
+.nd-leave__btn
+    font-size: 15px
+    width: 100%
+    padding: 16px
+.nd-leave__text
+    margin-top: 19px
+    color: #ABB3C3
+    font-size: 11px
+    line-height: 140%
+    +xs
+        font-size: 10px
+    a
+        color: #ABB3C3
+        text-decoration: underline
+.nd-leave__man
+    position: absolute
+    right: 76px
+    bottom: -15px
+    +lg
+        width: 400px
+        right: 6px
+    +md
+        width: 360px
+        right: -44px
+        bottom: -5px
+    +sm
+        display: none
+/* nd-ours */
+.nd-ours
+    padding-bottom: 104px
+    +md
+        padding-bottom: 70px
+.nd-ours__box
+    display: flex
+    flex-wrap: wrap
+    gap: 3px
+    justify-content: space-between
+    .nd-ours__item
+        background-repeat: no-repeat
+        background-position: center center
+        background-size: cover
+        &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5)
+            width: 19.5%
+            height: 286px
+            +lg
+                height: 230px
+            +md
+                height: 180px
+        &:nth-child(6), &:nth-child(7), &:nth-child(8), &:nth-child(9)
+            width: 24.5%
+            height: 256px
+            +lg
+                height: 206px
+            +md
+                height: 161px
+        &:nth-child(10), &:nth-child(11), &:nth-child(12), &:nth-child(13), &:nth-child(14)
+            width: 19.5%
+            height: 286px
+            +lg
+                height: 230px
+            +md
+                height: 180px
+        &:nth-child(15), &:nth-child(16), &:nth-child(17), &:nth-child(18)
+            width: 24.5%
+            height: 256px
+            +lg
+                height: 206px
+            +md
+                height: 161px
+.nd-ours__box
+    +sm
+        flex-wrap: wrap
+    .nd-ours__item
+        +sm
+            width: 32.5% !important
+            height: 180px !important
+        +xs
+            height: 130px !important
+.nd-ours__top
+    margin-bottom: 22px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    +sm
+        margin-bottom: 14px
+.nd-ours__tright
+    display: flex
+    align-items: center
+    gap: 10px
+    +sm
+        display: none
+.nd-ours__tright-box
+    display: flex
+    align-items: center
+    gap: 7px
+.nd-ours__tright-item
+    padding: 16px 18px
+    background: #F0F4FB
+    color: $accent
+    gap: 8px
+    i
+        font-size: 10px
+    &:hover
+        color: #fff
+.nd-ours__tright-title
+    font-size: 14px
+    color: $primary
+/* nd-cusers */
+.nd-cusers
+    padding-bottom: 52px
+    +md
+        padding-bottom: 20px
+    +sm
+        padding-bottom: 0
+    .nd-container
+        +sm
+            width: 100%
+.nd-cusers__title
+    margin-bottom: 30px
+    +sm
+        width: 440px
+        margin-left: auto
+        margin-right: auto
+    +xs
+        width: 320px
+    span
+        +xs
+            display: block
+.nd-cusers__item-wrapper
+    margin-right: 12px
+    +lg
+        width: 306px
+    +md
+        width: 234.5px
+.nd-cusers__arrows
+    bottom: 170px
+    +lg
+        bottom: 140px
+    +md
+        bottom: 110px
+        width: 780px
+        margin-left: -390px
+    +sm
+        width: 80px
+        margin-left: 140px
+        bottom: 250px
+    +xs
+        margin-left: 70px
+        bottom: 270px
+/* nd-ownprod */
+.nd-ownprod
+    padding-bottom: 105px
+    +md
+        padding-bottom: 70px
+.nd-ownprod__wrapper
+    border-radius: 7px
+    background: url(../img/ownprod-bg.jpg) no-repeat center center
+    text-align: center
+    padding: 84px 0
+    +md
+        padding: 63px 0
+    +sm
+        padding: 30px 0
+.nd-ownprod__title
+    color: #F0F4FB
+    text-transform: uppercase
+    font-size: 33px
+    font-weight: 600
+    margin-bottom: 22px
+    +sm
+        font-size: 24px
+        margin-bottom: 8px
+.nd-ownprod__text
+    color: #F0F4FB
+    font-size: 17px
+    line-height: 140%
+    max-width: 510px
+    margin: 0 auto
+    +sm
+        font-size: 14px
+        padding: 0 15px
+    +xs
+        padding: 0 25px
+    br
+        +sm
+            display: none
+/* nd-cert */
+.nd-cert
+    padding-bottom: 50px
+    +sm
+        padding-bottom: 50px
+    .nd-container
+        +sm
+            width: 100%
+            padding-left: 15px
+        +xs
+            padding-right: 0
+.nd-cert__title
+    margin-bottom: 20px
+    +lg
+        margin-bottom: 24px
+    +sm
+        width: 440px
+        margin-left: auto
+        margin-right: auto
+    span
+        +xs
+            display: block
+.nd-cert__item-wrapper
+    width: 281px
+    margin-right: 12px
+    +lg
+        width: 225px
+    +md
+        width: 172px
+        margin-right: 8px
+    +sm
+        width: 180px
+    +xs
+        width: 130px
+.nd-cert__item
+    border: 2px solid #F0F4FB
+.nd-cert__arrows
+    bottom: 220px
+    +lg
+        bottom: 180px
+    +md
+        bottom: 150px
+    +sm
+        display: none
+/* nd-plan */
+.nd-plan
+    background: #2B4CA1
+    padding-top: 75px
+    +md
+        padding-top: 47px
+.nd-plan__title
+    margin-bottom: 57px
+    +md
+        margin-bottom: 38px
+    +xs
+        margin-bottom: 21px
+    span
+        color: #fff
+.nd-plan__box
+    display: flex
+    justify-content: space-between
+    margin-bottom: 75px
+    +md
+        margin-bottom: 50px
+    +sm
+        flex-wrap: wrap
+        gap: 18px 0
+        margin-bottom: 35px
+    +xs
+        flex-direction: column
+.nd-plan__item:nth-child(3)
+    width: 173px
+    +sm
+        width: 49%
+    +xs
+        width: 100%
+.nd-plan__item
+    text-align: center
+    width: 150px
+    +md
+        width: 17%
+    +sm
+        width: 45%
+        gap: 14px
+        display: flex
+        align-items: center
+    +xs
+        width: 100%
+.nd-plan__item-count
+    font-size: 38px
+    color: #fff
+    min-width: 75px
+    min-height: 75px
+    display: inline-flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 22px
+    border-radius: 50px
+    border: 1px solid #879DBE
+    +md
+        margin-bottom: 0
+.nd-plan__item-text
+    color: #fff
+    font-size: 15px
+    line-height: 130%
+    +md
+        font-size: 13px
+    +sm
+        text-align: left
+    span
+        text-decoration: underline
+// nd-calc-box
+.nd-calc-box
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    justify-content: space-between
+    gap: 12px
+    +sm
+        grid-template-columns: repeat(2, 1fr)
+    +xs
+        grid-template-columns: 1fr
+.nd-calc-item
+    background: #fff
+    border-radius: 7px
+    padding: 21px 26px
+    display: flex
+    flex-direction: column
+    +md
+        padding: 21px
+.nd-calc-item__icon
+    margin-bottom: 12px
+.nd-calc-item__text
+    color: $primary
+    font-size: 16px
+    line-height: 111%
+    margin-bottom: 17px
+    +lg
+        font-size: 14px
+.nd-calc-item__link
+    color: $accent
+    font-size: 14px
+    font-weight: 500
+    display: flex
+    gap: 5px
+    align-items: center
+    margin-top: auto
+    i
+        font-size: 10px
+        position: relative
+        top: 1px
+/* nd-last */
+.nd-last
+    background: url(../img/last-bg.jpg) no-repeat center center/cover
+    padding-top: 168px
+    padding-bottom: 95px
+    margin-top: -50px
+    +lg
+        padding-top: 140px
+    +md
+        margin-top: -90px
+    +sm
+        padding-bottom: 75px
+    +xs
+        padding-bottom: 50px
+        padding-top: 119px
+        margin-top: -60px
+    .nd-last__title
+        color: #8E8E95
+        font-size: 38px
+        line-height: 48px
+        margin-bottom: 150px
+        +lg
+            margin-bottom: 100px
+            max-width: 400px
+        +md
+            font-size: 32px
+            line-height: 39px
+            margin-bottom: 90px
+        +sm
+            width: 100%
+            font-size: 28px
+            margin-bottom: 17px
+        +xs
+            line-height: 34px
+        span
+            display: block
+            color: #fff
+    .nd-main__left
+        +sm
+            width: 100%
+    .nd-main__consult
+        +sm
+            flex-direction: row
+            align-items: center
+    .nd-last__consult-text
+        width: 432px
+        +lg
+            width: 320px
+        +md
+            width: 256px
+            font-size: 13px
+        +sm
+            width: 314px
+    .nd-last__wrapper
+        align-items: flex-start
+        +sm
+            flex-direction: column
+    .nd-last__right
+        padding-top: 55px
+        +sm
+            width: 100%
+        +xs
+            display: block
+            padding-top: 0
+    .nd-main__accept
+        +sm
+            font-size: 11px
