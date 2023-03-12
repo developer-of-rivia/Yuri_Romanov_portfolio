@@ -45,5 +45,20 @@ html {
 .sites__box{
 	display: flex;
 	justify-content: space-between;
-	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.site__item{
+	width: 32%;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.site__item-img img{
+	max-width: 100%;
+}
+
+.site__item-text{
+	color: #fff;
+	font-size: 20px;
 }

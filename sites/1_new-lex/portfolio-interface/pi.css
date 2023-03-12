@@ -98,6 +98,7 @@
     width: 450px;
     height: 950px;
     background-repeat: no-repeat;
+    background-position: center center;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 145px;
@@ -118,4 +119,8 @@
     top: -726px;
     width: 450px;
     height: auto;
+}
+
+.yuchoise.hidden{
+    display: none;
 }
