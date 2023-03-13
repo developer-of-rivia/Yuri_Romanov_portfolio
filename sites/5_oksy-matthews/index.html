@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="css/animate.min.css" />
 	<!-- Базовые стили CSS -->
 	<link rel="stylesheet" href="css/main.min.css">
-	<!-- Portfolio interface -->
+	<!-- portfolio interface -->
 	<link rel="stylesheet" href="portfolio-interface/simplebar/simplebar.css">
 	<link rel="stylesheet" href="portfolio-interface/pi.css">
 </head>
@@ -1211,14 +1211,20 @@
 	<script async src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
 	<!-- Slick Slider CDN -->
 	<script src="libs/slick-slider/slick.min.js"></script>
-	<script src="js/wow.min.js"></script>
-	<script>new WOW().init();</script>
 	<!-- Базовые скрипты javascript -->
 	<script async src="js/main.js"></script>
 	<script async src="js/lazysizes.min.js"></script>
 	<script async src="js/ls.bgset.min.js"></script>
 	<!-- Portfolio interface -->
-	<script async src="portfolio-interface/simplebar/simplebar.js"></script>
-	<script async src="portfolio-interface/pi.js"></script>
+	<script src="portfolio-interface/simplebar/simplebar.js"></script>
+	<script src="portfolio-interface/pi.js"></script>
+	<!-- Wow js -->
+	<script src="js/wow.min.js"></script>
+	<script>
+		wow = new WOW({
+			scrollContainer: ".simplebar-content-wrapper"
+		});
+		wow.init();
+	</script>
 </body>
 </html>

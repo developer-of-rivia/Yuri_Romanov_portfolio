@@ -31,8 +31,6 @@
     text-align: center;
     font-size: 12px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 10px;
     cursor: pointer;
@@ -48,11 +46,11 @@
     opacity: 0.7;
 }
 
-.yuchoise .yuchoise__item:first-child {
+.yuchoise__item--desk {
     border-radius: 15px 0 0 0;
 }
 
-.yuchoise .yuchoise__item:last-child {
+.yuchoise__item--mobile {
     border-radius: 0 0 0 15px;
 }
 
@@ -95,8 +93,8 @@
 }
 
 .yudevices__phone {
-    width: 450px;
-    height: 950px;
+    width: 457px;
+    height: 958px;
     background-repeat: no-repeat;
     background-position: center center;
     padding-left: 40px;
@@ -123,4 +121,40 @@
 
 .yuchoise.hidden{
     display: none;
+}
+
+
+
+.body--iframe{
+    height: 100vh !important;
+    background: #fff;
+}
+.body--iframe .simplebar-track.simplebar-vertical {
+    width: 5px !important;
+    background: transparent !important;
+}
+
+.body--iframe .simplebar-content-wrapper {
+	padding-right: 0 !important;
+    margin-right: -5px;
+}
+
+.body--iframe .simplebar-scrollbar::before {
+	left: 0!important;
+	top: 0!important;
+	right: 0!important;
+	bottom: 0!important;
+	opacity: 0.9!important;
+	background-color: mediumpurple!important;
+	border-radius: 2px!important;
+    width: 15px;
+}
+
+.body--iframe .simplebar-track.simplebar-vertical .simplebar-scrollbar::before {
+	top: 0!important;
+	bottom: 0!important;
+}
+
+.body--iframe .simplebar-scrollbar.simplebar-visible::before {
+	opacity: 1!important;
 }
