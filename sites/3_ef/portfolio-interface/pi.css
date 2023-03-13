@@ -124,7 +124,12 @@
 }
 
 
-
+.pi-iframe{
+    position: fixed;
+    width: 384px;
+    height: 670px;
+    border: none;
+}
 .body--iframe{
     height: 100vh !important;
     background: #fff;
