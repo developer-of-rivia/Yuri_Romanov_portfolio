@@ -14,7 +14,7 @@ $(document).ready(function () {
         $('.spoiler__body--mobile').hide(0);
         $(document).on('click', '.spoiler__head--mobile', function (e) {
             $(this).parents('.spoiler--mobile').toggleClass("active").find('.spoiler__body--mobile').slideToggle();
-            $(this).parents('.spoiler--mobile').find('.pick__spoiler-head').html('Развернуть фильтр');
+            $(this).parents('.spoiler--mobile').find('.pick__spoiler-head').html('Скрыть фильтр');
             if ($(this).parents('.spoiler--mobile').hasClass('active')) {
                 $(this).parents('.spoiler--mobile').find('.pick__spoiler-head').html('Подобрать генератор');
             }
