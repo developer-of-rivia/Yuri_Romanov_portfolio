@@ -6,4 +6,7 @@
     .main-left{
       margin-bottom: 480px;
     }
+    .gallery-section{
+      display: none;
+    }
 }

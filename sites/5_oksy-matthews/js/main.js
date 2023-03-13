@@ -17,20 +17,18 @@ $(document).ready(function () {
 		sliderToShow: 1,
 		prevArrow: '<button type="button" class="slick-prev"></button>',
 		nextArrow: '<button type="button" class="slick-next"></button>',
-		adaptiveHeight: true,
 		infinite: false,
-		fade: true,
-		cssEase: 'linear',
+		autoplay: true,
+  		autoplaySpeed: 2000,
 	});
 	// gallery 2
 	$('.gallery-wrapper2').slick({
 		sliderToShow: 1,
 		prevArrow: '<button type="button" class="slick-prev"></button>',
 		nextArrow: '<button type="button" class="slick-next"></button>',
-		adaptiveHeight: true,
 		infinite: false,
-		fade: true,
-		cssEase: 'linear',
+		autoplay: true,
+  		autoplaySpeed: 2000,
 	});
 	// popup
 	$(".popup-link").magnificPopup({
