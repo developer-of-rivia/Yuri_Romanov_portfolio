@@ -17,9 +17,17 @@ yuchoise_item_mobile.addEventListener('click', function(){
 
 function iniFrame() {
 if ( window.location !== window.parent.location )
+// скрипты для iframe страницы
 {
+    let iframeBody = document.querySelector('body');
+    iframeBody.classList.add('body--iframe');
+
     let yuchoiseInterface = document.querySelector('.yuchoise');
     yuchoiseInterface.classList.add('hidden');
+
+    document.querySelectorAll('body').forEach(el => {
+        new SimpleBar(el)
+    });
 }
 // else {
 //     document.write("The page is not in an iFrame");

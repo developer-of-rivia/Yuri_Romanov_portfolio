@@ -122,3 +122,39 @@
 .yuchoise.hidden{
     display: none;
 }
+
+
+
+.body--iframe{
+    height: 100vh !important;
+    background: #fff;
+}
+.body--iframe .simplebar-track.simplebar-vertical {
+    width: 5px !important;
+    background: transparent !important;
+}
+
+.body--iframe .simplebar-content-wrapper {
+	padding-right: 0 !important;
+    margin-right: -5px;
+}
+
+.body--iframe .simplebar-scrollbar::before {
+	left: 0!important;
+	top: 0!important;
+	right: 0!important;
+	bottom: 0!important;
+	opacity: 0.9!important;
+	background-color: mediumpurple!important;
+	border-radius: 2px!important;
+    width: 15px;
+}
+
+.body--iframe .simplebar-track.simplebar-vertical .simplebar-scrollbar::before {
+	top: 0!important;
+	bottom: 0!important;
+}
+
+.body--iframe .simplebar-scrollbar.simplebar-visible::before {
+	opacity: 1!important;
+}

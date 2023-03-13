@@ -127,6 +127,7 @@
 
 .body--iframe{
     height: 100vh !important;
+    background: #fff;
 }
 .body--iframe .simplebar-track.simplebar-vertical {
     width: 5px !important;
