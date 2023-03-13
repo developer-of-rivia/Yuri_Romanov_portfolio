@@ -11,7 +11,28 @@
 	</style>
 	<!-- Базовые стили CSS -->
 	<link rel="stylesheet" href="css/main.min.css">
+	<!-- portfolio interface -->
+	<link rel="stylesheet" href="portfolio-interface/simplebar/simplebar.css">
+	<link rel="stylesheet" href="portfolio-interface/pi.css">
 </head>
+<!-- portfolio interface-->
+<div class="yudevices lazyload" data-bgset="portfolio-interface/table-bg.jpg">
+	<div class="yudevices__phone lazyload" data-bgset="portfolio-interface/iphone.svg">
+		<iframe src="index.html"></iframe>
+	</div>
+</div>
+<div class="yuchoise">
+	<div class="yuchoise__item yuchoise__item--desk yuchoise__item--active">
+		<img data-src="portfolio-interface/desktop-icon.svg" class="lazyload">
+	</div>
+	<div class="yuchoise__item yuchoise__item--mobile">
+		<img data-src="portfolio-interface/smartphone-call.svg" class="lazyload">
+	</div>
+	<a href="../../index.html" target="_blank" class="yuchoise__menu">
+		<img data-src="portfolio-interface/more.svg" class="lazyload">
+	</a>
+</div>
+<!-- portfolio interface -->
 
 <body class="body body--main">
 	<div class="body__top">
@@ -2753,6 +2774,10 @@
 	<script async src="js/scripts.js"></script>
 	<script async src="js/main.js"></script>
 	<script async src="js/lazysizes.min.js"></script>
+	<script async src="js/ls.bgset.min.js"></script>
+	<!-- portfolio interface -->
+	<script src="portfolio-interface/simplebar/simplebar.js"></script>
+	<script src="portfolio-interface/pi.js"></script>
 </body>
 
 </html>
