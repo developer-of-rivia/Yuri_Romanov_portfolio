@@ -412,6 +412,9 @@
     width: 160px; } }
 
 @media screen and (max-width: 574px) {
+  .menu__link:hover{
+    color: #fff;
+  }
   .main__btns {
     flex-direction: column;
     align-items: flex-start; }
